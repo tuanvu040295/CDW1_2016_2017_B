@@ -1,0 +1,117 @@
+.type-a-10 .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-a-10 .clear {
+  clear: both;
+}
+.type-a-10 div,
+.type-a-10 span {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-a-10 img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+.type-a-10 .container:before,
+.type-a-10 .container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.type-a-10 .row {
+  margin-bottom: 35px;
+}
+.type-a-10 .row:before,
+.type-a-10 .row:after {
+  display: table-row;
+  line-height: 0;
+  content: "";
+}
+.type-a-10 [class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.type-a-10 .partners_carousel h5.title {
+  font-weight: 500;
+  margin-top: 0;
+  text-shadow: 1px 1px 0 #fff;
+}
+.type-a-10 h5 {
+  font-size: 14px;
+}
+.type-a-10 h5 {
+  margin: 10px 0;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.type-a-10 .media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+.type-a-10 .col-md-1 .carousel-control.left {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-a-10 .col-md-1 .carousel-control.right {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-a-10 .media-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+.type-a-10 .media-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.type-a-10 .media-carousel  .active {
+  background: #333333;
+}
+.type-a-10 .media-carousel img {
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-a-10 .circlehover[data-align="right"] {
+  float: right;
+}
+.type-a-10 .circlehover:hover {
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 1px rgba(0,0,0,0.2);
+}
+.type-a-10 a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+.type-a-10 .keywordbox {
+  border-top: 4px solid #ddd;
+  position: relative;
+  padding-top: 30px;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+  color: #8D8D8D;
+}
+.type-a-10 .keywordbox:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  border: 6px solid transparent;
+  border-top-color: #ddd;
+}
