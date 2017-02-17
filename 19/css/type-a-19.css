@@ -1,0 +1,126 @@
+.type-a-19 .container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-a-19 .row-fluid:after {
+  clear: both;
+}
+.type-a-19 .row-fluid:before,
+.type-a-19 .row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.type-a-19 .row-fluid {
+  width: 100%;
+}
+.type-a-19 .row-fluid :first-child {
+  margin-left: 0;
+}
+.type-a-19 .row-fluid {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  box-sizing: border-box;
+}
+.type-a-19 div {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-a-19 p {
+  margin: 10px 0;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  border: 0;
+  padding: 0;
+}
+.type-a-19 p {
+  margin: 0 0 10px;
+}
+.type-a-19 .product-page .ask-a-question > span {
+  margin-top: 3px;
+}
+.type-a-19 .product-page .tabbable {
+  margin: 35px 0;
+}
+.type-a-19 .tabs_style4 > ul.nav {
+  margin-bottom: 0;
+}
+.type-a-19 .nav {
+  margin-bottom: 20px;
+  margin-left: 0;
+  list-style: none;
+}
+.type-a-19 .tabs_style4 > ul.nav > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.type-a-19 li {
+  line-height: 20px;
+}
+.type-a-19 ul {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+.type-a-19 .tabs_style4 > ul.nav > li > a {
+  padding: 8px 20px;
+  line-height: 18px;
+  color: #343434;
+}
+.type-a-19 .nav > li > a {
+  display: block;
+}
+.type-a-19 .tabs_style4 > ul.nav > li.active > a {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.type-a-19 .product-page .tabbable .tab-content {
+  padding: 0;
+}
+.type-a-19 .tab-content {
+  overflow: auto;
+}
+.type-a-19 .product-page .tabbable .tab-content {
+  padding: 0;
+}
+.type-a-19 .tabs_style4 .tab-content {
+  display: table;
+  width: 100%;
+  padding: 10px 15px 15px;
+  border: 1px solid #ececec;
+  background: #fff;
+}
+.type-a-19 .product-page .tabbable .tab-content .tab-pane {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+}
+.type-a-19 .product-page .tabbable .tab-content .tab-pane.active {
+  display: block;
+  height: auto;
+  padding: 10px 15px 15px;
+}
+.type-a-19 .customer-reviews {
+  margin: 25px 0 0;
+}
+.type-a-19 .customer-reviews,
+.type-a-19 .ask-a-question-view .form-field {
+  margin: 25px 0 0;
+}
+.type-a-19 .product-neighbours {
+  color: #777;
+  margin: 0 0 15px;
+}
+.type-a-19 .product-neighbours a.next-page {
+  line-height: 20px;
+  float: right;
+}
+.type-a-19 .icon-chevron-right {
+  background-position: -456px -72px;
+}
