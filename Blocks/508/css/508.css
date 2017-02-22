@@ -1,0 +1,137 @@
+.type-508 .type-508-content {
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-508 .clear {
+  clear: both;
+}
+.type-508 div,
+.type-508 strong,
+.type-508 p {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-508 img {
+  width: auto \9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.type-508 .container:before,
+.type-508 .container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.type-508 .row {
+  margin-bottom: 35px;
+}
+.type-508 .row:before,
+.type-508 .row:after {
+  display: table-row;
+  line-height: 0;
+  content: "";
+}
+.type-508 [class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.type-508 .process_steps {
+  overflow: hidden;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.type-508 .fixclear {
+  zoom: 1;
+}
+.type-508 .fixclear:before,
+.type-508 .fixclear:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.type-508 .process_steps .step {
+  float: left;
+  padding: 15px;
+  color: #fff;
+  font-size: 15px;
+  min-height: 240px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+.type-508 .process_steps .step.intro {
+  background: #cd2122;
+  text-align: left;
+}
+.type-508 .process_steps .step.intro > h3 {
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.type-508 h3 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.type-508 .process_steps .step.intro > h3 strong {
+  font-size: 120%;
+  display: block;
+}
+.type-508 strong {
+  font-weight: bold;
+}
+.type-508 p {
+  margin: 0 0 10px;
+}
+.type-508 .process_steps .step.intro:after {
+  border-left-color: #cd2122;
+}
+.type-508 .process_steps .step:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: -14px;
+  border: 7px solid transparent;
+  z-index: 1;
+}
+.type-508 .process_steps .step.intro a {
+  font-size: 11px;
+  font-weight: bold;
+  color: #eee;
+  text-decoration: none;
+}
+.type-508 .process_steps .step.intro a:hover {
+  color: #fff;
+}
+.type-508 .process_steps .step.step1 {
+  background: #5A5A5A;
+}
+.type-508 .process_steps .step .icon {
+  margin: 20px 0 15px;
+  min-height: 50px;
+  line-height: 50px;
+}
+.type-508 .process_steps .step .icon img {
+  backface-visibility: hidden;
+}
+.type-508 .process_steps .step.step1:after {
+  border-left-color: #5A5A5A;
+}
+.type-508 .process_steps .step.step2 {
+  background: #4A4A4A;
+}
+.type-508 .process_steps .step.step3 {
+  background: #3E3E3E;
+}
