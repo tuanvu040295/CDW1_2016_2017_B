@@ -1,11 +1,16 @@
 .type-523{
+    .title {
+        color: #050505;
+    }
+    @font-size: 18px;
+    
     .container {
         margin-right: auto;
         margin-left: auto;
     }
     div, h4, a, li, span {
         border: 0;
-        font-size: 100%;
+        font-size: @font-size;
         margin: 0;
         padding: 0;
     }
@@ -24,12 +29,13 @@
         margin-bottom: 30px;
     }
     .moduletitle {
-        color: #050505;
+        .title;
         line-height: 1.4;
         margin-bottom: 15px;
         padding-bottom: 20px;
         position: relative;
-        font-size: 18px;
+        font-size: @font-size;
+        font-weight: bold;
     }
     .moduletitle:before {
         content: '';
