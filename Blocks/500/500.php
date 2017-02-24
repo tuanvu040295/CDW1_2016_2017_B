@@ -24,14 +24,15 @@
     <body>
         <div class="type-500">
             <!-------------------------------Begin Header----------------------------------->
-            <header id="header" class="style2 cta_button"
-                    .3>
-                <div class="container">
+            <header id="header" class="style2 cta_button">
+                <section class="container">
                     <div class="logo-container hasInfoCard">
                         <h1 id="logo">
-                            <a href="#">
-                                <img src="images/logo.png" alt="Kallyas Template for Joomla" title="Click to return to Kallayas Template's homepage">
-                            </a>
+                            <figure>
+                                <a href="#">
+                                    <img src="images/logo.png" alt="Kallyas Template for Joomla" title="Click to return to Kallayas Template's homepage">
+                                </a>
+                            </figure>
                         </h1>
                     </div><!--Logo-->
 
@@ -92,19 +93,18 @@
                     </a><!--Free QUOTE-->
 
                     <div class="main_menu">
-                        <div class="btn-group show-on-hover">
-                            <a href="#">HOME</a>
+                        <nav class="btn-group show-on-hover">
+                            <a href="#">HOME</a>  
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Homepage 2</a></li>
                                 <li><a href="#">Homepage 3</a></li>
                                 <li><a href="#">Homepage 4</a></li>
                                 <li><a href="#">Homepage 5</a></li>
                                 <li><a href="#">Homepage 6</a></li>
-                                <li><a href="#">Homepage ALL</a></li>
-                            </ul>
-                        </div><!--Home-->
+                            </ul>          
+                        </nav><!--Home-->
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="dropdown-submenu">
@@ -162,13 +162,13 @@
                                 <li><a href="#">iCarousel</a></li>
                                 <li><a href="#">CSS3 Panels</a></li>
                             </ul>
-                        </div><!--Silders-->
+                        </nav><!--Silders-->
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">ABOUT US</a>
-                        </div><!--About Us-->
+                        </nav><!--About Us-->
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">FEATURES</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Log</a></li>
@@ -202,9 +202,9 @@
                                 <li><a href="#">Page Preloader</a></li>
                                 <li><a href="#">Animated Header</a></li>
                             </ul>
-                        </div><!--Features--> 
+                        </nav><!--Features--> 
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">SHOP</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Shop Frontpage</a></li>
@@ -217,9 +217,9 @@
                                 <li><a href="#">Something else here</a></li>
                                 <li><a href="#">Separated link</a></li>
                             </ul>
-                        </div><!--Shop-->
+                        </nav><!--Shop-->
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">PAGES</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">FAQ</a></li>
@@ -232,9 +232,9 @@
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Separated link</a></li>
                             </ul>
-                        </div><!--Pages-->
+                        </nav><!--Pages-->
 
-                        <div class="btn-group show-on-hover">
+                        <nav class="btn-group show-on-hover">
                             <a href="#">STYLES</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Typoghaphy</a></li>
@@ -244,9 +244,9 @@
                                 <li><a href="#">Button Desgin</a></li>
                                 <li><a href="#">Button Desgin</a></li>
                             </ul>
-                        </div><!--Style-->
+                        </nav><!--Style-->
                     </div><!--Main Menu-->
-                </div>
+                </section>
             </header>
             <!-------------------------------End Header------------------------------------>
             <div class="clearfix"></div>
