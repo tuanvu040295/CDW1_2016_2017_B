@@ -64,7 +64,7 @@
                                 <div class="col-md-3">
                                     <div class="step step2 ">
                                         <figure class="icon" data-animation="pulse">
-                                            <img src="images/ico-designdev.png"" alt="design & develop">
+                                            <img src="images/ico-designdev.png" alt="design & develop">
                                         </figure>
                                         <h3>design & develop</h3>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
