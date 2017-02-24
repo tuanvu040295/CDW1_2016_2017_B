@@ -27,34 +27,40 @@
 
     <body>
         <div class="type-523">
-            <div id="user1" class="container">
+            <div class="container">
                 <div class="row">
                     <!--SIDEBAR RIGHT-->
-                    <div class="col-md-3">
-                        <div class="moduletable " id="mod205" data-id="205">
-                            <div class="bghelper">
-                                <h4 class="moduletitle ">VM - Manufacturer</h4>
+                    <aside>
+                        <div class="col-md-3">
+                            <div class="moduletable " id="mod205" data-id="205">
+                                <h2 class="moduletitle ">VM - Manufacturer</h2>
                                 <!--LIST OF MANUFACTURER-->
                                 <div class="modulecontent">
                                     <div class="vmmanufacturermod vmgroup">
-                                        <ul class="vmmanufacturer clearfix ">
+                                        <ul class="vmmanufacturer">
                                             <li>
-                                                <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
-                                                    <img src="images/apple-logo_120x120.jpg" alt="apple-logo">			
-                                                    <span class="theHoverBorder"></span>
-                                                </a>
+                                                <figure>
+                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
+                                                        <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
+                                                        <span class="theHoverBorder"></span>
+                                                    </a>
+                                                </figure>
                                             </li>
                                             <li>
-                                                <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
-                                                    <img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com">		
-                                                    <span class="theHoverBorder"></span>
-                                                </a>
+                                                <figure>
+                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
+                                                        <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
+                                                        <span class="theHoverBorder"></span>
+                                                    </a>
+                                                </figure>
                                             </li>
                                             <li>
-                                                <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
-                                                    <img src="images/english-book_120x120.png" alt="english-book">			
-                                                    <span class="theHoverBorder"></span>
-                                                </a>
+                                                <figure>
+                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
+                                                        <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
+                                                        <span class="theHoverBorder"></span>
+                                                    </a>
+                                                </figure>
                                             </li>
                                         </ul>
 
@@ -63,7 +69,7 @@
                                 <!--END LIST OF MANUFACTURER-->
                             </div>
                         </div>
-                    </div>
+                    </aside>    
                     <!--/END SIDEBAR RIGHT-->
                 </div>
             </div>

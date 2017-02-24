@@ -12,25 +12,13 @@
   margin: 0;
   padding: 0;
 }
-.type-523 .row {
-  margin-bottom: 35px;
-}
-.type-523 .row:before,
-.type-523 .row:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-.type-523 .row:after {
-  clear: both;
+.type-523 figure {
+  display: block;
 }
 .type-523 h4 {
   margin: 10px 0;
   font-weight: bold;
   text-rendering: optimizelegibility;
-}
-.type-523 .col-md-3 {
-  float: right;
 }
 .type-523 .moduletable {
   margin-bottom: 30px;
@@ -66,12 +54,6 @@
   padding: 0;
   list-style: none;
   position: relative;
-}
-.type-523 .clearfix:before,
-.type-523 .clearfix:after {
-  display: table;
-  line-height: 0;
-  content: "";
 }
 .type-523 .vmmanufacturermod .vmmanufacturer li {
   float: left;
