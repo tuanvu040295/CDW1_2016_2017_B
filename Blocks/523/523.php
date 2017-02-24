@@ -32,11 +32,11 @@
                     <!--SIDEBAR RIGHT-->
                     <aside>
                         <div class="col-md-3">
-                            <div class="moduletable " id="mod205" data-id="205">
+                            <div class="moduletable">
                                 <h2 class="moduletitle ">VM - Manufacturer</h2>
                                 <!--LIST OF MANUFACTURER-->
                                 <div class="modulecontent">
-                                    <div class="vmmanufacturermod vmgroup">
+                                    <div class="vmmanufacturermod">
                                         <ul class="vmmanufacturer">
                                             <li>
                                                 <figure>
