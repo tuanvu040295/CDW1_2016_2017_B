@@ -1,9 +1,9 @@
 .type-522{
-    @background-color: #ffffff;
-    @border: 1px solid #cccccc;
+    @font-size: 12px;
     .title {
         color: #050505;
     }
+    @border: 1px solid #cccccc;
     
     .container {
         margin-right: auto;
@@ -61,7 +61,7 @@
     .input-append, .input-prepend {
         display: inline-block;
         margin-bottom: 10px;
-        font-size: 0;
+        font-size: 0;   
         white-space: nowrap;
         vertical-align: middle;
     }
@@ -80,7 +80,7 @@
         width: auto;
         min-width: 16px;
         padding: 4px 5px;
-        font-size: 14px;
+        font-size: @font-size;
         font-weight: normal;
         line-height: 20px;
         text-align: center;
@@ -92,7 +92,7 @@
         border-radius: 0;
     }
     .vmcurrency select {
-        font-size: 11px;
+        font-size: @font-size;
     }
     .input-append select, .input-prepend select {
         position: relative;
@@ -103,7 +103,7 @@
         width: 150px;
     }
     select {
-        background-color: @background-color;
+        background-color: #ffffff;
         border: @border;
         height: 30px;
         line-height: 30px;
@@ -122,6 +122,6 @@
         font-weight: inherit;
     }
     .btn {
-        font-size: 12px;
+        font-size: @font-size;
     }
 }

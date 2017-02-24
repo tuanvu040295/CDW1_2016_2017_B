@@ -15,6 +15,9 @@
 .type-523 figure {
   display: block;
 }
+.type-523 aside {
+  display: block;
+}
 .type-523 h4 {
   margin: 10px 0;
   font-weight: bold;
@@ -92,5 +95,5 @@
   box-shadow: 0 0 0 3px rgba(255,255,255,0.15) inset;
 }
 .type-523 a:hover {
-  border: 5px solid red;
+  border: 3px solid red;
 }
