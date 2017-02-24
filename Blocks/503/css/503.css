@@ -1,17 +1,17 @@
-.type-a-4 .container {
+.type-503 .container {
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-4 .clear {
+.type-503 .clear {
   clear: both;
 }
-.type-a-4 div {
+.type-503 div {
   border: 0;
   font-size: 100%;
   margin: 5px 0 0 0;
   display: block;
 }
-.type-a-4 img {
+.type-503 img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
@@ -19,27 +19,27 @@
   font-size: 100%;
   -ms-interpolation-mode: bicubic;
 }
-.type-a-4 .col-sm-4 .col-md-4 {
+.type-503 .col-sm-4 .col-md-4 {
   width: 40%;
 }
-.type-a-4 .thumbnail {
+.type-503 .thumbnail {
   position: relative;
   padding: 0px;
   margin-bottom: 20px;
 }
-.type-a-4 a {
+.type-503 a {
   text-decoration: none;
   outline: none;
   margin: 0;
 }
-.type-a-4 a:-webkit-any-link {
+.type-503 a:-webkit-any-link {
   cursor: auto;
 }
-.type-a-4 .details {
+.type-503 .details {
   display: block;
   position: relative;
 }
-.type-a-4 .details > .bg {
+.type-503 .details > .bg {
   position: absolute;
   top: 0;
   height: 0;
@@ -47,7 +47,7 @@
   width: 100%;
   left: 0;
 }
-.type-a-4 .details h4 {
+.type-503 .details h4 {
   font-size: 14px;
   color: #cd2122;
   padding: 10px 0;
@@ -56,7 +56,7 @@
   z-index: 1;
   text-align: center;
 }
-.type-a-4 .details h4 + span {
+.type-503 .details h4 + span {
   font-size: 12px;
   text-align: center;
   display: block;
@@ -66,7 +66,7 @@
   position: relative;
   z-index: 1;
 }
-.type-a-4 h4 {
+.type-503 h4 {
   display: block;
   -webkit-margin-before: 1.33em;
   -webkit-margin-after: 1.33em;
@@ -77,12 +77,12 @@
   line-height: 20px;
   text-rendering: optimizelegibility;
 }
-.type-a-4 .media-carousel {
+.type-503 .media-carousel {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
 }
-.type-a-4 .media-carousel .carousel-control.left {
+.type-503 .media-carousel .carousel-control.left {
   background-image: none;
   background: none repeat scroll 0 0 #222222;
   border: 4px solid #FFFFFF;
@@ -91,7 +91,7 @@
   width: 40px;
   margin-top: 85px;
 }
-.type-a-4 .media-carousel .carousel-control.right {
+.type-503 .media-carousel .carousel-control.right {
   background-image: none;
   background: none repeat scroll 0 0 #222222;
   border: 4px solid #FFFFFF;
@@ -100,37 +100,37 @@
   width: 40px;
   margin-top: 85px;
 }
-.type-a-4 .media-carousel .carousel-indicators {
+.type-503 .media-carousel .carousel-indicators {
   right: 50%;
   top: auto;
   bottom: 0px;
   margin-right: -19px;
 }
-.type-a-4 .media-carousel .carousel-indicators li {
+.type-503 .media-carousel .carousel-indicators li {
   background: #c0c0c0;
 }
-.type-a-4 .media-carousel  .active {
+.type-503 .media-carousel  .active {
   background: #333333;
 }
-.type-a-4 .media-carousel img {
+.type-503 .media-carousel img {
   width: 250px;
   height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
-.type-a-4 .circlehover[data-align="right"] {
+.type-503 .circlehover[data-align="right"] {
   float: right;
 }
-.type-a-4 .circlehover:hover {
+.type-503 .circlehover:hover {
   color: #fff;
   transform: scale(1.1);
   box-shadow: 5px 5px 1px rgba(0,0,0,0.2);
 }
-.type-a-4 a:hover {
+.type-503 a:hover {
   text-decoration: none;
   outline: 0;
 }
-.type-a-4 .circlehover {
+.type-503 .circlehover {
   background-color: #cd2122;
   transition: all 400ms cubic-bezier(0.680,-0.55,0.265,1.550);
   transition-timing-function: cubic-bezier(0.680,-0.55,0.265,1.550);
@@ -147,20 +147,20 @@
   border-radius: 50%;
   color: white;
 }
-.type-a-4 .circlehover span {
+.type-503 .circlehover span {
   transition: all 0.2s ease-out;
   display: table-cell;
   vertical-align: middle;
   position: relative;
   z-index: 1;
 }
-.type-a-4 span {
+.type-503 span {
   border: 0;
   font-size: 100%;
   margin: 0;
   padding: 0;
 }
-.type-a-4 .circlehover.with-symbol > span.symbol {
+.type-503 .circlehover.with-symbol > span.symbol {
   opacity: 0;
   position: absolute;
   display: block;
@@ -171,7 +171,7 @@
   text-align: center;
   line-height: 130px;
 }
-.type-a-4 .circlehover.with-symbol > span.symbol {
+.type-503 .circlehover.with-symbol > span.symbol {
   text-align: center;
   line-height: 130px;
 }

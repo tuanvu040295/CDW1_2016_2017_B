@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <div class="type-500">
+        <section class="type-500">
             <!-------------------------------Begin Header----------------------------------->
             <header id="header" class="style2 cta_button">
                 <section class="container">
@@ -92,7 +92,7 @@
                         <svg version="1.1" class="trisvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" preserveAspectRatio="none" width="14px" height="5px" viewBox="0 0 14.017 5.006" enable-background="new 0 0 14.017 5.006" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.016,0L7.008,5.006L0,0H14.016z"></path></svg>
                     </a><!--Free QUOTE-->
 
-                    <div class="main_menu">
+                    <menu class="main_menu">
                         <nav class="btn-group show-on-hover">
                             <a href="#">HOME</a>  
                             <ul class="dropdown-menu" role="menu">
@@ -245,7 +245,7 @@
                                 <li><a href="#">Button Desgin</a></li>
                             </ul>
                         </nav><!--Style-->
-                    </div><!--Main Menu-->
+                    </menu><!--Main Menu-->
                 </section>
             </header>
             <!-------------------------------End Header------------------------------------>
@@ -343,7 +343,7 @@
                 </div>
             </div>
             <!-----------------------------End ???----------------------------------------->
-        </div>
+        </section>>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 

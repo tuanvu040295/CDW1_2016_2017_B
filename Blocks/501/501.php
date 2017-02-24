@@ -25,7 +25,7 @@
     </head>
 
     <body>
-        <div class="type-501">
+        <section class="type-501">
             <div class="container">
                 <div class="row">
                     <article class="col-sm-4 col-md-4">
@@ -78,7 +78,7 @@
                     <!---- box 3 --->
                 </div>
             </div>
-        </div>
+        </section>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
