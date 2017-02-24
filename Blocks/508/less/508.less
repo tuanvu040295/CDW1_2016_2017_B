@@ -13,55 +13,26 @@
         padding: 0;
     }
     img {
-        width: auto\9;
+        width: auto;
         height: auto;
         max-width: 100%;
         vertical-align: middle;
         border: 0;
-        -ms-interpolation-mode: bicubic;
     }
-    .container:before, .container:after {
-        display: table;
-        line-height: 0;
-        content: "";
-    }
+   
     .row {
         margin-bottom: 35px;
     }
-    .row:before, .row:after {
-        display: table-row;
-        line-height: 0;
-        content: "";
-    }
-    [class*="span"] {
-        float: left;
-        min-height: 1px;
-        margin-left: 20px;
-    }
+    
 
-
-
-
-
-    /****Span 12***/
-    .span12 {
-    }
+    /****MODULECONTENT***/
+  
     .process_steps {
         overflow: hidden;
         border-radius: 2px;
         margin-bottom: 15px;
     }
-    .fixclear {
-        zoom: 1;
-    }
-    .fixclear:before, .fixclear:after {
-        content: '\0020';
-        display: block;
-        overflow: hidden;
-        visibility: hidden;
-        width: 0;
-        height: 0;
-    }
+   
     .process_steps .step {
         float: left;
         padding: 15px;
@@ -73,7 +44,9 @@
         box-sizing: border-box;
     }
 
-
+    .figure{
+        display: block;
+    }
 
     /****Step Intro****/
     .process_steps .step.intro {
@@ -96,9 +69,6 @@
     .process_steps .step.intro > h3 strong {
         font-size: 120%;
         display: block;
-    }
-    strong {
-        font-weight: bold;
     }
     p {
         margin: 0 0 10px;
@@ -137,10 +107,6 @@
     .process_steps .step .icon img {
         backface-visibility: hidden;
     }
-    .process_steps .step.step1:after {
-        border-left-color: #5A5A5A;
-    }
-
 
     /****Step 2****/
     .process_steps .step.step2 {
