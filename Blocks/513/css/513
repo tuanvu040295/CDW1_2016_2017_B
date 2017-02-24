@@ -17,12 +17,6 @@
   vertical-align: middle;
   border: 0;
 }
-.type-513 .container:before,
-.type-513 .container:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
 .type-513 .m_title {
   margin-top: 0;
   color: #CD2122;
