@@ -1,31 +1,31 @@
-.type-a-2 .container {
+.type-501 .container {
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-2 .clear {
+.type-501 .clear {
   clear: both;
 }
-.type-a-2 div {
+.type-501 div {
   border: 0;
   font-size: 100%;
   margin: 5px 0 0 0;
   display: block;
 }
-.type-a-2 .col-sm-4 .col-md-4 {
+.type-501 .col-sm-4 .col-md-4 {
   width: 40%;
 }
-.type-a-2 .thumbnail {
+.type-501 .thumbnail {
   position: relative;
   padding: 0px;
   margin-bottom: 20px;
 }
-.type-a-2 .thumbnail > h4 {
+.type-501 .thumbnail > h4 {
   padding: 7px 5px 0px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.type-a-2 .thumbnail h4 {
+.type-501 .thumbnail h4 {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -37,19 +37,19 @@
   border-bottom-left-radius: 5px;
   cursor: pointer;
 }
-.type-a-2 .thumbnail h4 > span {
+.type-501 .thumbnail h4 > span {
   margin-right: 10px;
 }
-.type-a-2 .thumbnail img {
+.type-501 .thumbnail img {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-2 .thumbnail a.btn {
+.type-501 .thumbnail a.btn {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
-.type-a-2 h3 {
+.type-501 h3 {
   color: #cd2122;
   margin-top: 0;
   text-shadow: 0 1px 0 rgba(255,255,255,0.7);
@@ -65,7 +65,7 @@
   font-weight: bold;
   line-height: 1.4;
 }
-.type-a-2 .btn-warning {
+.type-501 .btn-warning {
   color: #fff;
   background-color: #cd2122;
   border-color: #cd2122;
