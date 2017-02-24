@@ -71,7 +71,7 @@
 .type-513 h3 a:hover {
   color: #cd2122;
 }
-.type-513 a {
+.type-513 button {
   color: #000;
   text-decoration: none;
   outline: none;

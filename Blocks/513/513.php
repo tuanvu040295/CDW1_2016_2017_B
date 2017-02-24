@@ -113,8 +113,8 @@
                             </div>
                         </div><!--.carousel-inner-->
                         <div id="controls">
-                            <a class="prev" data-slide="prev" href="#Carousel" class="left carousel-control"><</a>
-                            <a class="next" data-slide="next" href="#Carousel" class="right carousel-control">></a>
+                            <button class="prev" data-slide="prev" href="#Carousel" class="left carousel-control"><</button>
+                            <button class="next" data-slide="next" href="#Carousel" class="right carousel-control">></button>
                         </div>
                         <!--.Carousel--> 
                     </section>

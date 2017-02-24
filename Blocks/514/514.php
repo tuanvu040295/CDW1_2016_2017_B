@@ -31,9 +31,9 @@
                     <!-----------------------Begin Slide Show-------------------------------------->
                     <section class="col-md-2">           
                         <h5 class="title"><strong>OUR PARTNERS // TEHNOLOGIES USED</strong></h5>
-                        <div class="col-md-1">
-                            <a data-slide="prev" href="#media" class="left carousel-control"><</a>
-                            <a data-slide="next" href="#media" class="right carousel-control">></a>
+                        <div class="control">
+                            <button class="prev" data-slide="prev" href="#media" class="left carousel-control"><</button>
+                            <button class="next" data-slide="next" href="#media" class="right carousel-control">></button>
                         </div>
                     </section>
                     <!--SIDEBAR RIGHT-->
