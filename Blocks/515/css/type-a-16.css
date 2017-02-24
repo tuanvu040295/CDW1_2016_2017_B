@@ -1,71 +1,65 @@
-.type-a-16 .container {
+.type-515 .container {
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-16 .clear {
+.type-515 .clear {
   clear: both;
 }
-.type-a-16 div,
-.type-a-16 h3,
-.type-a-16 h4,
-.type-a-16 h5 {
+.type-515 div,
+.type-515 h3,
+.type-515 h4,
+.type-515 h5 {
   border: 0;
   font-size: 100%;
   margin: 0;
   padding: 0;
 }
-.type-a-16 img {
+.type-515 img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
 }
-.type-a-16 .container:before,
-.type-a-16 .container:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-.type-a-16 .row {
+.type-515 .row {
   margin-bottom: 35px;
   margin-left: -30px;
 }
-.type-a-16 .row:before,
-.type-a-16 .row:after {
+.type-515 .row:before,
+.type-515 .row:after {
   display: table-row;
   line-height: 0;
   content: "";
 }
-.type-a-16 [class*="span"] {
+.type-515 [class*="span"] {
   float: left;
   min-height: 1px;
   margin-left: 20px;
 }
-.type-a-16 .span3 {
+.type-515 h3 {
+  font-size: 24.5px;
+}
+.type-515 .span3 {
   width: 270px;
 }
-.type-a-16 .noGrayMargin .gray-area {
+.type-515 .noGrayMargin .gray-area {
   margin-bottom: 0;
   padding-bottom: 20px;
 }
-.type-a-16 .gray-area {
+.type-515 .gray-area {
   background: #ebebeb;
   padding: 30px 0 30px;
 }
-.type-a-16 .modulecontent > .row,
-.type-a-16 .modulecontent .custom > .row {
+.type-515 .modulecontent > .row,
+.type-515 .modulecontent .custom > .row {
   margin-bottom: 0;
 }
-.type-a-16 .shop-features .title {
+.type-515 .shop-features .title {
   margin: 0;
   line-height: 1.3;
 }
-.type-a-16 h3 {
-  font-size: 24.5px;
-}
-.type-a-16 h3,
-.type-a-16 h4,
-.type-a-16 h5 {
+.type-515 h3,
+.type-515 h4,
+.type-515 h5 {
   margin: 10px 0;
   font-family: inherit;
   font-weight: bold;
@@ -73,44 +67,37 @@
   color: inherit;
   text-rendering: optimizelegibility;
 }
-.type-a-16 .shop-features .shop-feature:hover {
+.type-515 .shop-features .shop-feature:hover {
   background: red;
 }
-.type-a-16 .shop-features .shop-feature {
+.type-515 .shop-features .shop-feature {
   background: #969696;
   color: #fff;
   padding: 10px;
   border-radius: 3px;
 }
-.type-a-16 .shop-features .shop-feature a {
+.type-515 .shop-features .shop-feature a {
   text-decoration: none;
   color: #fff;
 }
-.type-a-16 .shop-features .shop-feature > img,
-.type-a-16 .shop-features .shop-feature a > img {
+.type-515 .shop-features .shop-feature > img,
+.type-515 .shop-features .shop-feature a > img {
   float: left;
   margin: 0 20px 0 0;
 }
-.type-a-16 .shop-features .shop-feature > h4,
-.type-a-16 .shop-features .shop-feature a > h4 {
+.type-515 .shop-features .shop-feature > h4,
+.type-515 .shop-features .shop-feature a > h4 {
   line-height: 1;
   margin: 0 0 7px;
   font-size: 18px;
   font-weight: 900;
 }
-.type-a-16 .shop-features .shop-feature > h5,
-.type-a-16 .shop-features .shop-feature a > h5 {
+.type-515 .shop-features .shop-feature > h5,
+.type-515 .shop-features .shop-feature a > h5 {
   line-height: 1;
   margin: 0;
   font-weight: 700;
 }
-.type-a-16 h5 {
+.type-515 h5 {
   font-size: 14px;
-}
-.type-a-16 .shop-features .shop-feature {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
