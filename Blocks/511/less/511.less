@@ -1,0 +1,38 @@
+.type-511{
+    @color-font: #CD2122;
+    .title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .type-511-content {
+        background-color: #ffffff;
+    }
+    h4 {
+        color: @color-font;
+        .title;
+    }
+    .hoverborder {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .theHoverBorder{
+        transition: all 0.2s ease-out;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .theHoverBorder:hover {
+        box-shadow: 0 0 0 5px @color-font;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    figure section a{
+        display: block;
+    }       
+}
