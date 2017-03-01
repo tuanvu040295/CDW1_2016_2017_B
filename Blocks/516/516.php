@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -17,14 +15,9 @@
         $less->compileFile('less/516.less', 'css/type-a-17.css');
         ?>
         <link href="css/type-a-17.css" rel="stylesheet" type="text/css" />
-
-
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
-
-
     </head>
-
     <body>
         <div class="type-516">
             <!-------------------------------------------Begin Header--------------------------------------------->
@@ -37,36 +30,30 @@
                             </a>
                         </h1>
                     </div><!--Logo-->
-
                     <ul class="topnav navRight">
                         <!-- BEGIN support clickable button -->
                         <li><a href="#" id="open_sliding_panel">
                                 <span class="icon-remove-circle icon-white"></span> SUPPORT						</a>
                         </li>
                         <!-- END support clickable button -->
-
                         <!-- BEGIN hidden login/register/remind popups -->
                         <li><a href="#login_panel" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
                         <!-- END hidden login/register/remind popups -->
                     </ul><!--Top right-->
-
                     <ul class="topnav navLeft">
                         <li class="drop">
                             <a href="#">MY CART</a>
                             <div class="pPanel">
                                 <div class="inner">
-
                                     <div class="vmCartModule" id="vmCartModule216">
                                         <p class="cart_details">
                                             <span class="total_products">Cart empty</span>
                                             <span class="total"></span>
                                             <a class="checkout" href="/kallyas_joomla/shop/shopping-cart"><span class=" icon-shopping-cart"></span> Show Cart</a>		</p>
                                     </div><!-- end vmcartmodule -->
-
                                 </div>
                             </div>
                         </li>
-
                         <li class="languages drop">
                             <a href="#"><span class="icon-globe icon-white"></span> LANGUAGES</a>
                             <div class="custom ">
@@ -81,18 +68,15 @@
                             </div>
                         </li>
                     </ul><!--Top Left-->
-
                     <div id="search" class="">
                         <a href="#" class="searchBtn">
                             <span class="icon-search icon-white"></span>
                         </a>   
                     </div><!--Search-->
-
                     <a href="#" target="_self" id="ctabutton">
                         <strong>FREE</strong>QUOTE					
                         <svg version="1.1" class="trisvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" preserveAspectRatio="none" width="14px" height="5px" viewBox="0 0 14.017 5.006" enable-background="new 0 0 14.017 5.006" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.016,0L7.008,5.006L0,0H14.016z"></path></svg>
                     </a><!--Free QUOTE-->
-
                     <menu class="main_menu">
                         <nav class="btn-group show-on-hover">
                             <a href="#">HOME</a>
@@ -105,7 +89,6 @@
                                 <li><a href="#">Homepage ALL</a></li>
                             </ul>
                         </nav><!--Home-->
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu" role="menu">
@@ -169,7 +152,6 @@
                         <nav class="btn-group show-on-hover">
                             <a href="#">ABOUT US</a>
                         </nav><!--About Us-->
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">FEATURES</a>
                             <ul class="dropdown-menu" role="menu">
@@ -205,7 +187,6 @@
                                 <li><a href="#">Animated Header</a></li>
                             </ul>
                         </nav><!--Features--> 
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">SHOP</a>
                             <ul class="dropdown-menu" role="menu">
@@ -220,7 +201,6 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </nav><!--Shop-->
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">PAGES</a>
                             <ul class="dropdown-menu" role="menu">
@@ -235,7 +215,6 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </nav><!--Pages-->
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">STYLES</a>
                             <ul class="dropdown-menu" role="menu">
@@ -257,14 +236,13 @@
                 <div class="bgback"></div>
                 <div class="container">
                     <section class="row">
-                        <div class="col-md-6">
-				
+                        <div class="col-md-6">	
                         </div>
                         <div class="col-md-6 ">
-                            <div class="header-titles">
+                            <summary class="header-titles">
                                 <h2>PRODUCT LAYOUT</h2>	
                                 <h4>Default layout for the product page.</h4>		
-                            </div>
+                            </summary>
                         </div>
                     </section><!-- end row -->
                 </div>
