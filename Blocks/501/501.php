@@ -34,7 +34,6 @@
                             <h3>MULTIPURPOSE TEMPLATE</h3>
                         </figure>
                         <div class="content">
-
                             <p>
                                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
                             </p>
@@ -43,14 +42,13 @@
                             </div>
                         </div>
                     </article>
-                    <!-- box 1 -->
+                    <!-- BOX 1 -->
                     <article class="col-sm-4 col-md-4">     
                         <figure>
                             <img src="images/img2.jpg" class="img-responsive" />
                             <h3>WELL DOCUMENTED</h3>
                         </figure>
                         <div class="content">
-
                             <p>
                                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
                             </p>
@@ -59,7 +57,7 @@
                             </div>
                         </div>
                     </article>
-                    <!----box 2 --->
+                    <!----BOX 2 --->
                     <article class="col-sm-4 col-md-4">
                         <figure>
                             <img src="images/img3.jpg" class="img-responsive" />
@@ -75,7 +73,7 @@
                             </div>
                         </div>
                     </article>
-                    <!---- box 3 --->
+                    <!---- BOX 3 --->
                 </div>
             </div>
         </section>

@@ -23,7 +23,6 @@
         <script src="js/scripts.js" type="text/javascript"></script>
 
     </head>
-
     <body>
         <section class="type-503">
             <div class="container">
@@ -32,13 +31,11 @@
                         <h3>RECENT WORKS</h3>		
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>		
                     </article>
-
                     <div class='col-md-9'>
                         <div class="carousel slide media-carousel" id="media">
                             <div class="carousel-inner">
                                 <div class="item  active">
                                     <div>
-
                                         <div class="col-md-4">
                                             <a class="thumbnail" href="#">
                                                 <figure>
@@ -76,9 +73,7 @@
                                             </div>
                                         </div>        
                                     </div>
-                                </div>
-
-                                
+                                </div>                              
                                 <div class="item">
                                     <div>
                                         <div class="col-md-4">
@@ -118,9 +113,7 @@
                                             </div>
                                         </div>        
                                     </div>
-                                </div>
-
-                                
+                                </div>                             
                                 <div class="item">
                                     <div>
                                         <div class="col-md-4">

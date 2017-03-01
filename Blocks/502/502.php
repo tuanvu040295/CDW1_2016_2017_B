@@ -28,14 +28,14 @@
             <!------------main-1------------>
             <div class="container">
                 <div class="row">           
-
                     <div data-id="101">
                         <div>
                             <div class="modulecontent">
                                 <div class="row services_box ">
 
                                     <div class="col-sm-4 col-md-4">
-                                        <div class="box fixclear">
+                                        <!-- BEGIN BOX 1 -->
+                                        <div class="box">
                                             <div class="icon">
                                                 <figure>
                                                     <img src="images/ico-01.png" alt="WEB DESIGN SERVICES">
@@ -50,11 +50,12 @@
                                                 <li>Portal systems</li>
                                                 <li>&amp; any other dynamic website</li>
                                             </ul>
-                                        </div><!-- end box -->
+                                        </div>
+                                        <!-- END BOX1 -->
                                     </div>
-
                                     <div class="col-sm-4 col-md-4">
-                                        <div class="box fixclear">
+                                        <!-- BEGIN BOX 2 -->
+                                        <div class="box">
                                             <div class="icon">
                                                 <figure>
                                                     <img src="images/ico-02.png" alt="GRAPHIC DESIGN SERVICES">
@@ -70,11 +71,12 @@
                                                 <li>Print Ads / Magazine</li>
                                                 <li>Banners</li>
                                             </ul>
-                                        </div><!-- end box -->
+                                        </div>
+                                        <!-- END BOX 2 -->
                                     </div>
-
                                     <div class="col-sm-4 col-md-4">
-                                        <div class="box fixclear">
+                                        <!-- BEGIN BOX 3 -->
+                                        <div class="box">
                                             <div class="icon">
                                                 <figure>
                                                     <img src="images/ico-03.png" alt="INTERNET MARKETING">
@@ -89,6 +91,7 @@
                                                 <li>Blog marketing</li>
                                             </ul>
                                         </div>
+                                        <!-- END BOX 3 -->
                                     </div>	
                                 </div>
                             </div>

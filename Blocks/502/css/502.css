@@ -1,44 +1,8 @@
-.type-502 .container {
-  margin-right: auto;
-  margin-left: auto;
-}
-.type-502 .clear {
-  clear: both;
-}
-.type-502 div {
-  border: 0;
-  font-size: 100%;
-  margin: 5px 0 0 0;
-  display: block;
-}
-.type-502 .col-sm-4 .col-md-4 {
-  width: 40%;
-}
 .type-502 .modulecontent > .row {
   margin-bottom: 0;
 }
 .type-502 .services_box .box {
   margin-bottom: 15px;
-}
-.type-502 .fixclear {
-  zoom: 1;
-}
-.type-502 .fixclear:before {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-.type-502 .fixclear:after {
-  clear: both;
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
 }
 .type-502 .services_box .icon {
   transition: all 0.2s ease-out;
@@ -66,10 +30,6 @@
   border: 0;
   padding: 0;
   display: block;
-  -webkit-margin-before: 1.33em;
-  -webkit-margin-after: 1.33em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
 }
 .type-502 .services_box ul {
   float: left;
@@ -78,14 +38,7 @@
   margin-left: 15px;
 }
 .type-502 ul {
-  border: 0;
   display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
   padding: 0;
   margin: 0 0 10px 25px;
 }
