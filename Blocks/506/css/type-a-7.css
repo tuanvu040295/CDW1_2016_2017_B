@@ -1,27 +1,27 @@
-.type-a-7 .container {
+.type-506 .container {
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-7 .clear {
+.type-506 .clear {
   clear: both;
 }
-.type-a-7 div {
+.type-506 div {
   border: 0;
   font-size: 100%;
   margin: 5px 0 0 0;
   display: block;
 }
-.type-a-7 .thumbnail {
+.type-506 .thumbnail {
   position: relative;
   padding: 0px;
   margin-bottom: 20px;
 }
-.type-a-7 .thumbnail img {
+.type-506 .thumbnail img {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-.type-a-7 h3 {
+.type-506 h3 {
   color: #cd2122;
   margin-top: 0;
   text-shadow: 0 1px 0 rgba(255,255,255,0.7);
@@ -37,7 +37,10 @@
   font-weight: bold;
   line-height: 1.4;
 }
-.type-a-7 img {
+.type-506 section {
+  display: block;
+}
+.type-506 img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
@@ -45,7 +48,7 @@
   font-size: 100%;
   -ms-interpolation-mode: bicubic;
 }
-.type-a-7 p {
+.type-506 p {
   margin: 0 0 10px;
   display: block;
   -webkit-margin-before: 1em;
@@ -56,13 +59,13 @@
   font-size: 100%;
   padding: 0;
 }
-.type-a-7 .latest_posts.acc-style h3.m_title {
+.type-506 .latest_posts.acc-style h3.m_title {
   position: absolute;
   top: 14px;
   z-index: 1;
   margin: 0;
 }
-.type-a-7 .latest_posts.acc-style .viewall {
+.type-506 .latest_posts.acc-style .viewall {
   position: absolute;
   top: 12px;
   right: 0;
@@ -71,11 +74,11 @@
   color: #757575;
   z-index: 1;
 }
-.type-a-7 li {
+.type-506 li {
   text-align: -webkit-match-parent;
   line-height: 20px;
 }
-.type-a-7 .btn-primary {
+.type-506 .btn-primary {
   color: #fff;
   background-color: #cd2122;
   border-color: #d22122;
