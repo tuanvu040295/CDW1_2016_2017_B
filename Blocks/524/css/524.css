@@ -1,0 +1,41 @@
+.type-524 .title {
+  color: #050505;
+}
+.type-524 h4 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.type-524 aside {
+  display: block;
+}
+.type-524 .moduletitle {
+  color: #050505;
+  line-height: 1.4;
+  position: relative;
+  font-size: 18px;
+}
+.type-524 ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.type-524 ul.menu li a {
+  color: #595959;
+  display: block;
+  padding: 4px 0 4px 20px;
+  position: relative;
+}
+.type-524 a {
+  text-decoration: none;
+}
+.type-524 ul.menu li a:after {
+  content: '\203A';
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  color: #DDD;
+  line-height: 1;
+}
+.type-524 a:hover {
+  background: red;
+}
