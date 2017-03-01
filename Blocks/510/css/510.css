@@ -1,0 +1,155 @@
+.type-501 #footer {
+  background: #2f2f2f;
+  padding: 40px 0 20px;
+  color: #d5d5d5;
+  border-top: 4px solid #fff;
+}
+.type-501 .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-501 .row {
+  margin-bottom: 35px;
+}
+.type-501 #footer .m_title {
+  font-size: 14px;
+  color: #fff;
+  text-shadow: none;
+  margin-top: 0;
+}
+.type-501 h4 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  border: 0;
+  padding: 0;
+}
+.type-501 #footer .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.type-501 #footer .menu li {
+  float: left;
+  width: 50%;
+}
+.type-501 #footer a {
+  color: #fff;
+}
+.type-501 .newsletter-signup form {
+  margin-bottom: 10px;
+}
+.type-501 .newsletter-signup input[type="text"] {
+  color: #4d4d4d;
+  width: 120px;
+  background: #dddddd;
+  border: 1px solid #a3a3a3;
+  vertical-align: top;
+  margin-bottom: 0;
+}
+.type-501 input[type="text"] {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+.type-501 .newsletter-signup input[type="submit"] {
+  color: #fff;
+  background: #cd2122;
+  border: 0;
+  font-weight: 700;
+  font-size: 13px;
+  height: 30px;
+  padding: 0 15px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.type-501 .newsletter-signup #result {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.type-501 small {
+  font-size: 85%;
+}
+.type-501 #footer .contact-details.moduletable {
+  background: url(../images/say_hi.png) no-repeat right top;
+}
+.type-501 .map-link > span {
+  margin-top: 2px;
+}
+.type-501 .icon-map-marker {
+  background-position: -24px -72px;
+}
+.type-501 .icon-white {
+  background-image: url(../images/glyphicons-halflings-white.png);
+}
+.type-501 [class^="icon-"],
+.type-501 [class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+}
+.type-501 #twitterFeed {
+  background: url(../images/twitter-bird.png) no-repeat 15px center #444;
+  font-size: 12px;
+  color: #fff;
+  padding: 15px 75px 15px 60px;
+  position: relative;
+  margin-bottom: 15px;
+  font-style: italic;
+  border-radius: 3px;
+}
+.type-501 .social-share {
+  margin: 25px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.type-501 #footer .bottom {
+  padding-top: 30px;
+  border-top: 5px solid #484848;
+  color: #8b8c8d;
+}
+.type-501 #footer .social-icons {
+  float: right;
+  margin: 0 0 20px;
+}
+.type-501 #footer .social-icons li.title {
+  line-height: 30px;
+}
+.type-501 #footer .social-icons li {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.type-501 .social-icons li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-image: url(../images/social-icons-sprite.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #111;
+  border-radius: 3px;
+}
+.type-501 .social-icons li.social-dribbble a {
+  background-position: -30px 0;
+}
+.type-501 .social-icons li.social-facebook a {
+  background-position: -60px 0;
+}
+.type-501 .social-icons li.social-envato a {
+  background-position: -90px 0;
+}
+.type-501 #footer .copyright img {
+  float: left;
+  margin-right: 20px;
+}
