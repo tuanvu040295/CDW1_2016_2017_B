@@ -42,7 +42,7 @@
 
                         <div class="col-lg-7">
 
-                            <div class="main-data">
+                            <details class="main-data">
 
                                 <ul class="actions">
                                     <li class="pdf-icon">
@@ -68,7 +68,7 @@
 
 
                                 <article class="small_desc">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</article>
-                            </div><!-- main data -->
+                            </details>
 
                             <div class="spacer-buy-area">
 
