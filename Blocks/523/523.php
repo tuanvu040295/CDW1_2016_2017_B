@@ -26,54 +26,51 @@
     </head>
 
     <body>
-        <div class="type-523">
-            <div class="container">
-                <div class="row">
-                    <!--SIDEBAR RIGHT-->
-                    <aside>
-                        <div class="col-md-3">
-                            <div class="moduletable">
-                                <h2 class="moduletitle ">VM - Manufacturer</h2>
-                                <!--LIST OF MANUFACTURER-->
-                                <div class="modulecontent">
-                                    <div class="vmmanufacturermod">
-                                        <ul class="vmmanufacturer">
-                                            <li>
-                                                <figure>
-                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
-                                                        <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
-                                                        <span class="theHoverBorder"></span>
-                                                    </a>
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
-                                                        <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
-                                                        <span class="theHoverBorder"></span>
-                                                    </a>
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
-                                                        <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
-                                                        <span class="theHoverBorder"></span>
-                                                    </a>
-                                                </figure>
-                                            </li>
-                                        </ul>
-
+            <div class="type-523">
+                <div class="container">
+                    <div class="row">
+                        <!--SIDEBAR RIGHT-->
+                            <div class="col-md-3">
+                                <aside>
+                                    <h2 class="sidebartitle ">VM - Manufacturer</h2>
+                                    <!--LIST OF MANUFACTURER-->
+                                    <div class="modulecontent">
+                                        <div class="vmmanufacturermod">
+                                            <ul class="vmmanufacturer">
+                                                <li>
+                                                    <figure>
+                                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
+                                                            <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
+                                                            <span class="theHoverBorder"></span>
+                                                        </a>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
+                                                            <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
+                                                            <span class="theHoverBorder"></span>
+                                                        </a>
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure>
+                                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
+                                                            <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
+                                                            <span class="theHoverBorder"></span>
+                                                        </a>
+                                                    </figure>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <!--END LIST OF MANUFACTURER-->
-                            </div>
-                        </div>
-                    </aside>    
-                    <!--/END SIDEBAR RIGHT-->
+                                    <!--END LIST OF MANUFACTURER-->
+                                </aside>
+                            </div>   
+                        <!--/END SIDEBAR RIGHT-->
+                    </div>
                 </div>
             </div>
-        </div>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
