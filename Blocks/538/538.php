@@ -9,14 +9,14 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/service.less', 'css/service.css');
+    $less->compileFile('less/538.less', 'css/538.css');
     ?>
 
-    <link href="css/service.css" rel="stylesheet" type="text/css"/>
+    <link href="css/538.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
-    <div class="container sv">
+    <div class="container type-538">
         <div class="clearfix "></div>
         <div class="row section ">
             <h3><img src="images/title-services.png "> Service</h3> </div>

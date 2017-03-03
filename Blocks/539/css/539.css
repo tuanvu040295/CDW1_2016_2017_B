@@ -1,0 +1,78 @@
+.type-539 ul li {
+  list-style-type: none;
+}
+.type-539 .tab-content {
+  margin-top: 20px;
+}
+.type-539 .tab-pane h2 {
+  font-size: 18px;
+  color: #8c8c8c;
+  font-weight: 600;
+}
+.type-539 .tab-content .nav-pills>li.active a,
+.type-539 .tab-content .nav-pills>li.active>a:focus,
+.type-539 .tab-content .nav-pills>li.active>a:hover {
+  color: #b1690c;
+  background: none;
+  border: 1px solid #e6e6e6;
+  border-right: none;
+}
+.type-539 .tab-content .nav-pills>li>a {
+  border-radius: 0 !important;
+  border: 1px solid #e6e6e6;
+  font-size: 18px;
+  color: #8d8d8d;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.type-539 .contact-form li.with-icon input[type="text"],
+.type-539 .contact-form li.with-icon input[type="password"],
+.type-539 .contact-form li.with-icon select {
+  text-indent: 48px;
+}
+.type-539 .contact-form li input[type="text"],
+.type-539 .contact-form li input[type="password"] {
+  width: 30%;
+  color: #a09b9b;
+  line-height: 12px !important;
+  padding: 14px 10px;
+  height: auto;
+  margin-left: 0px;
+  font-size: 13px;
+  font-weight: normal;
+  border-radius: 3px;
+}
+.type-539 textarea {
+  padding-left: 50px;
+}
+.type-539 .contact-form li.submit-button {
+  padding-top: 20px;
+}
+.type-539 .contact-form li.submit-button input.sendmail {
+  background-color: #e89222;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+}
+.type-539 .contact-form li.submit-button input.sendmail.alignleft {
+  float: left;
+}
+.type-539 .contact-form li.submit-button input.sendmail:hover {
+  background-color: #e37a1c;
+  box-shadow: 0 2px 0 #cd6b02;
+}
+.type-539 .contact-form fieldset ul li.submit-button {
+  margin-top: -12px;
+}
+.type-539 #review_form #respond textarea {
+  width: 100%;
+}
