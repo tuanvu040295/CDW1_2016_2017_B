@@ -27,21 +27,8 @@
   line-height: 20px;
   list-style-type: none;
 }
-.type-529 .footer-chitiet .woocommerce-price {
-  float: left;
-  margin-top: 13px;
-}
 .type-529 .footer-chitiet del {
   font-size: 12px;
-}
-.type-529 .footer-chitiet .woocommerce-price p {
-  line-height: 36px;
-}
-.type-529 .footer-chitiet .price {
-  color: #736d6d;
-  display: block;
-  font-size: 18px;
-  margin-bottom: .5em;
 }
 .type-529 .footer-chitiet img {
   border: 1px solid #DFDCDC;
