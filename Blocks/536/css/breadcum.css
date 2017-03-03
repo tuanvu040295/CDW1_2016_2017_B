@@ -1,0 +1,60 @@
+.bc .margin-bottom2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.bc .woocommerce-breadcrumb {
+  float: left;
+}
+.bc .woocommerce-breadcrumb {
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: .92em;
+  color: #5c5c5b;
+  clear: both;
+}
+.bc .woocommerce-breadcrumb a {
+  color: #5c5c5b;
+}
+.bc .woocommerce-breadcrumb span.current {
+  color: #b16708;
+  font-size: 13px;
+}
+.bc .product-nav div.prev a:hover {
+  background-position: left -671px;
+}
+.bc .product-nav div.prev a {
+  background-position: left -631px;
+  padding-left: 38px;
+}
+.bc .product-nav a:hover {
+  color: #787877;
+}
+.bc .product-nav a {
+  background: url('../images/sprite.png') no-repeat;
+  line-height: 33px;
+  display: inline-block;
+}
+.bc .product-nav,
+.bc .product-nav a {
+  font-size: 18px;
+  color: #9a9a99;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.bc .product-nav {
+  float: right;
+  padding-right: 15px;
+}
+.bc .product-nav div {
+  display: inline;
+}
+.bc .product-nav div.next a {
+  background-position: right -631px;
+  padding-right: 38px;
+}
+.bc .product-nav a {
+  background: url('../images/sprite.png') no-repeat;
+  line-height: 33px;
+  display: inline-block;
+}
