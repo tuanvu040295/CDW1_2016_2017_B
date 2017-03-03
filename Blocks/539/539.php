@@ -14,13 +14,12 @@
 
     <link href="css/539.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery.min.js"></script>
-
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="type-539">
+    <div class="type-539">
+        <div class="container">
+            <div class="row">
                 <!-- BEGIN TABPILL TITLE -->
                 <div class="tab-content col-md-4 col-sm-4 col-lg-4 col-xs-12">
                     <ul class="nav nav-pills nav-stacked">
@@ -44,32 +43,32 @@
                         <!-- END FIRST TAB --> 
                         <!-- BEGIN SECOND TAB --> 
                         <div class="tab-pane" id="database-tab">
-                            <form id="contact-form-product-enquiry" class="contact-form" method="post" action="#tab-info" enctype="multipart/form-data">
+                            <form class="contact-form" method="post" action="#tab-info" enctype="multipart/form-data">
                                 <fieldset>
                                     <ul>
-                                        <li class="text-field with-icon">
+                                        <li>
                                             <div>
-                                                <input type="text" name="yit_contact[name]" id="name-product-enquiry" class="with-icon" value="" placeholder="Name"> </div>
+                                                <input type="text" name="yit_contact[name]" value="" placeholder="Name"> </div>
                                             <div class="clearfix"></div>
                                         </li>
-                                        <li class="text-field with-icon">
+                                        <li>
                                             <div>
-                                                <input type="text" name="yit_contact[email]" id="email-product-enquiry" class="with-icon" value="" placeholder="Email"> </div>
+                                                <input type="text" name="yit_contact[email]" value="" placeholder="Email"> </div>
                                             <div class="clearfix"></div>
                                         </li>
-                                        <li class="text-field with-icon">
+                                        <li>
                                             <div>
-                                                <input type="text" name="yit_contact[phone]" id="phone-product-enquiry" class="with-icon" value="" placeholder="Phone"> </div>
+                                                <input type="text" name="yit_contact[phone]" value="" placeholder="Phone"> </div>
                                             <div class="clearfix"></div>
                                         </li>
-                                        <li class="with-icon">
+                                        <li>
                                             <div>
-                                                <textarea name="yit_contact[message]" id="message-product-enquiry" rows="8" cols="30" class="with-icon" placeholder="Message"></textarea>
+                                                <textarea name="yit_contact[message]" rows="8" cols="30" placeholder="Message"></textarea>
                                             </div>
                                             <div class="clearfix"></div>
                                         </li>
                                         <li class="submit-button">
-                                            <input type="submit" name="yit_sendemail" value="Send Enquiry" class="sendmail alignleft">
+                                            <input type="submit" name="yit_sendemail" value="Send Enquiry" class="sendmail">
                                             <div class="clear"></div>
                                         </li>
                                     </ul>
@@ -79,51 +78,49 @@
                         <!-- END SECOND TAB --> 
                         <!-- BEGIN THIRD TAB --> 
                         <div class="tab-pane" id="reviews-tab">
-                            <div id="reviews">
+                            <div>
                                 <div id="comments">
                                     <h2>Reviews</h2>
                                     <p>There are no reviews yet.</p>
                                 </div>
-                                <div id="review_form_wrapper">
+                                <div>
                                     <div id="review_form">
                                         <div id="respond">
-                                            <h3 id="reply-title">Be the first to review “Belt” <small><a rel="nofollow" id="cancel-comment-reply-link" href="/sistina/all-products/belt/#respond" style="display:none;">Cancel reply</a></small></h3>
-                                            <form action="#" method="post" id="commentform">
-                                                <div class="row">
-                                                    <p><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span>*</span> </p>
-                                                    <p>
-                                                        <label for="rating">Your Rating</label>
-                                                        <select name="rating" id="rating" aria-required="true" required="" style="display: none;">
-                                                            <option value="">Rate…</option>
-                                                            <option value="5">Perfect</option>
-                                                            <option value="4">Good</option>
-                                                            <option value="3">Average</option>
-                                                            <option value="2">Not that bad</option>
-                                                            <option value="1">Very Poor</option>
-                                                        </select>
-                                                    </p>
-                                                    <p>
-                                                        <label for="comment">Your Review <span>*</span> </label>
-                                                        <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required=""></textarea>
-                                                    </p>
-                                                    <p>
-                                                        <label for="author">Name <span>*</span> </label>
-                                                        <input id="author" name="author" type="text" value="" size="30" aria-required="true" required=""> </p>
-                                                    <p>
-                                                        <label for="email">Email <span>*</span> </label>
-                                                        <input id="email" name="email" type="email" value="" size="30" aria-required="true" required=""> </p>
-                                                    <p>
-                                                        <input name="submit" type="submit" id="submit" class="submit" value="Submit">
-                                                        <input type="hidden" name="comment_post_ID" value="139" id="comment_post_ID">
-                                                        <input type="hidden" name="comment_parent" id="comment_parent" value="0"> </p>
-                                                    <p>
-                                                        <label>Current ye@r <span>*</span> </label>
-                                                        <input type="hidden" name="antspm-a" value="2016">
-                                                        <input type="text" name="antspm-q" value="4.2" autocomplete="off"> </p>
-                                                    <p>
-                                                        <label>Leave this field empty</label>
-                                                        <input type="text" name="antspm-e-email-url-website" value="" autocomplete="off"> </p>
-                                                </div>
+                                            <h3>Be the first to review “Belt” <small><a rel="nofollow" href="/sistina/all-products/belt/#respond" style="display:none;">Cancel reply</a></small></h3>
+                                            <form action="#" method="post">
+                                                <p><span>Your email address will not be published.</span> Required fields are marked <span>*</span> </p>
+                                                <p>
+                                                    <label for="rating">Your Rating</label>
+                                                    <select name="rating" aria-required="true">
+                                                        <option value="">Rate…</option>
+                                                        <option value="5">Perfect</option>
+                                                        <option value="4">Good</option>
+                                                        <option value="3">Average</option>
+                                                        <option value="2">Not that bad</option>
+                                                        <option value="1">Very Poor</option>
+                                                    </select>
+                                                </p>
+                                                <p>
+                                                    <label for="comment">Your Review <span>*</span> </label>
+                                                    <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required=""></textarea>
+                                                </p>
+                                                <p>
+                                                    <label for="author">Name <span>*</span> </label>
+                                                    <input name="author" type="text" value="" size="30" aria-required="true" required=""> </p>
+                                                <p>
+                                                    <label for="email">Email <span>*</span> </label>
+                                                    <input name="email" type="email" value="" size="30" aria-required="true" required=""> </p>
+                                                <p>
+                                                    <input name="submit" type="submit" id="submit" class="submit" value="Submit">
+                                                    <input type="hidden" name="comment_post_ID" value="139">
+                                                    <input type="hidden" name="comment_parent" value="0"> </p>
+                                                <p>
+                                                    <label>Current ye@r <span>*</span> </label>
+                                                    <input type="hidden" name="antspm-a" value="2016">
+                                                    <input type="text" name="antspm-q" value="4.2" autocomplete="off"> </p>
+                                                <p>
+                                                    <label>Leave this field empty</label>
+                                                    <input type="text" name="antspm-e-email-url-website" value="" autocomplete="off"> </p>
                                                 <input type="hidden" name="antspm-d" value="2016"> </form>
                                         </div>
                                         <!-- #respond -->
@@ -139,5 +136,5 @@
             </div>
         </div>
     </div>
-        <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
