@@ -1,73 +1,66 @@
-.hdear .navbar-collapse {
+.type-34 .navbar-collapse {
   padding: 0;
 }
-.hdear .navbar-inverse .navbar-nav .activemenu {
+.type-34 .navbar-inverse .navbar-nav .activemenu {
   border-top: 5px solid #e6e6e6;
 }
-.hdear .navbar-inverse .navbar-nav .dropdown {
+.type-34 .navbar-inverse .navbar-nav .dropdown {
   border: 5px solid #fff;
 }
-.hdear .navbar-inverse .navbar-nav .dropdown:hover {
+.type-34 .navbar-inverse .navbar-nav .dropdown:hover {
   border-top: 5px solid #e6e6e6;
 }
-.hdear .navbar-inverse .navbar-nav>li>a:hover {
+.type-34 .navbar-inverse .navbar-nav>li>a:hover {
   color: #e89222;
   background: white;
   box-shadow: none !important;
 }
-.hdear .dropdown-menu>li>a:focus,
-.hdear .dropdown-menu>li>a:hover {
+.type-34 .dropdown-menu>li>a:focus,
+.type-34 .dropdown-menu>li>a:hover {
   color: #e89222;
   text-decoration: none;
   background-color: #fff;
 }
-.hdear .mega-dropdown-menu > li > ul > li > a:hover {
+.type-34 .mega-dropdown-menu > li > ul > li > a:hover {
   color: #e89222;
 }
-.hdear form input[type="text"],
-.hdear form textarea {
+.type-34 form input[type="text"],
+.type-34 form textarea {
   border: 1px solid #CFCFCF;
   transition: border linear 0.2s, box-shadow linear 0.2s;
 }
-.hdear #header .header-below {
+.type-34 #header .header-below {
   clear: both;
   background: #f6f4f4;
   border-bottom: 7px solid #e8e8e8;
 }
-.hdear .slider.fixed-image img {
+.type-34 .slider.fixed-image img {
   width: auto;
   height: auto;
   max-width: 100%;
 }
-.hdear #headersearchform #headersearchsubmit:hover {
+.type-34 #headersearchform #headersearchsubmit:hover {
   background-color: #e37a1c;
 }
-.hdear #logo {
+.type-34 #logo {
   padding: 0;
   margin-bottom: 13px;
   float: left;
 }
-.hdear #logo-img {
+.type-34 #logo-img {
   padding-top: 35px;
   display: inline-block;
   margin: 0;
   max-width: 100%;
 }
-.hdear #header-right-content {
+.type-34 #header-right-content {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   color: #656464;
   font-style: normal;
   font-weight: 400;
 }
-.hdear #header-right-content,
-.hdear #header-right-content > * + *,
-.hdear #nav ul > li,
-.hdear .header_skin2 {
-  border-color: #f2f2f2;
-  border-right-color: #f2f2f2;
-}
-.hdear #header-right-content {
+.type-34 #header-right-content {
   background: #fff;
   border-width: 2px 1px 1px 2px;
   padding: 0;
@@ -76,32 +69,32 @@
   margin-top: 25px;
   margin-bottom: 20px;
 }
-.hdear .register {
+.type-34 .register {
   width: 250px;
 }
-.hdear .register form ul li {
+.type-34 .register form ul li {
   line-height: 22px;
   padding: 0;
   margin: 0;
 }
-.hdear .register form ul li:hover {
+.type-34 .register form ul li:hover {
   color: #bc8c27;
 }
-.hdear .register a.create_account {
+.type-34 .register a.create_account {
   display: block;
   margin-top: 50px;
   margin-left: 20px;
   color: #bc8c27;
 }
-.hdear .register a.create_account:hover {
+.type-34 .register a.create_account:hover {
   color: #bc8c27;
   text-decoration: none;
 }
-.hdear .form-group {
+.type-34 .form-group {
   margin: 20px;
 }
-.hdear .form-group input[type="text"],
-.hdear .form-group input[type="password"] {
+.type-34 .form-group input[type="text"],
+.type-34 .form-group input[type="password"] {
   box-sizing: border-box;
   background: none repeat scroll 0 0 #FFFFFF;
   border: 1px solid #DAD9D9;
@@ -114,18 +107,18 @@
   padding: 0 10px;
   width: 100%;
 }
-.hdear .form-group a.lost_password {
+.type-34 .form-group a.lost_password {
   font-size: 11px;
   margin-top: 7px;
   display: block;
   text-shadow: none;
   color: #9d9d9d;
 }
-.hdear .form-group a.lost_password:hover {
+.type-34 .form-group a.lost_password:hover {
   color: #bc8c27;
   text-decoration: none;
 }
-.hdear .form-group input.button {
+.type-34 .form-group input.button {
   box-shadow: 0 2px 0 #cd6b02;
   color: #FFFFFF;
   background-color: #e89222;
@@ -145,12 +138,12 @@
   padding: 4px 8px 4px 8px;
   position: relative;
 }
-.hdear #headersearchform-container {
+.type-34 #headersearchform-container {
   clear: both;
   position: relative;
   padding-top: 35px;
 }
-.hdear #headersearchform .formborder {
+.type-34 #headersearchform .formborder {
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -163,7 +156,7 @@
   left: 50%;
   margin: 0 0 0 -467px;
 }
-.hdear #headers {
+.type-34 #headers {
   padding: 16px 0 16px 15px;
   width: 766px;
   height: auto;
@@ -172,13 +165,13 @@
   margin-bottom: 0;
   float: left;
 }
-.hdear #headersearchform #headersearchsubmit {
+.type-34 #headersearchform #headersearchsubmit {
   text-indent: -9999px;
   background: #e89222 url(../images/search-form-submit.png) center center no-repeat;
   border: 0;
   text-shadow: none;
 }
-.hdear #headersearchform input.button {
+.type-34 #headersearchform input.button {
   border-radius: 3px;
   font-size: 10px;
   font-weight: normal;
@@ -188,52 +181,52 @@
   position: relative;
   vertical-align: top;
 }
-.hdear #headersearchsubmit {
+.type-34 #headersearchsubmit {
   margin: 0;
 }
-.hdear #headersearchsubmit {
+.type-34 #headersearchsubmit {
   padding: 0;
   margin: 0;
   width: 134px;
 }
-.hdear .slogan {
+.type-34 .slogan {
   padding-bottom: 20px;
   padding-top: 40px;
 }
-.hdear #header .slogan h2 {
+.type-34 #header .slogan h2 {
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   color: #5c5c5b;
   font-style: normal;
   font-weight: 400;
 }
-.hdear .header_with_search .slogan h2.nopadding {
+.type-34 .header_with_search .slogan h2.nopadding {
   padding-top: 0px !important;
 }
-.hdear .slogan h2 {
+.type-34 .slogan h2 {
   margin-bottom: 0px;
   margin-top: 0;
   letter-spacing: -0.9px;
   text-align: center;
 }
-.hdear .nav>li {
+.type-34 .nav>li {
   border-right: 1px solid #e6e6e6 !important;
 }
-.hdear .navbar-inverse .navbar-nav>li:hover {
+.type-34 .navbar-inverse .navbar-nav>li:hover {
   background-color: #fff;
 }
-.hdear .navbar-inverse .navbar-nav>.open>a:hover,
-.hdear .navbar-inverse .navbar-nav>.open>a,
-.hdear .navbar-inverse .navbar-nav>.open>a:focus {
+.type-34 .navbar-inverse .navbar-nav > a:hover,
+.type-34 .navbar-inverse .navbar-nav > .open > a,
+.type-34 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #e89222;
   background-color: #fff;
 }
-.hdear .navbar-inverse {
+.type-34 .navbar-inverse {
   background: #fff !important;
-  background-color: #fff !important;
+  background-color: #fff;
   border: 1px solid #e6e6e6 !important;
 }
-.hdear span.cart-items-number {
+.type-34 span.cart-items-number {
   background-color: #e1820a;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -245,52 +238,34 @@
   border-radius: 3px;
   margin-left: 8px;
 }
-.hdear .mega-dropdown {
+.type-34 .mega-dropdown {
   position: static !important;
 }
-.hdear .mega-dropdown-menu {
+.type-34 .mega-dropdown-menu {
   padding: 20px 0px;
   width: 100%;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
-.hdear .mega-dropdown-menu > li > ul {
+.type-34 .mega-dropdown-menu > li > ul {
   padding: 0;
   margin: 0;
 }
-.hdear .mega-dropdown-menu > li > ul > li {
+.type-34 .mega-dropdown-menu > li > ul > li {
   list-style: none;
 }
-.hdear .mega-dropdown-menu > li > ul > li > a {
+.type-34 .mega-dropdown-menu > li > ul > li > a {
   display: block;
   color: #222;
   padding: 3px 5px;
 }
-.hdear .mega-dropdown-menu > li ul > li > a:hover,
-.hdear .mega-dropdown-menu > li ul > li > a:focus {
+.type-34 .mega-dropdown-menu > li ul > li > a:hover,
+.type-34 .mega-dropdown-menu > li ul > li > a:focus {
   text-decoration: none;
 }
-.hdear .mega-dropdown-menu .dropdown-header {
+.type-34 .mega-dropdown-menu .dropdown-header {
   font-size: 18px;
   color: #e89222;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
-}
-.hdear .carousel-control {
-  width: 30px;
-  height: 30px;
-  top: -35px;
-}
-.hdear .left.carousel-control {
-  right: 30px;
-  left: inherit;
-}
-.hdear .carousel-control .glyphicon-chevron-left,
-.hdear .carousel-control .glyphicon-chevron-right {
-  font-size: 12px;
-  background-color: #fff;
-  line-height: 30px;
-  text-shadow: none;
-  color: #333;
-  border: 1px solid #ddd;
 }
