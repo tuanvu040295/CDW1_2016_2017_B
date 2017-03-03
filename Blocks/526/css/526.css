@@ -1,0 +1,110 @@
+.type-526 .type-f-footer {
+  border-color: #dfdcdc;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.type-526 .type-f-footer .row {
+  margin-bottom: -12px;
+}
+.type-526 .type-f-footer .img-footer {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+.type-526 .type-f-footer .credit_card {
+  margin-bottom: -13px;
+  width: 32px;
+  height: 32px;
+  background: url(../images/creditcard.png) no-repeat;
+  display: inline-block;
+  margin-left: 1px;
+}
+.type-526 .type-f-footer .credit_card.amex:hover {
+  background-position: -32px 0px;
+}
+.type-526 .type-f-footer .credit_card.amex {
+  background-position: -32px -32px;
+}
+.type-526 .type-f-footer .credit_card.bank:hover {
+  background-position: -224px 0px;
+}
+.type-526 .type-f-footer .credit_card.bank {
+  background-position: -224px -32px;
+}
+.type-526 .type-f-footer .credit_card.cash:hover {
+  background-position: -256px 0px;
+}
+.type-526 .type-f-footer .credit_card.cash {
+  background-position: -256px -32px;
+}
+.type-526 .type-f-footer .credit_card.googleckout:hover {
+  background-position: -736px 0px;
+}
+.type-526 .type-f-footer .credit_card.googleckout {
+  background-position: -736px -32px;
+}
+.type-526 .type-f-footer .credit_card.mastercard:hover {
+  background-position: -864px 0px;
+}
+.type-526 .type-f-footer .credit_card.mastercard {
+  background-position: -864px -32px;
+}
+.type-526 .type-f-footer .credit_card.paypal:hover {
+  background-position: -960px 0px;
+}
+.type-526 .type-f-footer .credit_card.paypal {
+  background-position: -960px -32px;
+}
+.type-526 .type-f-footer .credit_card.visa:hover {
+  background-position: -1056px 0px;
+}
+.type-526 .type-f-footer .credit_card.visa {
+  background-position: -1056px -32px;
+}
+.type-526 .type-f-footer .left {
+  text-align: left;
+  margin-left: -15px;
+}
+.type-526 .type-f-footer a:hover {
+  color: black;
+}
+.type-526 .type-f-footer a {
+  color: #959494;
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  outline: none !important;
+}
+.type-526 .type-f-footer strong:hover {
+  color: black;
+}
+.type-526 .type-f-footer strong {
+  font-weight: bold;
+  padding-right: 3px;
+}
+.type-526 .type-f-footer p {
+  color: #959494;
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  margin: 0.8em 0 0.8em;
+  display: block;
+}
+.type-526 .type-f-footer .right {
+  text-align: right;
+  margin-right: -15px;
+}
+.type-526 .type-f-footer .fotter {
+  border-top: 1px solid #DFDCDC;
+  margin: 0px 15px;
+}
