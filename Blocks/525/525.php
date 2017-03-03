@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/525.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -15,7 +15,7 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/525.less', 'css/525.css');
         ?>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -24,14 +24,16 @@
     </head>
 
     <body>
-        <div class="type-23-f-main">
+        <section class="type-525">
             <div class="container">
                 <div class="row">
-                    <div class="type-23">
+                    <div class="type-525">
                         <div class="row">
                             <div id="logo" class="col-md-7">
                                 <a id="logo-img" href="#" title="Cheope">
-                                    <img src="images/logo.png" title="Cheope" alt="Cheope">
+                                    <figure>
+                                        <img src="images/logo.png" title="Cheope" alt="Cheope">
+                                    </figure>
                                 </a>
                                 <p id="tagline">Just another Live Previews Sites site</p>
                             </div>
@@ -40,11 +42,15 @@
                                     <!-- 3 -->
                                     <div class="login_register">
                                         <ul >
-                                            <li >
-                                                <a href="#">My Account</a>
+                                            <li>
+                                                <nav>
+                                                    <a href="#">My Account</a>
+                                                </nav>
                                             </li>
                                             <li>
-                                                <a href="#">Login / Register</a>
+                                                <nav>
+                                                    <a href="#">Login / Register</a>
+                                                </nav>
                                             </li>
                                         </ul>
                                     </div>
@@ -81,7 +87,7 @@
                                 <div id="nav">
                                     <nav class="navbar navbar-inverse">
                                         <div class="collapse navbar-collapse">
-                                            <ul class="nav navbar-nav">
+                                            <ul class="nav navbar-nav" class="open">
                                                 <!--HOME-->
                                                 <li class="dropdown">
                                                     <a href="#" data-toggle="dropdown" data-toggle="dropdown">Home <span class="sf-sub-indicator"></span></a>
@@ -195,12 +201,12 @@
                                                     </ul>
                                                 </li>
                                                 <!--PURCHASE CHEOPE-->
-                                                <li id="Purchase"class="dropdown">
+                                                <li class="dropdown">
                                                     <a href="#" data-toggle="dropdown">Purchase Cheope ><span ></span></a>
                                                 </li>
                                             </ul>
                                             <!----->
-                                            <div id="nav-sidebar">
+                                            <div id="nav-sidebar" class="phone-text">
                                                 <div class=" widget-first widget text-image">
                                                     <div class="text-image" style="text-align:left">
                                                         <img src="images/phone.png" alt="">
@@ -321,7 +327,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <script src="js/menu.js" type="text/javascript"></script>
     </body>
 </html>
