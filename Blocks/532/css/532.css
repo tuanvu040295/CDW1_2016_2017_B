@@ -1,9 +1,10 @@
-.type-532 a {
-  color: #b77a2b;
+.type-532 .quanti {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #c7c0c7;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
+}
+.type-532 a {
   text-decoration: none;
 }
 .type-532 .woocommerce-add-to-cart {
@@ -16,15 +17,12 @@
   padding: 10px 15px;
   text-transform: uppercase;
 }
-.type-532 a.compare.button :hover {
+.type-532 a:hover,
+.type-532 .single_add_to_cart_button.button.alt:hover {
   background-color: #868686;
 }
-.type-532 a:hover {
-  color: #868686;
-}
 .type-532 .summary .product_meta {
-  margin-top: 45px;
-  padding: 5px 0;
+  margin-top: 35px;
 }
 .type-532 button.single_add_to_cart_button.button.alt {
   margin: 10px auto;
@@ -32,46 +30,37 @@
   padding: 10px 15px 10px 35px;
   background: #4f4f4f;
   text-transform: uppercase;
-  font-size: 11px;
   color: #fff;
-  font-weight: normal;
-}
-.type-532 .single_add_to_cart_button.button.alt:hover {
-  background: #868686;
+  font-size: 12px;
 }
 .type-532 .woocommerce-price-and-add {
   border-top: 1px solid #e7e6e6;
   border-bottom: 1px solid #e7e6e6;
   margin-top: 1em;
-  clear: left;
-  width: 100%;
-  height: 60px;
-  min-height: 60px;
-  position: relative;
+  height: 55px;
 }
 .type-532 .quantity .plus {
   bottom: 0;
   right: 0;
 }
-.type-532 .summary .woocommerce-price p {
+.type-532 .summary .woocommerce-price {
   line-height: 36px;
 }
-.type-532 .summary .price .amount {
+.type-532 .summary .price .amount .large-pic .small-pic {
   font-weight: bold;
 }
 .type-532 .woocommerce-price-and-add del .amount {
-  color: rgba(145,145,145,0.5);
+  color: #868686;
   font-size: 16px;
 }
-.type-532 .quantity .plus {
+.type-532 .plus {
   position: absolute;
   width: 25px;
   height: 25px;
-  overflow: visible;
-  font-size: 12px;
   border: 1px solid #c7c0c7;
+  font-size: 12px;
 }
-.type-532 .quantity input.qty {
+.type-532 input.qty {
   width: 32px;
   height: 25px;
   text-align: center;
@@ -83,12 +72,11 @@
   width: 80px;
   position: relative;
 }
-.type-532 .quantity .minus {
+.type-532 .minus {
   width: 25px;
   height: 25px;
-  font-size: 12px;
   border: 1px solid #c7c0c7;
-  background: #dbdada;
+  font-size: 12px;
 }
 .type-532 .row3 {
   width: 95%;
@@ -96,9 +84,6 @@
   padding: 5px;
 }
 .type-532 .price {
-  color: #736d6d;
-  display: block;
-  font-weight: normal;
   font-size: 18px;
   margin-bottom: .5em;
 }

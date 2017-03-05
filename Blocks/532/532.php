@@ -29,7 +29,7 @@
                     <div>
                         <div class="container">
                             <div class="row">
-                                <!--PRODUCTS LEFT-->
+                                <!--BEGIN DETAIL PRODUCTS-->
                                 <div class="col-md-10 content group">
                                     <div class="row">
                                         <div class="group">
@@ -39,9 +39,8 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <!--SHOW-PRODUCTS-->
                                     <div class="row">
-                                        <!--HINH ANH SAN PHAN-->
+                                        <!--BEGIN IMAGES DETAIL PRODUCTS-->
                                         <div class="col-md-6">
                                             <div class="row">
                                                 <div class="col-md-12 large-pic">
@@ -60,7 +59,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--GIOI THIEU SAN PHAM-->
+                                        <!--END IMAGES DETAIL PRODUCTS-->
+                                        <!--BEGIN DESCRIPTION PRODUCTS-->
                                         <div class="col-md-6">
                                             <div class="summary">
                                                 <h2 class="fn hide" itemprop="name">Single bed</h2>
@@ -70,16 +70,16 @@
                                                 </div>
                                                 <form class="cart" method="post" enctype="multipart/form-data">
                                                     <div>
-                                                        <div class="quantity buttons_added">
-                                                            <input type="button" value="-" class="minus">
+                                                        <div class="quantity">
+                                                            <input type="button" value="-" class="quanti minus">
                                                             <input type="number " step="1" min="1" max="" name="quantity" value="1" title="Qty" class="price qty text" size="4" pattern="[0-9]*" inputmode="numeric">
-                                                            <input type="button" value="+" class="plus">
+                                                            <input type="button" value="+" class="quanti plus">
                                                         </div>
                                                     </div>
                                                     <div class="woocommerce-price-and-add group">
                                                         <div class="woocommerce-price">
                                                             <div itemprop="offers" itemscope="" itemtype="#">
-                                                                <p class="price"> <span class="price-label">Price:</span><del><span class="amount"><span>£</span>400.00</span></del> <ins><span class="amount"><span>£</span>375.00</span></ins></p>
+                                                                <p class="price"> <span>Price:</span><del><span class="amount"><span>£</span>400.00</span></del> <ins><span class="amount"><span>£</span>375.00</span></ins></p>
                                                                 <meta itemprop="priceCurrency" content="GBP">
                                                                 <link itemprop="availability" href="#">
                                                             </div>
@@ -95,12 +95,14 @@
                                                     <div style="clear:both"></div>
                                                 </div>
                                                 <div class="clear"></div>
-                                                <div class="nmp"><a href="/cheope/product/single-bed/?action=yith-woocompare-add-product&amp;" class="compare button" data-product_id rel="nofollow">Compare</a></div>
+                                                <div><a href="/cheope/product/single-bed/?action=yith-woocompare-add-product&amp;" class="compare button" data-product_id rel="nofollow">Compare</a></div>
                                                 <div class="product_meta"> <span>Categories: <a href="#" rel="tag">Beds</a>, <a href="#" rel="tag">Brand 1</a>.</span></div>
                                             </div>
                                         </div>
+                                        <!--END DESCRIPTION PRODUCTS-->
                                     </div>
                                 </div>
+                                <!--END DETAIL PRODUCTS-->
                             </div>
                         </div>
                     </div>
