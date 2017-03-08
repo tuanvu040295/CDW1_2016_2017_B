@@ -20,7 +20,7 @@
 
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="js/scripts.js" type="text/javascript"></script>
+        
 
     </head>
 
@@ -253,6 +253,6 @@
                 </div>
             </div>
         </div>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script> 
     </body>
 </html>
