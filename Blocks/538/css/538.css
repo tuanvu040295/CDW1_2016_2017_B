@@ -1,0 +1,43 @@
+.type-538 .survice {
+  margin: 15px;
+  padding-bottom: 22px;
+  position: relative;
+  text-align: center;
+}
+.type-538 .service {
+  margin: 0 auto;
+  padding-top: 0px;
+  float: left;
+}
+.type-538 .survice .service .image-wrapper {
+  position: relative;
+  text-align: center;
+  margin: 26px auto 41px;
+}
+.type-538 .service:hover {
+  border: 1px solid #ffd4a0;
+  border-top-width: 14px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  transition: all ease-in-out 0.2s;
+}
+.type-538 .service:hover .read-more {
+  margin-top: 30px;
+}
+.type-538 .service:hover .read-more a.btn_readmore {
+  padding: 10px;
+  opacity: 1;
+  color: #FFF;
+  border: 1px solid #cd6b02;
+  background: #cd6b02;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.type-538 .service .read-more a.btn_readmore {
+  opacity: 0;
+  visibility: visible;
+}
+.type-538 a:hover {
+  text-decoration: none;
+}
