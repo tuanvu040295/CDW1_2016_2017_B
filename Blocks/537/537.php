@@ -9,19 +9,18 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/sidebar.less', 'css/sidebar.css');
+    $less->compileFile('less/537.less', 'css/537.css');
     ?>
 
-    <link href="css/sidebar.css" rel="stylesheet" type="text/css"/>
-
+    <link href="css/537.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-    <div class="_sidebar">
-
+    
+    <section class="type-537">
         <div class="col-md-3 col-xs-12 col-lg-3 col-sm-3">
             <div id="sidebar-shop-sidebar" class="span3 sidebar group">
-                <div id="woocommerce_price_filter-2" class="widget-1 widget-first widget woocommerce widget_price_filter">
+                <div class="widget woocommerce widget_price_filter">
                     <h3>Filter by price
                         <span class="dropdown_widget">
 
@@ -29,17 +28,17 @@
                     </h3>
                     <form method="get" action="#">
                         <div class="price_slider_wrapper">
-                            <div class="price_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="">
-                                <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 100%;">                          
+                            <div class="price_slider ui-slider ui-slider-horizontal ui-widget-content" style="">
+                                <div class="ui-slider-range" style="left: 0%; width: 100%;">                          
                                 </div>
-                                <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span>
-                                <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 100%;"></span>
+                                <span class="ui-slider-handle" tabindex="0" style="left: 0%;"></span>
+                                <span class="ui-slider-handle" tabindex="0" style="left: 100%;"></span>
                             </div>
                             <div class="price_slider_amount">
-                                <input type="text" id="min_price" name="min_price" value="" data-min="10" placeholder="Min price" style="display: none;">
-                                <input type="text" id="max_price" name="max_price" value="" data-max="99" placeholder="Max price" style="display: none;">
+                                <input type="text" name="min_price" value="" data-min="10" placeholder="Min price" style="display: none;">
+                                <input type="text" name="max_price" value="" data-max="99" placeholder="Max price" style="display: none;">
                                 <button type="submit" class="button">Filter</button>
-                                <div class="price_label" style="">
+                                <div style="">
                                     Price: <span class="from">10 $</span> — <span class="to">99 $</span>
                                 </div>
                                 <div class="clear"></div>
@@ -48,7 +47,7 @@
                     </form>
 
                 </div>
-                <div id="yith-woo-ajax-navigation-3" class="widget-2 widget yith-woocommerce-ajax-product-filter yith-woo-ajax-navigation woocommerce widget_layered_nav">
+                <div class="widget woocommerce widget_layered_nav">
                     <h3>Filter by 
                         <span class="title-highlight">categories</span>
                         <span class="dropdown_widget"></span>
@@ -89,12 +88,12 @@
                         </li>
                     </ul>                     
                 </div>
-                <div id="yith-woo-ajax-navigation-2" class="widget-3 widget yith-woocommerce-ajax-product-filter yith-woo-ajax-navigation woocommerce widget_layered_nav">
+                <div class="widget woocommerce widget_layered_nav">
                     <h3>Filter by
                         <span class="title-highlight">color</span>
                         <span class="dropdown_widget"></span>
                     </h3>
-                    <ul class="yith-wcan-color yith-wcan yith-wcan-group ">
+                    <ul class="yith-wcan-color yith-wcan">
                         <li>
                             <a style="background-color:#e8dbb9;" href="#" title="Beige">Beige</a>
                         </li>
@@ -137,12 +136,12 @@
                     </ul>
                 </div>
                 <div class="clearfix"></div>
-                <div id="yith-woo-ajax-navigation-4" class="widget-4 widget yith-woocommerce-ajax-product-filter yith-woo-ajax-navigation woocommerce widget_layered_nav">
+                <div class="widget woocommerce widget_layered_nav">
                     <h3>Filter by 
                         <span class="title-highlight">size</span>
                         <span class="dropdown_widget"></span>
                     </h3>
-                    <ul class="yith-wcan-label yith-wcan yith-wcan-group ">
+                    <ul class="yith-wcan-label yith-wcan">
                         <li>
                             <a title="Large" href="#">L</a>
                         </li>
@@ -157,11 +156,11 @@
                         </li>
                     </ul>
                 </div>
-                <div id="yith-woo-ajax-reset-navigation-2" class="widget-5 widget-last widget yith-woocommerce-ajax-product-filter yith-woo-ajax-reset-navigation yith-woo-ajax-navigation woocommerce widget_layered_nav" style="display:none">
+                <div class="widget woocommerce widget_layered_nav" style="display:none">
 
                 </div>    
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
