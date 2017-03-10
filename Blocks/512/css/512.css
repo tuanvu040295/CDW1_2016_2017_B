@@ -1,8 +1,12 @@
-.type-512 .summary {
-  padding: 5px;
-}
 .type-512 .summary a {
+  color: #fcb962;
+}
+.type-512 .summary a:hover {
+  text-decoration: none;
   color: #e89222;
+}
+.type-512 .summary .acaction:hover {
+  background-color: #fcb962;
 }
 .type-512 .summary p.price {
   font-size: 18px;
@@ -50,31 +54,29 @@
   width: 25px;
   height: 30px;
 }
-.type-512 button.button {
-  background-color: #e89222;
-  background-image: none;
+.type-512 .button {
+  background-color: #fcb962;
   border-radius: 2px;
   border: 0;
   color: #FFFFFF;
-  box-shadow: 0 2px 0 #cd6b02;
   padding: 9px 6px;
-  float: right !important;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
   line-height: 18px;
   position: relative;
   text-shadow: none;
+  margin-top: 20px;
+}
+.type-512 .button:hover {
+  background-color: #e89222;
+  color: #f4f1ec;
 }
 .type-512 div.images {
   position: relative;
 }
 .type-512 div.images #main_img {
   width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  cursor: auto;
 }
 .type-512 div.images #main_img img {
   display: block;
@@ -148,8 +150,6 @@
   font-size: 13px;
   color: #5c5c5b;
   line-height: 1.41em;
-  border-left: 1px solid #dad9d9;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .type-512 .socials-box a.social i {
@@ -161,9 +161,6 @@
   width: 54px;
   height: 54px;
   background: url("../images/socials-fade.png") no-repeat;
-}
-.type-512 .socials-box a.social.first {
-  border-left: 0;
 }
 .type-512 .socials-box a.social.facebook i {
   background-position: 0px top;

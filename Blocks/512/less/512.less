@@ -1,9 +1,15 @@
 .type-512{
     .summary{
         a{
+            color: #fcb962;
+        }
+        a:hover{
+            text-decoration: none;
             color: #e89222;
         }
-        padding: 5px;
+        .acaction:hover{
+            background-color: #fcb962;
+        } 
         p.price {
             font-size: 18px;
             color: #5c5c5b;
@@ -13,7 +19,6 @@
             margin: 0;
             position: relative;
             background: #ede9e9;
-            font-size: 18px;
             color: #5c5c5b;
             line-height: 38px;
             height: 38px;
@@ -47,27 +52,28 @@
     }
     input.qtyplus { width:25px; height:30px;}
     input.qtyminus { width:25px; height:30px;}
-    button.button {
-        background-color: #e89222;
-        background-image: none;   
+    .button {
+        background-color: #fcb962;
         border-radius: 2px;
         border: 0;   
         color: #FFFFFF;
-        box-shadow: 0 2px 0 #cd6b02;
         padding: 9px 6px;
-        float: right !important;
         text-transform: uppercase;
         font-weight: 700;
         display: inline-block;
         line-height: 18px;
         position: relative;
-        box-shadow: 0 2px 0 #cd6b02;
-        text-shadow: none;    
+        text-shadow: none;
+        margin-top: 20px;    
+    }
+    .button:hover {
+        background-color:#e89222;
+        color:#f4f1ec;
     }
     div.images {
         position: relative;
         #main_img{
-            width: 100%; height: 100%; top: 0px; left: 0px; cursor: auto;
+            width: 100%;
             img{
                 display: block;
                 width: 100%;
@@ -142,8 +148,6 @@
             font-size: 13px;
             color: #5c5c5b;
             line-height: 1.41em;
-            border-left: 1px solid #dad9d9;       
-            -moz-box-sizing: border-box;
             box-sizing: border-box;
             i {
                 position: absolute;
@@ -157,9 +161,6 @@
             }
         } 
     }
-    .socials-box a.social.first {
-        border-left: 0;
-    }  
     .socials-box a.social.facebook i {
         background-position: 0px top;
     }
