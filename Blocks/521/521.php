@@ -24,7 +24,7 @@
     </head>
     <body>
         <div class="type-521">
-            <div id="user1" class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="moduletable ">
@@ -34,10 +34,10 @@
                                     <span class="hover"></span>
                                     <figure class="image">
                                         <a href="#" title="Galaxy Tab II">
-                                            <img src="images/img229527_17052012164027_0_120x120.jpg" alt="img229527_17052012164027_0" class="featuredProductImage" border="0">
+                                            <img src="images/img229527_17052012164027_0_120x120.jpg" border="0">
                                         </a>
                                     </figure>	
-                                    <div class="prod-details fixclear">
+                                    <div class="prod-details">
                                         <h3><a href="#">Galaxy Tab II</a></h3>
                                         <p class="desc">For stunning and inventive handheld entertainment look no further than the Samsung Galaxy Tab 2...</p>                                            
                                         <div class="price">
