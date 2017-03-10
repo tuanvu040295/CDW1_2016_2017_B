@@ -85,15 +85,7 @@
                     <!-----------------------------End Slide Show------------------------->
                     <div class="clear"></div>
                     <!-----------------------------Begin Key Word---------------------------->
-                    <div class="moduletable">
-                        <div class="bghelper">
-                            <div class="modulecontent">
-                                <div class="custom ">
                                     <div class="keywordbox">&nbsp;just some keywords here, services or what any text you want&nbsp;</div>
-                                </div>
-                            </div><!-- end modulecontent-->
-                        </div><!-- end bghelper -->
-                    </div>
                     <!----------------------------End Key Word------------------------------>
                 </div>
             </div>
