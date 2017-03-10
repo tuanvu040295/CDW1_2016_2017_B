@@ -19,8 +19,10 @@
 <body>
     <div class="container">
         <div class="type-519">
-            <div class="col-md-4 col-xs-12 col-lg-3 col-sm-3">
-                <div class="sidebar group">
+            <!-- START SIDEBAR -->
+            <div class="col-md-4 col-md-12 col-md-3 col-md-3">
+                <div class="sidebar">
+                    <!--BEST SELLERS-->
                     <div class="widget widget_best_sellers">
                         <h3>Best <span class="title-highlight">sellers</span><span class="dropdown_widget"></span></h3>
                         <div class="clearfix"></div>
@@ -51,6 +53,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!--VIEW THE DENIM COLLECTION-->
                     <div class=" widget teaser">
                         <div >
                             <div class="teaser">
@@ -61,6 +64,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--SALE PRODUCTS-->
                     <div class=" widget widget_products">
                         <h3>On-Sale Products<span class="dropdown_widget"></span></h3>
                         <ul class="product_list_widget">
@@ -77,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            <!-- END SIDEBAR -->
         </div>
     </div>
 </body>

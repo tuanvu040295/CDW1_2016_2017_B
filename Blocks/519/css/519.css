@@ -8,33 +8,13 @@
   margin-bottom: 10px;
   box-sizing: border-box;
 }
+.type-519 .sidebar a:hover {
+  color: #9A6614;
+  text-decoration: none;
+}
 .type-519 .product_list_widget {
   margin-top: 15px;
   margin-left: -40px;
-}
-.type-519 .widget.widget_best_sellers h3 {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  color: #5c5c5b;
-  font-style: normal;
-  font-weight: 400;
-  padding-left: 13px;
-  padding-right: 13px;
-}
-.type-519 .widget.widget_best_sellers h3 span.title-highlight {
-  font-weight: bold;
-}
-.type-519 .dropdown_widget {
-  background-color: #FFF !important;
-  border: 1px solid #E6E6E6;
-  border-radius: 3px;
-  background: url(../images/sprite.png) 0 -50px;
-  width: 26px;
-  height: 20px;
-  float: right;
-  text-align: center;
-  font-size: 30px;
-  display: inline;
 }
 .type-519 .product_list_widget li {
   padding-left: 0;
@@ -58,6 +38,16 @@
 }
 .type-519 .widget.widget_best_sellers li:hover .number-position {
   background-color: #e37a1c;
+}
+.type-519 .widget.widget_best_sellers h3 {
+  font-size: 16px;
+  color: #5c5c5b;
+  font-weight: 400;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.type-519 .widget.widget_best_sellers h3 span.title-highlight {
+  font-weight: bold;
 }
 .type-519 .widget.widget_best_sellers li a img,
 .type-519 .widget.widget_products li a img {
@@ -85,6 +75,17 @@
   text-align: center;
   letter-spacing: -1px;
 }
+.type-519 .dropdown_widget {
+  background-color: #FFF !important;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  background: url(../images/sprite.png) 0 -50px;
+  width: 26px;
+  height: 20px;
+  float: right;
+  text-align: center;
+  display: inline;
+}
 .type-519 .teaser .image {
   position: relative;
 }
@@ -97,21 +98,15 @@
 .type-519 .teaser .image a {
   color: #9A6614;
 }
-.type-519 .teaser .image p.title {
+.type-519 .teaser .image .title {
   position: absolute;
   bottom: 30px;
-  left: 0px;
   background-color: rgba(255,255,255,0.9);
   padding: 10px;
   font-size: 13px;
   margin-bottom: 5px;
-  text-shadow: none;
-  box-sizing: border-box;
   width: 100%;
   background-image: url('../images/sprite.png');
   background-position: 210px -715px;
   background-repeat: no-repeat;
-}
-.type-519 .sidebar a:hover {
-  color: #9A6614;
 }
