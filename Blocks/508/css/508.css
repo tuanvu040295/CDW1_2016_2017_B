@@ -2,23 +2,11 @@
   margin-right: auto;
   margin-left: auto;
 }
-.type-508 .clear {
-  clear: both;
-}
-.type-508 div,
-.type-508 strong,
-.type-508 p {
+.type-508 div {
   border: 0;
   font-size: 100%;
   margin: 0;
   padding: 0;
-}
-.type-508 img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
 }
 .type-508 .row {
   margin-bottom: 35px;
@@ -37,9 +25,6 @@
   position: relative;
   text-align: center;
   box-sizing: border-box;
-}
-.type-508 .figure {
-  display: block;
 }
 .type-508 .process_steps .step.intro {
   background: #cd2122;
