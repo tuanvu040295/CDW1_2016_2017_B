@@ -23,7 +23,7 @@
     </head>
 
     <body>
-        <div class="type-501">
+        <div class="type-510">
             <footer id="footer">
                 <!-- BEGIN #footer1 -->
                 <div class="container">
