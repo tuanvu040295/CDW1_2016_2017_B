@@ -2,6 +2,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+.type-513 .clear {
+  clear: both;
+}
 .type-513 div {
   border: 0;
   font-size: 100%;
@@ -46,6 +49,18 @@
 }
 .type-513 .carousel-control.left {
   left: -12px;
+}
+.type-513 .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+.type-513 .carousel-indicators li {
+  background: #cecece;
+}
+.type-513 .carousel-indicators .active {
+  background: #428bca;
 }
 .type-513 h3 {
   font-size: 14px;

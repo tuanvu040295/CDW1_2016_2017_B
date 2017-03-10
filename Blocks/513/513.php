@@ -24,7 +24,7 @@
     </head>
 
     <body>
-        <section class="type-513">
+        <div class="type-513">
             <div class="container type-513-content">
                 <section class="row list-products">
 
@@ -36,7 +36,7 @@
                             <div class="carousel-inner">
 
                                 <div class="item active">
-                                    <div class="row"> 
+                                    <div class="row">
 
                                         <figure class="col-md-3">
                                             <a href="#" class="thumbnail"><img src="images/img4_120x120.png" alt="Image" style="max-width:100%;"></a>
@@ -127,7 +127,7 @@
                     
                 </section>
             </div><!--.container-->
-        </section>
+        </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
