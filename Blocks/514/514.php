@@ -24,10 +24,10 @@
     </head>
 
     <body>
-        <div class="type-514">
-            <div class="container type-514-content">
+        <section class="type-514">
+            <div class="container">
                 <!--LIST OF PRODUCTS-->
-                <section class="row list-products">
+                <section class="row">
                     <!-----------------------Begin Slide Show-------------------------------------->
                     <section class="col-md-2">           
                         <h5 class="title"><strong>OUR PARTNERS // TEHNOLOGIES USED</strong></h5>
@@ -85,24 +85,16 @@
                     <!--/END SIDEBAR RIGHT-->
                     <div class="clear"></div>
                     <!-----------------------------Begin Key Word---------------------------->
-                    <div class="moduletable" id="mod118" data-id="118">
-                        <div class="bghelper">
-
-
-                            <div class="modulecontent">
-
-
-                                <div class="custom ">
-                                    <div class="keywordbox">&nbsp;just some keywords here, services or what any text you want&nbsp;</div>
-                                </div>
-                            </div><!-- end modulecontent-->
-                        </div><!-- end bghelper -->
+                    <div data-id="118">
+                        <article>
+                            <div class="keywordbox">&nbsp;just some keywords here, services or what any text you want&nbsp;</div>                       
+                        </article><!-- end bghelper -->
                     </div>
                     <!----------------------------End Key Word------------------------------>
                 </section>
                 <!--/END LIST OF PRODUCTS-->
             </div>
-        </div>
+        </section>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
