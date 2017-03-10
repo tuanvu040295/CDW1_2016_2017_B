@@ -29,8 +29,8 @@
                             <h4 class="moduletitle ">VM - Search in Shop</h4>
                             <!--BEGIN Search Box -->
                             <form action="#" method="get">
-                                <div class="vmsearch search">
-                                    <input name="keyword" id="mod_virtuemart_search" maxlength="20" alt="Search" class="inputbox" type="text" size="20" value="Search..." onblur="if (this.value == '')
+                                <div class="search">
+                                    <input name="keyword" maxlength="20" alt="Search" type="text" size="20" value="Search..." onblur="if (this.value == '')
                                                         this.value = 'Search...';" onfocus="if (this.value == 'Search...')
                                                                     this.value = '';"></div>
                                 <input type="hidden" name="limitstart" value="0">
