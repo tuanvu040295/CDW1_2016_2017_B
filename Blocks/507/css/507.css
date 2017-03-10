@@ -2,19 +2,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-.type-507 .clear {
-  clear: both;
-}
-.type-507 div,
-.type-507 span,
-.type-507 h4,
-.type-507 img,
-.type-507 strong {
-  border: 0;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-}
 .type-507 .bghelper {
   margin-left: 30px;
   margin-right: 20px;
@@ -55,8 +42,7 @@
   color: inherit;
   text-rendering: optimizelegibility;
 }
-.type-507 .hoverBorder,
-.type-507 .hoverborder {
+.type-507 .hoverBorder {
   position: relative;
   display: inline-block;
 }
@@ -120,9 +106,6 @@
 .type-507 .collapse {
   position: relative;
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
-  -moz-transition: height 0.35s ease;
-  -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
 .type-507 .acc-group.default-style .content {
