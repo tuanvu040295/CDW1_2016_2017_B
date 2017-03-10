@@ -1,38 +1,19 @@
-.type-511{
-    @color-font: #CD2122;
-    .title{
-        font-size: 18px;
-        font-weight: bold;
+.type-511{   
+    .hoverBorder{
+        position:relative;
+        display:inline-block;
+        margin-bottom:18px
     }
-    .type-511-content {
-        background-color: #ffffff;
+    .hoverBorder:after{
+        content:'';
+        position:absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;border-radius:3px;
+        box-shadow:inset 0 0 0 3px hsla(0,0%,100%,.15);
     }
-    h4 {
-        color: @color-font;
-        .title;
+    .hoverBorder:hover:after{
+        box-shadow:inset 0 0 0 5px #cd2122
     }
-    .hoverborder {
-        position: relative;
-        display: inline-block;
-        margin-bottom: 20px;
-    }
-    .theHoverBorder{
-        transition: all 0.2s ease-out;
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-    }
-    .theHoverBorder:hover {
-        box-shadow: 0 0 0 5px @color-font;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-        vertical-align: middle;
-    }
-    figure section a{
-        display: block;
-    }       
 }

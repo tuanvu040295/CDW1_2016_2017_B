@@ -1,36 +1,18 @@
-.type-511 .title {
-  font-size: 18px;
-  font-weight: bold;
-}
-.type-511 .type-511-content {
-  background-color: #ffffff;
-}
-.type-511 h4 {
-  color: #CD2122;
-  font-size: 18px;
-  font-weight: bold;
-}
-.type-511 .hoverborder {
+.type-511 .hoverBorder {
   position: relative;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
-.type-511 .theHoverBorder {
-  transition: all 0.2s ease-out;
+.type-511 .hoverBorder:after {
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 3px rgba(255,255,255,0.15);
 }
-.type-511 .theHoverBorder:hover {
-  box-shadow: 0 0 0 5px #CD2122;
-}
-.type-511 img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-.type-511 figure section a {
-  display: block;
+.type-511 .hoverBorder:hover:after {
+  box-shadow: inset 0 0 0 5px #cd2122;
 }
