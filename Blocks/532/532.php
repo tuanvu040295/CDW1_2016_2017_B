@@ -17,9 +17,6 @@
         $less->compileFile('less/532.less', 'css/532.css');
         ?>
         <link href="css/532.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/npm.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -47,13 +44,13 @@
                                     </div>
                                     <div class="row row3">
                                         <div class="col-md-4 col-xs-4 small-pic">
-                                            <figure><img src="images/sp1.jpg" class="img-responsive"></figure>
+                                            <figure><a href="#"><img src="images/sp1.jpg" class="img-responsive"></a></figure>
                                         </div>
                                         <div class="col-md-4 col-xs-4 small-pic blind">
-                                            <figure><img src="images/sp2.jpg" class="img-responsive"></figure>
+                                            <figure><a href="#"><img src="images/sp2.jpg" class="img-responsive"></a></figure>
                                         </div>
                                         <div class="col-md-4 col-xs-4 small-pic blind">
-                                            <figure><img src="images/sp3.jpg" class="img-responsive"></figure>
+                                            <figure><a href="#"><img src="images/sp3.jpg" class="img-responsive"></a></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -69,12 +66,11 @@
                                             </article>
                                         </div>
                                         <form class="cart" method="post" enctype="multipart/form-data">
-                                            <div>
-                                                <div class="quantity">
-                                                    <input type="button" value="-" class="quanti minus">
-                                                    <input type="number " step="1" min="1" max="" name="quantity" value="1" title="Qty" class="price qty text" size="4" pattern="[0-9]*" inputmode="numeric">
-                                                    <input type="button" value="+" class="quanti plus">
-                                                </div>
+                                            <div class="Quantity">
+                                                <label>Quantity</label>
+                                                <input type='button' value='-' class='qtyminus' field='quantity' />
+                                                <input type='text' name='quantity' value='0' class='qty' />
+                                                <input type='button' value='+' class='qtyplus' field='quantity' />
                                             </div>
                                             <div class="woocommerce-price-and-add group">
                                                 <div class="woocommerce-price">
@@ -107,7 +103,10 @@
                 </div>
             </div>
         </div>
-        <script src="js/menu.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/npm.js" type="text/javascript"></script>
+        <script src="js/minus.js" type="text/javascript"></script>
     </body>
 
 </html>
