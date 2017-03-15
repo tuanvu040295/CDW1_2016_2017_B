@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="css/type-a-15.css" rel="stylesheet" type="text/css" />
+        <link href="css/514.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -16,7 +16,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/514.less', 'css/type-a-15.css');
+        $less->compileFile('less/514.less', 'css/514.css');
         ?>
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -32,8 +32,8 @@
                     <section class="col-md-2">           
                         <h5 class="title"><strong>OUR PARTNERS // TEHNOLOGIES USED</strong></h5>
                         <div class="control">
-                            <button class="prev" data-slide="prev" href="#media" class="left carousel-control"><</button>
-                            <button class="next" data-slide="next" href="#media" class="right carousel-control">></button>
+                            <button class="prev" data-slide="prev" href="#media" class="left carousel-control"><i class="fa fa-chevron-left"></i></button>
+                            <button class="next" data-slide="next" href="#media" class="right carousel-control"><i class="fa fa-chevron-right"></i></button>
                         </div>
                     </section>
                     <!--SIDEBAR RIGHT-->
@@ -43,19 +43,19 @@
                                 <div class="item  active">
                                     <div>
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/css3.png"></a>
                                         </figure>   
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/css3.png"></a>
                                         </figure>
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/css3.png"></a>
                                         </figure>
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/css3.png"></a>
                                         </figure>  
                                     </div>
                                 </div> <!--Slide 1-->
@@ -63,19 +63,19 @@
                                 <div class="item">
                                     <div>
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/html.png"></a>
                                         </figure>   
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/html.png"></a>
                                         </figure>
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/html.png"></a>
                                         </figure>
 
                                         <figure class="col-md-3">
-                                            <a class="thumbnail" href="#"><img alt="" src="images/joomla.png"></a>
+                                            <a class="thumbnail" href="#"><img alt="" src="images/html.png"></a>
                                         </figure>    
                                     </div>
                                 </div><!--Slide2-->
@@ -87,7 +87,7 @@
                     <!-----------------------------Begin Key Word---------------------------->
                     <div data-id="118">
                         <article>
-                            <div class="keywordbox">&nbsp;just some keywords here, services or what any text you want&nbsp;</div>                       
+                            <div class="keywordbox">&nbsp;Just some keywords here, services or what any text you want&nbsp;</div>                       
                         </article><!-- end bghelper -->
                     </div>
                     <!----------------------------End Key Word------------------------------>

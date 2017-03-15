@@ -1,34 +1,14 @@
-.type-514{
-    display: block;	
-    .container
-    {
-        margin-right: auto;
-        margin-left: auto;
-    }
+.type-514{	
+    @color_Black: #000;
     .clear{
         clear: both;
-    }
-    div{
-        border: 0;
-        font-size: 100%;
-        margin: 0;
-        padding: 0;
     }
     img {
         height: auto;
         max-width: 100%;
         vertical-align: middle;
-        border: 0;
-    }
-    .row {
-        margin-bottom: 35px;
     }
     /**************************Slide Show*****************************/
-    .partners_carousel h5 {
-        font-weight: 500;
-        margin-top: 0;
-        text-shadow: 1px 1px 0 #fff;
-    }
     h5 {
         margin: 10px 0;
         font-size: 14px;
@@ -36,59 +16,48 @@
         color: inherit;
         text-rendering: optimizelegibility;
     }
-
     /* carousel */
     .media-carousel 
     {
         margin-bottom: 0;
         padding: 0 40px 30px 40px;
         margin-top: 30px;
+        li 
+        {
+            background: #c0c0c0;
+        }
+        /* Changes the colour of the indicators */
+        img
+        {
+            width: 250px;
+            height: auto;
+        }
     }
     /* Previous button  */
-    .control .carousel-control.left 
-    {
-        background-image: none;
-        color: #000;  
-        font-weight: bold;
-    }
-    /* Next button  */
-    .control .carousel-control.right 
-    {
-        background-image: none;
-        color: #000;   
-        font-weight: bold;
-    }
-    /* Changes the position of the indicators */
-    .media-carousel .carousel-indicators 
-    {
-        right: 50%;
-        top: auto;
-        bottom: 0px;
-        margin-right: -19px;
-    }
-    /* Changes the colour of the indicators */
-    .media-carousel li 
-    {
-        background: #c0c0c0;
-    }
-    .media-carousel.active 
-    {
-        background: #333333;
-    }
-    .media-carousel img
-    {
-        width: 250px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /* End carousel */ 
-    a:hover {
-        text-decoration: none;
-        outline: 0;
-    }
 
-    /**************************Key Word***********************/
+    .control {
+        .carousel-control{
+            .prev
+            {
+                background-image: none;
+                color: @color_Black;  
+                font-weight: bold;
+                left: -12px;
+            }
+            .next
+            {
+                background-image: none;
+                color: @color_Black;   
+                font-weight: bold;
+                right: -12px !important;
+            }
+            a:hover {
+                text-decoration: none;
+                outline: 0;
+            }
+        }
+
+    }
     .keywordbox {
         border-top: 4px solid #ddd;
         position: relative;
@@ -98,6 +67,6 @@
         text-align: center;
         color: #8D8D8D;
     }
-    
+
 }
 
