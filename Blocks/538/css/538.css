@@ -1,10 +1,14 @@
+.type-538 .title {
+  font-size: 20px;
+  margin-top: 10px;
+}
 .type-538 .survice {
   margin: 15px;
   padding-bottom: 22px;
   position: relative;
   text-align: center;
 }
-.type-538 .service {
+.type-538 .survice .service {
   margin: 0 auto;
   padding-top: 0px;
   float: left;
@@ -14,30 +18,47 @@
   text-align: center;
   margin: 26px auto 41px;
 }
-.type-538 .service:hover {
+.type-538 .survice .service .read-more a.btn_readmore {
+  opacity: 0;
+  visibility: visible;
+}
+.type-538 .survice .service:hover {
   border: 1px solid #ffd4a0;
   border-top-width: 14px;
-  box-sizing: border-box;
-  position: relative;
+  position: absolute;
   text-align: center;
+  z-index: -1;
   transition: all ease-in-out 0.2s;
 }
-.type-538 .service:hover .read-more {
-  margin-top: 30px;
+.type-538 .survice .service:hover .read-more {
+  margin-top: 0;
 }
-.type-538 .service:hover .read-more a.btn_readmore {
+.type-538 .survice .service:hover .read-more a.btn_readmore {
   padding: 10px;
   opacity: 1;
-  color: #FFF;
+  color: #ffffff;
   border: 1px solid #cd6b02;
   background: #cd6b02;
   border-radius: 5px;
   margin-top: 20px;
 }
-.type-538 .service .read-more a.btn_readmore {
-  opacity: 0;
-  visibility: visible;
-}
-.type-538 a:hover {
+.type-538 .survice .service:hover a.btn_readmore:hover {
+  background: #FFBF00;
   text-decoration: none;
+  position: absolute;
+}
+@media only screen and (min-width: 400px) {
+  .type-538 .col-sm-6 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .type-538 .col-sm-6 {
+    width: 33.33333333%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .type-538 .col-sm-6 {
+    width: 25%;
+  }
 }
