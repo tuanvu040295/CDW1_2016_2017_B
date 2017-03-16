@@ -29,34 +29,27 @@
         <div class="type-524">
             <div class="container">
                 <div class="row">
-                    <aside>
-                        <div class="col-md-3">
-
-                            <div class="moduletable">
-                                <h4 class="moduletitle ">VM - Category</h4>
-                                <!-- BEGIN MENU CATEGORY -->
-                                <ul class="menu">
-                                    <li>
-                                        <div>
-                                            <a href="#">Electronics</a>	</div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <a href="#">Fashion</a>	</div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <a href="#">Furniture</a>	</div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <a href="#">Jewlery</a>	</div>
-                                    </li>
-                                </ul>
-                                <!-- END MENU CATEGORY -->
-                            </div>                       
-                        </div>
-                    </aside>
+                    <div class="col-md-2">
+                        <div class="moduletable">
+                            <h4 class="moduletitle ">VM - Category</h4>
+                            <!-- BEGIN MENU CATEGORY -->
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">Electronics</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fashion</a>
+                                </li>
+                                <li>
+                                    <a href="#">Furniture</a>
+                                </li>
+                                <li>
+                                    <a href="#">Jewlery</a>
+                                </li>
+                            </ul>
+                            <!-- END MENU CATEGORY -->
+                        </div>                       
+                    </div>
                 </div>
             </div>
         </div>

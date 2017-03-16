@@ -30,9 +30,9 @@
             <div class="container">
                 <div class="row">
                     <!-- BEGIN SIDEBAR RIGHT -->
-                    <aside>
-                        <div class="col-md-3">
-                            <h4 class="moduletitle">VM - Currencies Selector</h4><!-- TITLE CURRENCIES -->
+                        <div class="col-md-4">
+                            <!-- TITLE CURRENCIES -->
+                            <h4 class="moduletitle">VM - Currencies Selector</h4>
                             <!-- BEGIN CURRENCIES SELECTTOR-->
                             <div class="modulecontent">
                                 <div class="vmcurrency">
@@ -47,12 +47,12 @@
                                                 <option value="144">United States dollar $</option>
                                             </select>
                                             <input class="btn" type="submit" name="submit" value="Change">
+                                        </div>
                                     </form>
                                 </div>			
                             </div>
                             <!-- END CURRENCIES SELECTTOR-->
                         </div>
-                    </aside>
                     <!-- END SIDEBAR RIGHT -->
                 </div>
             </div>

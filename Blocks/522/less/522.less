@@ -1,55 +1,41 @@
 .type-522{
-    @font-size: 18px;
-    .title {
+    @color-gray: #cccccc;
+    .moduletitle {
+        position: relative;
+        font-size: 18px;
         color: #050505;
-    }
-    @border: 1px solid #cccccc;
-    aside figure{
-        display: block;	
-    }
-    h4 {
-        margin: 10px 0;
         font-weight: bold;
     }
-    .moduletable {
-        margin-bottom: 30px;
-    }
-    .moduletitle {
-        .title;
-        line-height: 1.4;
-        margin-bottom: 15px;
-        padding-bottom: 20px;
-        position: relative;
-        font-size: @font-size;
-    }
-    .input-append, .input-prepend {
-        display: inline-block;
-        margin-bottom: 10px;
-        font-size: 0;
-        vertical-align: middle;
-    }
-    .input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn {
-        vertical-align: top;
-        font-size: 12px;
-    }
-    .input-append .add-on, .input-prepend .add-on {
-        display: inline-block;
-        width: auto;
-        min-width: 16px;
-        padding: 4px 5px;
-        font-size: @font-size;
-        line-height: 20px;
-        text-align: center;
-        border: @border;
-    }
-    .vmcurrency select {
-        font-size: @font-size;
-    }
-    .input-medium {
-        width: 150px;
-    }
-    select {
-        border: @border;
-        height: 30px;
+    .modulecontent {
+        .vmcurrency {
+            select {
+                font-size: 18px;
+                border: 1px solid @color-gray;
+                height: 30px;
+            }
+            .input-medium {
+                
+            }
+            .input-append, .input-prepend {
+                display: inline-block;
+                margin-bottom: 10px;
+                font-size: 0;
+                vertical-align: middle;
+            }
+            .input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn {
+                vertical-align: top;
+                font-size: 12px;
+            }
+            .input-append .add-on, .input-prepend .add-on {
+                display: inline-block;
+                width: auto;
+                min-width: 16px;
+                padding: 4px 5px;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: center;
+                border: 1px solid @color-gray;
+            }
+        }
     }
 }

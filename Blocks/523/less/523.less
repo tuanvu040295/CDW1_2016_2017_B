@@ -1,16 +1,10 @@
 .type-523{
-    .title {
-        color: #050505;
-    }
-    @font-size: 18px;
-    figure aside{
-        display: block;	
-    }
+    @color-red: #DD0000;
     .sidebartitle {
-        .title;
+        color: #050505;
         line-height: 1.4;
         position: relative;
-        font-size: @font-size;
+        font-size: 18px;
         font-weight: bold;
     }
     .vmmanufacturermod .vmmanufacturer {
@@ -18,34 +12,31 @@
         padding: 0;
         list-style: none;
         position: relative;
-    }
-    .vmmanufacturermod .vmmanufacturer li {
-        float: left;
-        margin: 0 0 20px 20px;
-    }
-    li {
-        line-height: 20px;
-    }
-    .vmmanufacturermod .vmmanufacturer li a {
-        display: block;
-        width: 60px;
-        position: relative;
-        text-align: center;
-    }
-    img {
-        height: auto;
-        max-width: 100%;
-        vertical-align: middle;
-    }
-    .theHoverBorder {
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        border-radius: 2px;
-    }
-    a:hover {
-        border: 2px solid red;
+        li {
+            float: left;
+            margin: 0 0 20px 20px;
+            a {
+                display: block;
+                width: 60px;
+                position: relative;
+                text-align: center;
+            }
+            a:hover {
+                border: 2px solid @color-red;
+            }
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        .theHoverBorder {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            border-radius: 2px;
+        }
     }
 }
