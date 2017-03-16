@@ -55,12 +55,10 @@
                     </div>
                     <!--VIEW THE DENIM COLLECTION-->
                     <div class=" widget teaser">
-                        <div >
-                            <div class="teaser">
-                                <div class="image"> <img src="images/teaser.jpg" alt="VIEW THE DENIM COLLECTION" style="opacity: 1;">
-                                    <p class="title"><a href="#">VIEW THE DENIM COLLECTION</a>
-                                    </p>
-                                </div>
+                        <div class="teaser">
+                            <div class="image"> <img src="images/teaser.jpg" alt="VIEW THE DENIM COLLECTION" style="opacity: 1;">
+                                <p class="title"><a href="#">VIEW THE DENIM COLLECTION</a>
+                                </p>
                             </div>
                         </div>
                     </div>

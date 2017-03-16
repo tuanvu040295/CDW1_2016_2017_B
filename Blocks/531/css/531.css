@@ -1,18 +1,18 @@
 .type-531 .title {
   font-size: 20px;
 }
-.type-531 .carousel-inner>.item {
+.type-531 .carousel-inner .item {
   display: block;
 }
-.type-531 a {
+.type-531 .carousel-inner a {
   color: #b77a2b;
   font-size: 12px;
   text-decoration: none;
 }
-.type-531 a:hover {
+.type-531 .carousel-inner a:hover {
   color: #736d6d;
 }
-.type-531 .ie-content-metro {
+.type-531 .carousel-inner .ie-content-metro {
   top: 0;
   width: 161px;
   height: 210px;
@@ -21,30 +21,30 @@
   position: absolute;
   border: 1px #ddd solid;
 }
-.type-531 .ie-content-metro .ie-text {
+.type-531 .carousel-inner .ie-content-metro .ie-text {
   position: relative;
   top: 50%;
 }
-.type-531 .ie-content-metro:hover {
+.type-531 .carousel-inner .ie-content-metro:hover {
   opacity: .9;
   transition: all 0.4s ease-in-out;
 }
-.type-531 .ie-content-metro:hover .ie-text {
+.type-531 .carousel-inner .ie-content-metro:hover .ie-text {
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
-.type-531 h3 {
-  font-weight: bold;
-  margin: 0;
-  font-size: 15px;
-}
-.type-531 del {
+.type-531 .carousel-inner del {
   font-size: 10px;
 }
-.type-531 .price {
+.type-531 .carousel-inner .price {
   color: #736d6d;
   font-size: 18px;
 }
-.type-531 img {
+.type-531 .carousel-inner img {
   border: 1px solid #DFDCDC;
+}
+.type-531 .carousel-inner h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 15px;
 }

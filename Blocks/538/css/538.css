@@ -25,9 +25,8 @@
 .type-538 .survice .service:hover {
   border: 1px solid #ffd4a0;
   border-top-width: 14px;
-  position: absolute;
+  position: relative;
   text-align: center;
-  z-index: -1;
   transition: all ease-in-out 0.2s;
 }
 .type-538 .survice .service:hover .read-more {

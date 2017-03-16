@@ -5,27 +5,34 @@
   line-height: 36px;
 }
 .type-532 .summary .compare {
-  color: #fff;
+  color: #ffffff;
   background-color: #4F4F4F;
   padding: 10px 15px;
   text-transform: uppercase;
 }
-.type-532 .quantity {
+.type-532 .summary .quantity {
   width: 80px;
   position: relative;
 }
-.type-532 .quantity .minus {
+.type-532 .summary .quantity .minus {
   width: 25px;
   height: 25px;
   border: 1px solid #c7c0c7;
   font-size: 12px;
 }
-.type-532 .quantity .plus {
+.type-532 .summary .quantity .plus {
   position: absolute;
   width: 25px;
   height: 25px;
   border: 1px solid #c7c0c7;
   font-size: 12px;
+}
+.type-532 .summary .qty {
+  width: 32px;
+  height: 25px;
+  text-align: center;
+  top: 0;
+  left: 24px;
 }
 .type-532 a {
   text-decoration: none;
@@ -60,15 +67,8 @@
   padding: 10px 15px 10px 35px;
   background: #4f4f4f;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
-}
-.type-532 .qty {
-  width: 32px;
-  height: 25px;
-  text-align: center;
-  top: 0;
-  left: 24px;
 }
 .type-532 .row3 {
   width: 95%;

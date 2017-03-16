@@ -34,11 +34,11 @@
                                     </p>
                                 </div>
                             </div>
+                            <!--BEGIN IMAGES DETAIL PRODUCTS-->
                             <div class="row">
-                                <!--BEGIN IMAGES DETAIL PRODUCTS-->
                                 <div class="col-md-6">
                                     <div class="row">
-                                        <div class="col-md-12 large-pic">
+                                        <div class="row col-md-12 large-pic">
                                             <figure><img src="images/sp1.jpg" class="img-responsive"></figure>
                                         </div>
                                     </div>
@@ -75,7 +75,15 @@
                                             <div class="woocommerce-price-and-add group">
                                                 <div class="woocommerce-price">
                                                     <div itemprop="offers" itemscope="" itemtype="#">
-                                                        <p class="price"> <span>Price:</span><del><span class="amount"><span>£</span>400.00</span></del> <ins><span class="amount"><span>£</span>375.00</span></ins></p>
+                                                        <p class="price">
+                                                            <span>Price:</span>
+                                                            <del>
+                                                                <span class="amount"><span>£</span>400.00</span>
+                                                            </del>
+                                                            <ins>
+                                                                <span class="amount"><span>£</span>375.00</span>
+                                                            </ins>
+                                                        </p>
                                                         <meta itemprop="priceCurrency" content="GBP">
                                                         <link itemprop="availability" href="#">
                                                     </div>
@@ -87,12 +95,16 @@
                                             </div>
                                         </form>
                                         <div>
-                                            <div class="show" style="display:block"> <a href="#" rel="nofollow" data-product-id data-product-type="simple"> Add to Wishlist</a> <img src="images/wpspin_light.gif" alt="loading" width="16" height="16" style="visibility:hidden"></div>
-                                            <div style="clear:both"></div>
+                                            <div class="show">
+                                                <a href="#" rel="nofollow" data-product-id data-product-type="simple"> Add to Wishlist</a>
+                                            </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="clear"></div>
-                                        <div><a href="#" class="compare button" data-product_id rel="nofollow">Compare</a></div>
-                                        <div class="product_meta"> <span>Categories: <a href="#" rel="tag">Beds</a>, <a href="#" rel="tag">Brand 1</a>.</span></div>
+                                        <a href="#" class="compare button" data-product_id rel="nofollow">Compare</a>
+                                        <div class="product_meta">
+                                            <span>Categories: <a href="#" rel="tag">Beds</a>, <a href="#" rel="tag">Brand 1</a>.</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <!--END DESCRIPTION PRODUCTS-->

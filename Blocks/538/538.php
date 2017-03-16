@@ -23,7 +23,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 ">
                     <div class="service group service-wrapper">
                         <div class="image-wrapper    ">
-                            <img src="images/section_services_bag.png">
+                            <a href=""><img src="images/section_services_bag.png"></a>
                         </div>
                         <h4>ECOMMERCE THEME</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt […]</p>
@@ -36,7 +36,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 ">
                     <div class="service group ">
                         <div class="image-wrapper ">
-                            <img src="images/icon3.jpg">
+                            <a href=""><img src="images/icon3.jpg"></a>
                         </div>
                         <h4>PAYPAL PAYMENT</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt […]</p>
@@ -49,7 +49,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 ">
                     <div class="service group ">
                         <div class="image-wrapper ">
-                            <img src="images/icon2.jpg ">
+                            <a href=""><img src="images/icon2.jpg "></a>
                         </div>
                         <h4>FREE SHIPPING</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt […]</p>
@@ -62,7 +62,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 ">
                     <div class="service group ">
                         <div class="image-wrapper ">
-                            <img src="images/section_services_box.png ">
+                            <a href=""><img src="images/section_services_box.png "></a>
                         </div>
                         <h4>FREE BOUNUS</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt […]</p>

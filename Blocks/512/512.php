@@ -62,17 +62,23 @@
                                 <div class="clearfix"></div>
                                 <div class="row col-sm-12 product-actions buttons_2 group">
                                     <div class="acaction first wishlist">
-                                        <div class=" show" style="display:block"> <a href="#" rel="nofollow" data-product-id="139" data-product-type="simple" ><i></i>
-                                                Wishlist</a> </div>
-                                        <div class=" hide" style="display:none;"> <span class="feedback">Product added!</span> <a href="#" rel="nofollow"><i></i>
-                                                View Wishlist	 </a> </div>
-                                        <div class=" hide" style="display:none"> <span class="feedback">The product is already in the wishlist!</span> <a href="#" rel="nofollow"><i></i>
-                                                View Wishlist	 </a> </div>
-                                        <div style="clear:both"></div>
+                                        <div class=" show">
+                                            <a href="#" rel="nofollow" data-product-id="139" data-product-type="simple" ><i></i>Wishlist</a>
+                                        </div>
+                                        <div class=" hide">
+                                            <span class="feedback">Product added!</span>
+                                            <a href="#" rel="nofollow"><i></i>View Wishlist</a>
+                                        </div>
+                                        <div class=" hide">
+                                            <span class="feedback">The product is already in the wishlist!</span>
+                                            <a href="#" rel="nofollow"><i></i>View Wishlist</a>
+                                        </div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="acaction compare">
-                                        <div class=" product"> <a href="" class="compare" data-product_id="139" rel="nofollow"><i></i>Compare</a> </div>
+                                        <div class=" product">
+                                            <a href="" class="compare" data-product_id="139" rel="nofollow"><i></i>Compare</a>
+                                        </div>
                                     </div>
                                 </div>
                             </form>

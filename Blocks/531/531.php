@@ -30,7 +30,6 @@
                 <div class="col-md-12">
                     <div class="title"><h4>Related Products</h4></div>
                     <div class="row">
-                        <div class="carousel slide" >
                             <div class="carousel-inner">
                                 <!-- BEGIN ITEMS 1-->
                                 <div class="item active">
@@ -42,14 +41,8 @@
                                             <div class="ie-text">
                                                 <h3>Fantasy sofa</h3>
                                                 <span class="price">
-                                                    <del>
-                                                        <span class=" amount">
-                                                            <span >£</span>1,200.00</span>
-                                                    </del>
-                                                    <ins>
-                                                        <span class=" amount">
-                                                            <span >£</span>850.00</span>
-                                                    </ins>
+                                                    <del><span class=" amount"><span >£</span>1,200.00</span></del>
+                                                    <ins><span class=" amount"><span >£</span>850.00</span></ins>
                                                 </span>
                                             </div>
                                         </div>
@@ -66,14 +59,8 @@
                                             <div class="ie-text">
                                                 <h3>Fantasy sofa</h3>
                                                 <span class="price">
-                                                    <del>
-                                                        <span class=" amount">
-                                                            <span >£</span>1,200.00</span>
-                                                    </del>
-                                                    <ins>
-                                                        <span class=" amount">
-                                                            <span >£</span>850.00</span>
-                                                    </ins>
+                                                    <del><span class=" amount"><span >£</span>1,200.00</span></del>
+                                                    <ins><span class=" amount"><span >£</span>850.00</span></ins>
                                                 </span>
                                             </div>
                                         </div>
@@ -91,14 +78,8 @@
                                             <div class="ie-text">
                                                 <h3>Fantasy sofa</h3>
                                                 <span class="price">
-                                                    <del>
-                                                        <span class=" amount">
-                                                            <span >£</span>1,200.00</span>
-                                                    </del>
-                                                    <ins>
-                                                        <span class=" amount">
-                                                            <span >£</span>850.00</span>
-                                                    </ins>
+                                                    <del><span class=" amount"><span >£</span>1,200.00</span></del>
+                                                    <ins><span class=" amount"><span >£</span>850.00</span></ins>
                                                 </span>
                                             </div>
                                         </div>
@@ -115,14 +96,8 @@
                                             <div class="ie-text">
                                                 <h3>Fantasy sofa</h3>
                                                 <span class="price">
-                                                    <del>
-                                                        <span class=" amount">
-                                                            <span >£</span>1,200.00</span>
-                                                    </del>
-                                                    <ins>
-                                                        <span class=" amount">
-                                                            <span >£</span>850.00</span>
-                                                    </ins>
+                                                    <del><span class=" amount"><span >£</span>1,200.00</span></del>
+                                                    <ins><span class=" amount"><span >£</span>850.00</span></ins>
                                                 </span>
                                             </div>
                                         </div>
@@ -130,7 +105,6 @@
                                 </div>
                                 <!-- END ITEMS 4-->
                             </div>
-                        </div>
                     </div>
                 </div>
                 <!-- END RELATED PRODUCTS-->
