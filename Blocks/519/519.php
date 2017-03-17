@@ -18,9 +18,9 @@
 
 <body>
     <div class="container">
-        <div class="type-519">
-            <!-- START SIDEBAR -->
-            <div class="col-md-4 col-md-12 col-md-3 col-md-3">
+        <!-- START SIDEBAR -->
+        <div class="col-md-4 col-md-12 col-md-3 col-md-3">
+            <div class="type-519">
                 <div class="sidebar">
                     <!--BEST SELLERS-->
                     <div class="widget widget_best_sellers">

@@ -29,10 +29,10 @@
                         </div>
                         <div class="thumbnails">
                             <div class="row">
-                                <img src="images/awv087x08-4-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv087x08 (4)">
-                                <img src="images/awv2-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv(2)"> 
-                                <img src="images/awv087x08-4-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv(3)"> 
-                                <img src="images/awv2-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv"> 
+                                <a href=""><img src="images/awv087x08-4-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv087x08 (4)"></a>
+                                <a href=""><img src="images/awv2-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv(2)"> </a>
+                                <a href=""><img src="images/awv087x08-4-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv(3)"> </a>
+                                <a href=""><img src="images/awv2-254x357.jpg" width="79" height="79" class="thumbnailss" title="awv"> </a>
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,9 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="row col-sm-12 product-actions buttons_2 group">
-                                    <div class="acaction first wishlist">
+                                    <div class="acaction wishlist">
                                         <div class=" show">
-                                            <a href="#" rel="nofollow" data-product-id="139" data-product-type="simple" ><i></i>Wishlist</a>
+                                            <a href="#" class="wishlist" rel="nofollow" data-product-id="139" data-product-type="simple" ><i></i>Wishlist</a>
                                         </div>
                                         <div class=" hide">
                                             <span class="feedback">Product added!</span>
@@ -110,11 +110,5 @@
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/minus.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function (e) {
-            $('.thumbnailss').click(function (e) {
-                $('#main_img').attr('src', $(this).attr('src'));
-            });
-        });
-    </script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>

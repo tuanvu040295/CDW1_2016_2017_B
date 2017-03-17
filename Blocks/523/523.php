@@ -26,35 +26,35 @@
     </head>
 
     <body>
-        <div class="type-523">
-            <div class="container">
-                <div class="row">
-                    <!--SIDEBAR RIGHT-->
-                    <div class="col-md-3">
+        <div class="container">
+            <div class="row">
+                <!--SIDEBAR RIGHT-->
+                <div class="col-md-3">
+                    <div class="type-523">
                         <h2 class="sidebartitle ">VM - Manufacturer</h2>
                         <!--LIST OF MANUFACTURER-->
-                            <div class="vmmanufacturermod">
-                                <ul class="vmmanufacturer">
-                                    <li>
-                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
-                                            <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
-                                            <span class="theHoverBorder"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
-                                            <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
-                                            <span class="theHoverBorder"></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
-                                            <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
-                                            <span class="theHoverBorder"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="vmmanufacturermod">
+                            <ul class="vmmanufacturer">
+                                <li>
+                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
+                                        <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
+                                        <span class="theHoverBorder"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
+                                        <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
+                                        <span class="theHoverBorder"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
+                                        <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
+                                        <span class="theHoverBorder"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         <!--END LIST OF MANUFACTURER-->
                     </div>   
                     <!--/END SIDEBAR RIGHT-->

@@ -1,27 +1,30 @@
 .type-511{
-    .title{
-        font-size: 18px;
-        font-weight: bold;
+    @color-red: #DD0000;
+    .imgaecontent{
+        .title{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .hoverBorder{
+            position:relative;
+            display:inline-block;
+            margin-bottom:18px
+        }
+        .hoverBorder:after{
+            content:'';
+            position:absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;border-radius:3px;
+            box-shadow:inset 0 0 0 3px hsla(0,0%,100%,.15);
+        }
+        .hoverBorder:hover:after{
+            box-shadow:inset 0 0 0 5px @color-red;
+        }
+        //------------------Responsive---------------------//
     }
-    .hoverBorder{
-        position:relative;
-        display:inline-block;
-        margin-bottom:18px
-    }
-    .hoverBorder:after{
-        content:'';
-        position:absolute;
-        left:0;
-        top:0;
-        bottom:0;
-        right:0;border-radius:3px;
-        box-shadow:inset 0 0 0 3px hsla(0,0%,100%,.15);
-    }
-    .hoverBorder:hover:after{
-        box-shadow:inset 0 0 0 5px #cd2122
-    }
-    //------------------Responsive---------------------//
-    @media only screen and (max-width: 300px) {
+    @media only screen and (max-width: 320px) {
         .col-xs-4{width: 100%};
         .col-xs-5{width: 100%};
         .col-xs-3{width: 100%};

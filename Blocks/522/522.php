@@ -26,33 +26,33 @@
     </head>
 
     <body>
-        <div class="type-522">
-            <div class="container">
-                <div class="row">
-                    <!-- BEGIN SIDEBAR RIGHT -->
-                        <div class="col-md-4">
-                            <!-- TITLE CURRENCIES -->
-                            <h4 class="moduletitle">VM - Currencies Selector</h4>
-                            <!-- BEGIN CURRENCIES SELECTTOR-->
-                            <div class="modulecontent">
-                                <div class="vmcurrency">
-                                    <p>Lorem ipsum</p>
-                                    <form action="#" method="post">
-                                        <div class="input-prepend input-append">
-                                            <span class="add-on">€</span>
-                                            <select id="virtuemart_currency_id" name="virtuemart_currency_id" class="input-medium">
-                                                <option value="52">British pound £</option>
-                                                <option value="26">Canadian dollar $</option>
-                                                <option value="47" selected="selected">Euro €</option>
-                                                <option value="144">United States dollar $</option>
-                                            </select>
-                                            <input class="btn" type="submit" name="submit" value="Change">
-                                        </div>
-                                    </form>
-                                </div>			
-                            </div>
-                            <!-- END CURRENCIES SELECTTOR-->
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN SIDEBAR RIGHT -->
+                <div class="col-md-4">
+                    <div class="type-522">
+                        <!-- TITLE CURRENCIES -->
+                        <h4 class="moduletitle">VM - Currencies Selector</h4>
+                        <!-- BEGIN CURRENCIES SELECTTOR-->
+                        <div class="modulecontent">
+                            <div class="vmcurrency">
+                                <p>Lorem ipsum</p>
+                                <form action="#" method="post">
+                                    <div class="input-prepend input-append">
+                                        <span class="add-on">€</span>
+                                        <select id="virtuemart_currency_id" name="virtuemart_currency_id" class="input-medium">
+                                            <option value="52">British pound £</option>
+                                            <option value="26">Canadian dollar $</option>
+                                            <option value="47" selected="selected">Euro €</option>
+                                            <option value="144">United States dollar $</option>
+                                        </select>
+                                        <input class="btn" type="submit" name="submit" value="Change">
+                                    </div>
+                                </form>
+                            </div>			
                         </div>
+                        <!-- END CURRENCIES SELECTTOR-->
+                    </div>
                     <!-- END SIDEBAR RIGHT -->
                 </div>
             </div>

@@ -26,10 +26,10 @@
     </head>
 
     <body>
-        <div class="type-524">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="type-524">
                         <div class="moduletable">
                             <h4 class="moduletitle ">VM - Category</h4>
                             <!-- BEGIN MENU CATEGORY -->

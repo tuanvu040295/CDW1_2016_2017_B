@@ -23,8 +23,8 @@
     <body>
         <div class="type-511">
             <div class="container">
-                <!--BEGIN PREFERENTIAL BANNER-->
-                <section>
+                <div class="imgaecontent">
+                    <!--BEGIN PREFERENTIAL BANNER-->
                     <h4 class="title">SOME OF OUR LATEST OFFERS</h4>
                     <!-- BEGIN IMAGES-->
                     <div class="row">
@@ -42,8 +42,8 @@
                         </div>
                     </div>
                     <!--END IMAGES--> 
-                </section>
-                <!--END PREFERENTIAL BANNER-->
+                    <!--END PREFERENTIAL BANNER-->
+                </div>
             </div>
         </div>
     </body>
