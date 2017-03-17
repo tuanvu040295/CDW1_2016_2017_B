@@ -31,8 +31,8 @@
                             <form action="#" method="get">
                                 <div class="search">
                                     <input name="keyword" maxlength="20" alt="Search" type="text" size="20" value="Search..." onblur="if (this.value == '')
-                                                        this.value = 'Search...';" onfocus="if (this.value == 'Search...')
-                                                                    this.value = '';"></div>
+                                                this.value = 'Search...';" onfocus="if (this.value == 'Search...')
+                                                            this.value = '';"></div>
                                 <input type="hidden" name="limitstart" value="0">
                                 <input type="hidden" name="option" value="com_virtuemart">
                                 <input type="hidden" name="view" value="category">

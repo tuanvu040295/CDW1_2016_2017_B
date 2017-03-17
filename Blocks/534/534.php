@@ -166,7 +166,9 @@
                 </div>
             </div>
         </div>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
         <script src="js/menu.js" type="text/javascript"></script>
     </body>
 </html>
