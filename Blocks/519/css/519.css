@@ -1,6 +1,3 @@
-.type-519 ul li {
-  list-style: none;
-}
 .type-519 .sidebar {
   border: 3px solid #dad9d9;
   border-radius: 10px;
@@ -12,11 +9,14 @@
   color: #9A6614;
   text-decoration: none;
 }
-.type-519 .product_list_widget {
+.type-519 .sidebar ul li {
+  list-style: none;
+}
+.type-519 .sidebar .product_list_widget {
   margin-top: 15px;
   margin-left: -40px;
 }
-.type-519 .product_list_widget li {
+.type-519 .sidebar .product_list_widget li {
   padding-left: 0;
   padding-right: 0px;
   border-bottom: 1px solid #ededec;
@@ -27,30 +27,30 @@
   line-height: 1em;
   width: 100%;
 }
-.type-519 .product_list_widget li a {
+.type-519 .sidebar .product_list_widget li a {
   font-size: 13px;
   color: #4f4d4d;
   font-style: normal;
   font-weight: 400;
 }
-.type-519 .widget.widget_best_sellers li:hover {
+.type-519 .sidebar .widget.widget_best_sellers li:hover {
   border: 1px solid #e37a1c;
 }
-.type-519 .widget.widget_best_sellers li:hover .number-position {
+.type-519 .sidebar .widget.widget_best_sellers li:hover .number-position {
   background-color: #e37a1c;
 }
-.type-519 .widget.widget_best_sellers h3 {
+.type-519 .sidebar .widget.widget_best_sellers h3 {
   font-size: 16px;
   color: #5c5c5b;
   font-weight: 400;
   padding-left: 13px;
   padding-right: 13px;
 }
-.type-519 .widget.widget_best_sellers h3 span.title-highlight {
+.type-519 .sidebar .widget.widget_best_sellers h3 span.title-highlight {
   font-weight: bold;
 }
-.type-519 .widget.widget_best_sellers li a img,
-.type-519 .widget.widget_products li a img {
+.type-519 .sidebar .widget.widget_best_sellers li a img,
+.type-519 .sidebar .widget.widget_products li a img {
   float: left;
   margin: -3px 15px 10px 15px;
   padding: 2px;
@@ -59,7 +59,7 @@
   width: 71px;
   height: auto;
 }
-.type-519 .widget_best_sellers .number-position {
+.type-519 .sidebar .widget_best_sellers .number-position {
   position: absolute;
   right: 18px;
   height: 31px;
@@ -67,7 +67,7 @@
   background-color: #dad9d9;
   text-align: center;
 }
-.type-519 .widget_best_sellers .number-position p {
+.type-519 .sidebar .widget_best_sellers .number-position p {
   margin: 8px 0 0 0;
   font-size: 24px;
   color: #ffffff;
@@ -75,7 +75,7 @@
   text-align: center;
   letter-spacing: -1px;
 }
-.type-519 .dropdown_widget {
+.type-519 .sidebar .dropdown_widget {
   background-color: #FFF !important;
   border: 1px solid #E6E6E6;
   border-radius: 3px;
@@ -86,19 +86,19 @@
   text-align: center;
   display: inline;
 }
-.type-519 .teaser .image {
+.type-519 .sidebar .teaser .image {
   position: relative;
 }
-.type-519 .teaser .image img {
+.type-519 .sidebar .teaser .image img {
   border: 1px solid #dad9d9;
   padding: 3px;
   width: 100%;
   margin: 3px;
 }
-.type-519 .teaser .image a {
+.type-519 .sidebar .teaser .image a {
   color: #9A6614;
 }
-.type-519 .teaser .image .title {
+.type-519 .sidebar .teaser .image .title {
   position: absolute;
   bottom: 30px;
   background-color: rgba(255,255,255,0.9);
