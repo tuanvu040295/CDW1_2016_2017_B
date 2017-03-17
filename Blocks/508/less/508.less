@@ -1,16 +1,14 @@
 .type-508{
+    @color-background: #cd2122;
     .type-508-content{
         margin-right: auto;
         margin-left: auto;
     }
-    div{
+    .khoangcach{
         border: 0;
         font-size: 100%;
         margin: 0;
         padding: 0;
-    }
-    .row {
-        margin-bottom: 35px;
     }
     /****MODULECONTENT***/
 
@@ -18,46 +16,35 @@
         overflow: hidden;
         border-radius: 2px;
         margin-bottom: 15px;
+        .step {
+            float: left;
+            padding: 15px;
+            color: #fff;
+            font-size: 15px;
+            min-height: 240px;
+            position: relative;
+            text-align: center;
+            box-sizing: border-box;
+        }
     }
-    .process_steps .step {
-        float: left;
-        padding: 15px;
-        color: #fff;
-        font-size: 15px;
-        min-height: 240px;
-        position: relative;
-        text-align: center;
-        box-sizing: border-box;
-    }
+
     /****Step Intro****/
     .process_steps .step.intro {
-        background: #cd2122;
+        background:   @color-background;
         text-align: left;
+        h3 {
+            margin-top: 0;
+            line-height: 1.2;
+            font-weight: 500;
+            strong {
+                font-size: 120%;
+                display: block;
+            }
+        }
     }
-    .process_steps .step.intro > h3 {
-        margin-top: 0;
-        line-height: 1.2;
-        font-weight: 500;
-    }
-    h3 {
-        margin: 10px 0;
-        font-family: inherit;
-        font-weight: bold;
-        line-height: 20px;
-        color: inherit;
-        text-rendering: optimizelegibility;
-    }
-    .process_steps .step.intro > h3 strong {
-        font-size: 120%;
-        display: block;
-    }
-    p {
-        margin: 0 0 10px;
-    }
-    .process_steps .step.intro:after {
-        border-left-color: #cd2122;
-    }
-    .process_steps .step:after {
+
+    .process_steps .step
+    :after {
         content: '';
         position: absolute;
         top: 15px;
@@ -65,40 +52,42 @@
         border: 7px solid transparent;
         z-index: 1;
     }
-    .process_steps .step.intro a {
-        font-size: 11px;
-        font-weight: bold;
-        color: #eee;
-        text-decoration: none;
+    .intro{
+        :after {
+            border-left-color: @color-background;
+        }
+        a {
+            font-size: 11px;
+            font-weight: bold;
+            color: #eee;
+            text-decoration: none;
+            :hover {
+                color: #fff;
+            }
+        }
     }
-    .process_steps .step.intro a:hover {
-        color: #fff;
+    /****Step 1 2 3****/
+    .process_steps {
+        .step
+        .icon {
+            margin: 20px 0 15px;
+            min-height: 50px;
+            line-height: 50px;
+            img {
+                backface-visibility: hidden;
+            }
+        }
+        .step.step1 {
+            background: #5A5A5A;
+        }
+        .step.step2 {
+            background: #4A4A4A;
+        }
+        .step.step3 {
+            background: #3E3E3E;
+        }
     }
 
 
-    /****Step 1****/
-    .process_steps .step.step1 {
-        background: #5A5A5A;
-    }
-    .process_steps .step .icon {
-        margin: 20px 0 15px;
-        min-height: 50px;
-        line-height: 50px;
-    }
-    .process_steps .step .icon img {
-        backface-visibility: hidden;
-    }
-
-
-    /****Step 2****/
-    .process_steps .step.step2 {
-        background: #4A4A4A;
-    }
-
-
-    /****Step 3****/
-    .process_steps .step.step3 {
-        background: #3E3E3E;
-    }
 }
 
