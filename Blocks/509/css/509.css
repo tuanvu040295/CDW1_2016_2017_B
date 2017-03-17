@@ -15,11 +15,6 @@
 .type-509 .row {
   margin-bottom: 35px;
 }
-.type-509 h5.title {
-  font-weight: 500;
-  margin-top: 0;
-  text-shadow: 1px 1px 0 #fff;
-}
 .type-509 h5 {
   font-size: 14px;
   margin: 10px 0;
@@ -27,20 +22,15 @@
   color: inherit;
   text-rendering: optimizelegibility;
 }
+.type-509 h5 .title {
+  font-weight: 500;
+  margin-top: 0;
+  text-shadow: 1px 1px 0 #fff;
+}
 .type-509 .media-carousel {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
-}
-.type-509 .col-md-1 .carousel-control.left {
-  background-image: none;
-  color: #000;
-  font-weight: bold;
-}
-.type-509 .col-md-1 .carousel-control.right {
-  background-image: none;
-  color: #000;
-  font-weight: bold;
 }
 .type-509 .media-carousel .carousel-indicators {
   right: 50%;
@@ -56,6 +46,16 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+.type-509 .col-md-1 .carousel-control.left {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-509 .col-md-1 .carousel-control.right {
+  background-image: none;
+  color: #000;
+  font-weight: bold;
 }
 .type-509 .circlehover:hover {
   color: #fff;
