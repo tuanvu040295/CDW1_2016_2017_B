@@ -44,27 +44,19 @@
                         <li class="drop">
                             <a href="#">MY CART</a>
                             <div class="pPanel">
-                                <div class="inner">
-                                    <div class="vmCartModule" id="vmCartModule216">
-                                        <p class="cart_details">
-                                            <span class="total_products">Cart empty</span>
-                                            <span class="total"></span>
-                                            <a class="checkout" href="/kallyas_joomla/shop/shopping-cart"><span class=" icon-shopping-cart"></span> Show Cart</a>		</p>
-                                    </div><!-- end vmcartmodule -->
+                                <div class="inner">                  
+                                    <span>Cart empty</span>
+                                    <a href="/kallyas_joomla/shop/shopping-cart"><span class=" icon-shopping-cart"></span> Show Cart</a>		
                                 </div>
                             </div>
                         </li>
-                        <li class="languages drop">
-                            <a href="#"><span class="icon-globe icon-white"></span> LANGUAGES</a>
-                            <div class="custom ">
-                                <div class="mod-languages ">
-                                    <div class="pPanel">
-                                        <ul class="lang-inline inner">
-                                            <li dir="ltr"><a href="#"> <img src="/kallyas_joomla/media/mod_languages/images/fr.gif" alt="French (FR)" title="French (FR)"> French (FR) </a></li>
-                                            <li class="active" dir="ltr"><a href="#"> <img src="/kallyas_joomla/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)"> English (UK) </a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        <li class="drop">
+                            <a href="#"><span class="icon-globe icon-white"></span> LANGUAGES</a>               
+                            <div class="pPanel">
+                                <ul class="inner">
+                                    <li dir="ltr"><a href="#"> <img src="/kallyas_joomla/media/mod_languages/images/fr.gif" alt="French (FR)" title="French (FR)"> French (FR) </a></li>
+                                    <li class="active" dir="ltr"><a href="#"> <img src="/kallyas_joomla/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)"> English (UK) </a></li>
+                                </ul>
                             </div>
                         </li>
                     </ul><!--Top Left-->
@@ -246,7 +238,6 @@
                         </div>
                     </section><!-- end row -->
                 </div>
-                <div class="shadowUP"></div>
             </div>
             <!-------------------------------End Image----------------------------------------->
         </div>

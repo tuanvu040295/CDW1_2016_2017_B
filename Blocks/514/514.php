@@ -37,7 +37,7 @@
                         </div>
                     </section>
                     <!--SIDEBAR RIGHT-->
-                    <section class='col-md-9 sidebar-products'>
+                    <section class='col-md-10 sidebar-products'>
                         <div class="carousel slide media-carousel" id="media">
                             <div class="carousel-inner">
                                 <div class="item  active">
@@ -87,7 +87,7 @@
                     <!-----------------------------Begin Key Word---------------------------->
                     <div data-id="118">
                         <article>
-                            <div class="keywordbox">&nbsp;Just some keywords here, services or what any text you want&nbsp;</div>                       
+                            <div class="keywordbox eluidc6ed6ebf  kwd--light element-scheme--light" style="">just some keywords here, services or what any text you want</div>                       
                         </article><!-- end bghelper -->
                     </div>
                     <!----------------------------End Key Word------------------------------>

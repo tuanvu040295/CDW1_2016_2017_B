@@ -17,55 +17,57 @@
         outline: none;
     }
     img {
+        margin-top: 40px;
         height: auto;
         max-width: 100%;
         vertical-align: middle;
     }
-    .row-fluid .col-lg-7 {
+    .row-fluid {
         padding-left: 20px;
         padding-right: 20px;
     }
     #mainbody .product-page .main-data .actions {
         margin-top: 10px;
     }
-    #mainbody ul.actions {
-        float: right;
-        list-style: none;
-    }
     ul{
         font-size: 100%;
         margin: 0 0 10px 25px;
     }
-    #mainbody ul.actions  li {
-        float: left;
-        margin-left: 10px;
+    #mainbody ul.actions
+    {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 10px;
+        }
     }
     li {
         line-height: 20px;
         font-size: 100%;
+        a {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            background: rgba(0,0,0,0.4);
+            text-align: center;
+            line-height: 22px;
+            vertical-align: middle;
+            border-radius: 2px;
+            transition: all 0.2s ease-out;
+            span {
+                margin: 2px 0 0 0;
+            }
+        }
     }
-    #mainbody ul.actions > li a {
-        display: inline-block;
-        width: 22px;
-        height: 22px;
-        background: rgba(0,0,0,0.4);
-        text-align: center;
-        line-height: 22px;
-        vertical-align: middle;
-        border-radius: 2px;
-        transition: all 0.2s ease-out;
-    }
-    #mainbody ul .actions > li a > span {
-        margin: 2px 0 0 0;
+    .pdf-icon .print-icon .email-icon{
+        display: block;
     }
     .icon-file {
         background-position: -24px -24px;
     }
     .icon-white{
         background-image: url(../images/glyphicons-halflings-white.png);
-    }
-    #mainbody ul.actions > li a {
-        text-align: center;
     }
     .icon-print {
         background-position: -96px -48px;
@@ -77,22 +79,25 @@
         margin: 10px 0;
         color: inherit;
     }
-    .product-page .rating_block {
-        float: right;
-        padding: 10px;
-        background: #EEE;
-        border-bottom: 1px solid #999;
-        border-radius: 3px;
-        margin-left: 25px;
-        margin-bottom: 15px;
-    }
-    .product-page .mainprice .PricesalesPrice > span {
-        color: #CD2122;
-        font-size: 28px;
-        font-weight: bold;
-        line-height: 1;
-        display: block;
-        margin: 0 0 10px;
+    .product-page {
+        .rating_block {
+            float: right;
+            padding: 10px;
+            background: #EEE;
+            border-bottom: 1px solid #999;
+            border-radius: 3px;
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        .mainprice 
+        .PricesalesPrice > span {
+            color: #CD2122;
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 1;
+            display: block;
+            margin: 0 0 10px;
+        }
     }
     form {
         margin: 0 0 20px;
@@ -121,9 +126,5 @@
     }
     .icon-white{
         background-image: url(../images/glyphicons-halflings-white.png);
-    }
-    .nav {
-        margin-bottom: 20px;
-        list-style: none;
     }
 }

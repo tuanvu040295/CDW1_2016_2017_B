@@ -5,24 +5,14 @@
 .type-515 .clear {
   clear: both;
 }
-.type-515 div,
-.type-515 h3,
-.type-515 h4,
-.type-515 h5 {
-  border: 0;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
+.type-515 .bghelper {
+  display: block;
 }
 .type-515 img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
-}
-.type-515 .row {
-  margin-bottom: 35px;
-  margin-left: -30px;
 }
 .type-515 .row:before,
 .type-515 .row:after {
@@ -41,21 +31,9 @@
 .type-515 .span3 {
   width: 270px;
 }
-.type-515 .noGrayMargin .gray-area {
-  margin-bottom: 0;
-  padding-bottom: 20px;
-}
 .type-515 .gray-area {
   background: #ebebeb;
   padding: 30px 0 30px;
-}
-.type-515 .modulecontent > .row,
-.type-515 .modulecontent .custom > .row {
-  margin-bottom: 0;
-}
-.type-515 .shop-features .title {
-  margin: 0;
-  line-height: 1.3;
 }
 .type-515 h3,
 .type-515 h4,
@@ -67,33 +45,33 @@
   color: inherit;
   text-rendering: optimizelegibility;
 }
-.type-515 .shop-features .shop-feature:hover {
-  background: red;
-}
-.type-515 .shop-features .shop-feature {
+.type-515 .shop-feature {
   background: #969696;
   color: #fff;
   padding: 10px;
   border-radius: 3px;
 }
-.type-515 .shop-features .shop-feature a {
+.type-515 .shop-feature :hover {
+  background: red;
+}
+.type-515 .shop-feature a {
   text-decoration: none;
   color: #fff;
 }
-.type-515 .shop-features .shop-feature > img,
-.type-515 .shop-features .shop-feature a > img {
+.type-515 .shop-feature > img,
+.type-515 .shop-feature a > img {
   float: left;
   margin: 0 20px 0 0;
 }
-.type-515 .shop-features .shop-feature > h4,
-.type-515 .shop-features .shop-feature a > h4 {
+.type-515 .shop-feature > h4,
+.type-515 .shop-feature a > h4 {
   line-height: 1;
   margin: 0 0 7px;
   font-size: 18px;
   font-weight: 900;
 }
-.type-515 .shop-features .shop-feature > h5,
-.type-515 .shop-features .shop-feature a > h5 {
+.type-515 .shop-feature > h5,
+.type-515 .shop-feature a > h5 {
   line-height: 1;
   margin: 0;
   font-weight: 700;

@@ -3,7 +3,6 @@
 }
 .type-514 img {
   height: auto;
-  max-width: 100%;
   vertical-align: middle;
 }
 .type-514 h5 {
@@ -14,16 +13,11 @@
   text-rendering: optimizelegibility;
 }
 .type-514 .media-carousel {
-  margin-bottom: 0;
-  padding: 0 40px 30px 40px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 .type-514 .media-carousel li {
   background: #c0c0c0;
-}
-.type-514 .media-carousel img {
-  width: 250px;
-  height: auto;
 }
 .type-514 .control .carousel-control .prev {
   background-image: none;
@@ -37,7 +31,7 @@
   font-weight: bold;
   right: -12px !important;
 }
-.type-514 .control .carousel-control a:hover {
+.type-514 .control .carousel-control :hover {
   text-decoration: none;
   outline: 0;
 }
