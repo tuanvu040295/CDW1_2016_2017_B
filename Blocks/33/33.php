@@ -30,11 +30,11 @@
                 <!--TITLE TABS -->
                 <nav class="col-md-12">
                     <ul>
-                        <li><a href="#section-2"><span class="clicktitle">BREAKFATS</span></a></li>
-                        <li><a href="#section-3"><span class="clicktitle">DESSERT</span></a></li>
-                        <li><a href="#section-4"><span class="clicktitle">DINNER</span></a></li>
-                        <li><a href="#section-5"><span class="clicktitle">FRESHFOOD</span></a></li>
-                        <li><a href="#section-4"><span class="clicktitle">LUNCH</span></a></li>
+                        <li><a href="#section-2"><span>BREAKFATS</span></a></li>
+                        <li><a href="#section-3"><span>DESSERT</span></a></li>
+                        <li><a href="#section-4"><span>DINNER</span></a></li>
+                        <li><a href="#section-5"><span>FRESHFOOD</span></a></li>
+                        <li><a href="#section-4"><span>LUNCH</span></a></li>
                     </ul>
                 </nav>
                 <!--BEGIN CONTENT -->
@@ -283,5 +283,4 @@
         </div>
     </div>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
