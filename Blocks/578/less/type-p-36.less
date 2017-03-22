@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+body {
+
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+}
+
+.clear {
+    clear: both;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+.type-client-says-p-36{
+
+    .client-says {
+        padding-bottom: 24px;
+    }
+    .divider-circle--light {
+        margin-top: 59px;
+        border-top: 1px solid #e3e8ec;
+        border-bottom: 1px solid #e3e8ec;
+    }
+    .divider-circle {
+        position: relative;
+        padding-top: 2px;
+        border-top: 1px solid #0d1629;
+        border-bottom: 1px solid #0d1629;
+    }
+    .client-says .section-title {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        margin-top: 54px;
+        margin-bottom: 41px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .section-title .text-highlight {
+        display: block;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .text-highlight {
+        color: #7ccbfc;
+    }
+    .visible-xs {
+        display: none !important;
+    }
+    /*-- Qoutation slider -*/
+    .swiper-controls {
+        position: relative;
+        top: -75px;
+        float: right;
+        margin-bottom: -40px;
+        font-size: 0;
+    }
+    .swiper-controls .prev-arrow {
+        margin-right: 14px;
+    }
+    .swiper-controls .prev-arrow, .swiper-controls .next-arrow {
+        position: relative;
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        border: 4px solid #e8e8dd;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+    .swiper-controls .prev-arrow:before {
+        left: 7px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #e8e8dd transparent transparent;
+    }
+    .swiper-controls .next-arrow:before {
+        right: 7px;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent #e8e8dd;
+
+    }
+    .swiper-controls .prev-arrow:before, .swiper-controls .next-arrow:before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+    }
+    .swiper-controls .prev-arrow:hover, .swiper-controls .next-arrow:hover {
+        border-color: #7ccbfc;
+    }
+    .swiper-controls .prev-arrow:hover:before {
+        border-color: transparent #7ccbfc transparent transparent;
+    }
+    .swiper-controls .next-arrow:hover:before {
+        border-color: transparent transparent transparent #7ccbfc;
+    }
+
+    /* slide say*/
+    .swiper-slide-duplicate .swiper-slide-visible .swiper-slide-active{
+        width: 1170px;
+        height: 438px;
+    }
+    .qoutation-slider--higher {
+        max-height: 465px;
+    }
+    .qoutation-slider {
+        margin-top: 9px;
+        max-height: 360px;
+    }
+    .swiper-container {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        backface-visibility: hidden;
+        z-index: 1;
+    }
+    .swiper-wrapper {
+        position: relative;
+        transition-property: transform, left, top;
+        box-sizing: content-box;
+    }
+    .qoutation-slider .swiper-slide {
+        padding-left: 2px;
+    }
+    .swiper-slide {
+        float: left;
+    }
+    .client-says .client-says__item {
+        position: relative;
+        padding-bottom: 22px;
+        overflow: hidden;
+    }
+    .author__photo {
+        width: 160px;
+    }
+    .triangled-box {
+        position: relative;
+        min-height: 170px;
+        padding: 26px 25px 9px;
+        text-align: center;
+        background: #e5e5da;
+        border: 5px solid #f2f2ec;
+    }
+
+    .triangled-box:before {
+        bottom: -15px;
+        border-color: #f2f2ec transparent transparent transparent;
+    }
+
+    .triangled-box:before, .triangled-box:after {
+        content: "";
+        position: absolute;
+        right: 50%;
+        display: block;
+        width: 20px;
+        height: 10px;
+        margin-right: -10px;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+    }
+    .triangled-box:after {
+        bottom: -10px;
+        border-color: #e5e5da transparent transparent transparent;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border: 0 none;
+        vertical-align: middle;
+    }
+    .author__name {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .client-says .author__message {
+        position: relative;
+        padding-top: 12px;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 26px;
+    }
+    .client-says .client-says__item:after {
+        content: "\201C";
+        position: absolute;
+        right: 0;
+        bottom: -91px;
+        display: none;
+        font-size: 100px;
+        color: #e8e8dd;
+    }
+
+    /*di dong*/
+    @media (min-width: 480px){
+        .qoutation-slider--higher {
+            max-height: 191px;
+        }
+        .client-says .client-says__item {
+            padding-bottom: 3px;
+        }
+        .triangled-box {
+            float: left;
+        }
+        .client-says .author__message {
+            margin-left: 199px;
+        }
+
+        .triangled-box:before {
+            right: -15px;
+            border-color: transparent transparent transparent #f2f2ec;
+        }
+        .triangled-box:before, .triangled-box:after {
+            top: 70px;
+            width: 10px;
+            height: 20px;
+            margin-right: 0;
+            border-width: 10px 0 10px 10px;
+        }
+        .triangled-box:after {
+            right: -10px;
+            border-color: transparent transparent transparent #e5e5da;
+        }
+
+    }
+
+    @media (min-width: 768px){
+        .section-title {
+            margin-top: 49px;
+            margin-bottom: 47px;
+            font-size: 30px;
+            line-height: 43px;
+        }
+        .section-title .text-highlight {
+            font-size: 70px;
+        }
+        .qoutation-slider-controls {
+            top: -65px;
+        }
+        .qoutation-slider--higher {
+            max-height: 180px;
+        }
+        .client-says .client-says__item:after {
+            display: block;
+        }
+
+    }
+    @media (min-width: 992px){
+        .client-says .author__message {
+            padding-top: 30px;
+        }
+    }
+    @media (min-width: 1200px){
+        .container {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .client-says .author__message {
+            padding-top: 42px;
+        }
+    }
+    @media (max-width: 767px){
+        .qoutation-slider-controls {
+            margin-bottom: 5px;
+        }
+        .swiper-controls {
+            top: -10px;
+            float: none;
+            margin-bottom: 20px;
+        }
+        .swiper-wrapper{
+            max-height: 438px;
+        }
+
+    }
+
+}
+

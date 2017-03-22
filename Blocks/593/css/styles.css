@@ -1,0 +1,75 @@
+.type_14_ds h1 {
+  font-size: 4.4em;
+}
+.type_14_ds .sc-parallax {
+  background-attachment: fixed;
+  background-image: url(../images/v.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.type_14_ds .containerCentered {
+  -moz-box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  text-align: center;
+  position: relative;
+}
+.type_14_ds .sc-parallax h3 {
+  color: #fff;
+  font-size: 2.6em;
+}
+.type_14_ds .sc-parallax .sc-mask {
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #2C3E50;
+  z-index: -1;
+}
+.type_14_ds .sc-parallax .sc-header-sub {
+  background: none;
+  height: auto;
+  padding-top: 60px;
+  -webkit-padding-before: 100px;
+}
+.type_14_ds .sc-header-sub {
+  position: relative;
+  background: #232323;
+  padding-top: 120px;
+  -webkit-padding-before: 140px;
+  padding-bottom: 85px;
+  overflow: hidden;
+  z-index: 1;
+  height: 320px;
+}
+.type_14_ds .sc-parallax h1#changingtext {
+  background: none repeat scroll 0 0 rgba(50,50,50,0.4);
+}
+.type_14_ds h1#changingtext {
+  color: #FFFFFF;
+  display: inline-block;
+  font-weight: 400;
+  padding: 20px 30px;
+}
+.type_14_ds #changingtext span {
+  color: #34d298;
+}
+.type_14_ds h1 span {
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  .type_14_ds h1#changingtext {
+    font-size: 2.5em;
+    padding: 30px 55px;
+  }
+}
