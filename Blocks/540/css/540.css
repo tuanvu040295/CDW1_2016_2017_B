@@ -1,25 +1,25 @@
-.type-c-1 .form-login {
+.type-540 .form-login {
   padding: 1em;
   width: 50%;
 }
-.type-c-1 .dropdown {
+.type-540 .dropdown {
   position: relative;
   display: inline-block;
 }
-.type-c-1 .imlogo {
+.type-540 .imlogo {
   margin-left: AUTO;
   MARGIN-RIGHT: AUTO;
   DISPLAY: block;
 }
-.type-c-1 #free {
+.type-540 #free {
   margin-top: 32px;
   font-size: 16px;
 }
-.type-c-1 #freelog {
+.type-540 #freelog {
   margin-top: 48px;
   font-size: 16px;
   text-align: center;
 }
-.type-c-1 a {
+.type-540 a {
   color: #758991;
 }

@@ -16,20 +16,22 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-1.less', 'css/type-c-1.css');
+        $less->compileFile('less/540.less', 'css/540.css');
         ?>
-        <link href="css/type-c-1.css" rel="stylesheet" type="text/css" />
+        <link href="css/540.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-c-1">
+        <section class="type-540">
             <div class="container">
                 <div class="row">
+                    
                     <div class="col-md-4">
                         <article id="free" > <img alt="" src="images/header/freeshipping-grey-31.png" width="80%" height="100%">
                         </article> 
                     </div>
+                    
                     <div class="col-md-4">
                         <h1>
                             <a href="#" title="Headers">
@@ -37,6 +39,7 @@
                             </a>
                         </h1>
                     </div>
+                    
                     <div class="col-md-4 navbar-right">
                         <div id="freelog">
                             <div class="col-sm-4">
@@ -71,9 +74,10 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
+        </section>
         <script src="js/scripts.js" type="text/javascript"></script>
     </body>
 </html>

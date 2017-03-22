@@ -1,0 +1,179 @@
+.type-6 {
+
+    /**********************Title****************************/
+    .main-title {
+        position: relative;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        .title {
+            color: #2f2f2f;
+            font-family: script;
+            font-size: 4em;
+            font-weight: bold;
+            padding: 0;
+            line-height: 1.4;
+        }
+        .sub_title {
+            color:#d69c56;
+            font-weight: 500;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            position: relative;
+        }
+        .description {
+            color: #636363;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .main-title .sub_title:before {
+        content: '';
+        width: 100px;
+        position: relative;
+        display: inline-block;
+        height: 1px;
+        background-color: #d69c56;
+        margin-right: 10px;
+        vertical-align: middle;
+        top: -1px;
+    }
+
+
+
+    /************************slider slick************************/
+    .slick-slide {
+        height: auto;
+    }
+
+    .slz-carousel-wrapper {
+        margin-right: -15px;
+        margin-left: -15px;
+        position: relative;
+        .carousel-overflow {
+            position: relative;
+            overflow: hidden;
+        }
+        .slick-dotted.slick-slider {
+            margin-bottom: 40px;
+        }
+        .item {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+
+    .slz-block-team-05 {
+        position: relative;
+        padding-left: 60px;
+        padding-top: 25px;
+        padding-bottom: 0px;
+        .team-wrapper {
+            text-align: center;
+        }
+        .team-image {
+            position: relative;
+            overflow: hidden;
+            img{
+                position: absolute;
+                height: 100%;
+                width: auto;
+                max-width: initial;
+                margin-bottom: 0;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .team-content {
+            position: relative;
+            text-align: center;
+            display: inline-block;
+            background-color: white;
+            padding: 0 10px;
+            margin-top: 20px;
+            .title {
+                font-size: 17px;
+                font-weight: 700;
+                color: #2f2f2f;
+                text-transform: uppercase;
+            }
+            .team-position {
+                font-size: 14px;
+                position: relative;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .slz-block-team-05 .team-wrapper::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 60px;
+        left: 0px;
+        bottom: 20px;
+        border: 3px solid #a7753a;
+    }
+
+    .slz-block-team-05 .team-image::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
+
+    .slz-block-team-05 .team-content::before {
+        position: absolute;
+        content: '';
+    }
+
+    .slz-block-team-05 .team-content a.title:hover {
+        color: #a7753a;
+        text-decoration: none;
+    }
+
+    /******Slick Dots******/
+    .slz-carousel-wrapper .slick-dots {
+        padding: 0;
+        margin: 0;
+        bottom: -35px;
+        z-index: 1;
+    }
+
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slz-carousel-wrapper .slick-dots li button {
+        padding: 0;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #a7753a;
+        background-color: #a7753a;
+        opacity: 1;
+    }
+
+    .slz-carousel-wrapper .slick-dots li button:before {
+        font-size: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .slick-dots li button:before {
+        content: '';
+        background-color: #a7753a;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+    }
+
+}
