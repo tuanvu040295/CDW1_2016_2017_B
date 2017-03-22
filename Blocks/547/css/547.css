@@ -1,0 +1,33 @@
+.type-547 p {
+  margin-top: 10px;
+}
+.type-547 label {
+  font-weight: 100;
+}
+.type-547 .button {
+  margin-top: 10px;
+}
+.type-547 .widget {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.type-547 .widget .section-big-wrapper {
+  padding-bottom: 30px;
+}
+.type-547 .widget .section-big-wrapper .section-big {
+  font-size: 24px;
+  color: #758991;
+  padding-bottom: 4px;
+  margin: 4px 0 -1px 0;
+  display: inline-block;
+}
+.type-547 article {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.type-547 .sidebar {
+  float: right;
+  padding-left: 0;
+  padding-right: 40px;
+  padding-top: 20px;
+}
