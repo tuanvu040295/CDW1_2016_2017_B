@@ -1,12 +1,9 @@
-.mod_content .item {
+.type-552 .content .item {
   border-bottom: 1px solid #eee;
   padding-bottom: 40px;
   margin-bottom: 25px;
 }
-.mod_content .item:hover {
-  border-bottom: 1px solid #fd4326;
-}
-.mod_content .thumb p {
+.type-552 .content .item .thumb p {
   bottom: 10px;
   font-size: 15px;
   color: #6B6B6B;
@@ -14,26 +11,25 @@
   padding: 12px 0px;
   display: inline-block;
 }
-.mod_content .thumb p:hover {
+.type-552 .content .item .thumb p:hover {
   color: #fd4326;
 }
-.mod_content .item .price {
+.type-552 .content .item .price {
   font-size: 12px;
 }
-.mod_content .item a.btncart {
+.type-552 .content .item a.btncart {
   background: #fff;
   color: #999;
   border-radius: 100px;
   display: inline-block;
   font-size: 13px;
+  text-decoration: none;
 }
-.mod_content .icon-barr {
+.type-552 .content .item a.btncart .icon-barr {
   display: inline-block;
   font: normal normal normal 14px;
   font-size: inherit;
   text-rendering: auto;
-}
-.mod_content .item .icon-barr {
   font-size: 70px;
   background: #eee;
   height: 100px;
@@ -42,7 +38,15 @@
   line-height: 100px;
   text-align: center;
 }
-.mod_content .icon-barr:hover {
-  background: red;
+.type-552 .content .item a.btncart .icon-barr:hover {
+  background: #fd4326;
   color: #fff;
+}
+.type-552 .content .item:hover {
+  border-bottom: 1px solid #fd4326;
+}
+@media only screen and (min-with: 320px) {
+  .type-552 col-sm-6 {
+    width: 50%;
+  }
 }

@@ -14,15 +14,19 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-5.less', 'css/type-c-6.css');
+        $less->compileFile('less/544.less', 'css/544.css');
         ?>
     </head>
 
     <body>
-        <div class="container">
-            <div class="col-md-12 hidden-xs">
+        <div class="type-544">
+             <div class="container">
                 <div class="row">
-                    <a href=""><img src="images/women-dresses-6.jpg" alt="" width="100%" height="100%"/></a>
+                    <!--BEGIN IMAGE BANER -->
+                    <div class="col-md-12 hidden-xs">
+                        <a href=""><img src="images/women-dresses-6.jpg" alt="BANNER" width="100%"/></a>
+                    </div>
+                    <!--END IMAGE BANER -->
                 </div>
             </div>
         </div>
