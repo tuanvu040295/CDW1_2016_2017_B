@@ -9,7 +9,7 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/type-c-3.css" rel="stylesheet" type="text/css" />
+        <link href="css/542.css" rel="stylesheet" type="text/css" />
 
 
         <?php
@@ -17,13 +17,13 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-3.less', 'css/type-c-3.css');
+        $less->compileFile('less/542.less', 'css/542.css');
         ?>
 
     </head>
 
     <body>
-        <div class="type-c-3">
+        <div class="type-542">
             <div class="container">
                 <div class="hover13">
                     <div class="row">
@@ -72,7 +72,6 @@
                         </div>
                     </div>
                     <div class="row">
-
                         <div class="col-md-17">
                             <div class="hovereffect">
                                 <figure><a href="#"><img src="images/main/g9.jpg" alt="" width="100%" height="100%">

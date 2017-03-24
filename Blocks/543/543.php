@@ -8,21 +8,21 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/type-c-4.css" rel="stylesheet" type="text/css" />
+        <link href="css/543.css" rel="stylesheet" type="text/css" />
 
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-4.less', 'css/type-c-4.css');
+        $less->compileFile('less/543.less', 'css/543.css');
         ?>
 
         <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-c-4">
+        <div class="type-543">
             <footer id="footer" class="clearfix">
                 <div class="container">
                     <div class="row">
