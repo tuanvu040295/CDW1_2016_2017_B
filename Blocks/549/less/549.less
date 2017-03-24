@@ -1,8 +1,8 @@
-.type-c-10{
+.type-549{
     * {
         box-sizing: border-box;
     }
-    h2 {
+    .title {
         font-family: 'Source Sans Pro';
         font-size: 24px;
         margin-top: 25px;
@@ -10,10 +10,6 @@
         font-weight: 500;
         line-height: 1.1;
         display: block;
-        -webkit-margin-before: 0.83em;
-        -webkit-margin-after: 0.83em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
     }
     .panel {
         margin: 0 0 2em;
@@ -38,10 +34,6 @@
     p {
         margin: 0 0 10px;
         display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
     }
     table {
         border: 0;
@@ -59,6 +51,15 @@
         border-top: 1px dotted rgba(0,0,0,0.1);
         margin-bottom: 1.618em;
         width: 100%;
+        th {
+            line-height: 1.5;
+            border-bottom: 1px dotted rgba(0,0,0,0.1);
+            border-top: 0;
+            margin: 0;
+            width: 150px;
+            font-weight: 700;
+            padding: 8px;
+        }
     }
     tbody {
         display: table-row-group;
@@ -75,29 +76,6 @@
         vertical-align: inherit;
         text-align: left;
     }
-    table {
-        line-height: 1.5;
-        border-bottom: 1px dotted rgba(0,0,0,0.1);
-        border-top: 0;
-        margin: 0;
-        width: 150px;
-        padding: 8px;
-        font-style: italic;
-        padding: 0;
-        width: auto;
-    }
-    .shop_attributes th {
-        line-height: 1.5;
-        border-bottom: 1px dotted rgba(0,0,0,0.1);
-        border-top: 0;
-        margin: 0;
-        width: 150px;
-        font-weight: 700;
-        padding: 8px;
-    }
-    .shop_attributes th {
-        width: auto;
-    }
     td {
         font-style: italic;
         padding: 0;
@@ -105,22 +83,17 @@
         border-bottom: 1px dotted rgba(0,0,0,0.1);
         border-top: 0;
         margin: 0;
-    }
-    td {
         display: table-cell;
         vertical-align: inherit;
-    }
-    p {
-        margin: 0;
     }
     .alt {
         background: rgba(189,189,189,0.12);
     }
     #comments {
         margin-top: 25px;
-    }
-    #comments h2 {
-        clear: none;
+        .title {
+            clear: none;
+        }
     }
     #respond {
         position: static;
@@ -129,22 +102,18 @@
         padding: 0;
         background: 0 0;
         border: 0;
+        .review {
+            margin-top: 0;
+            font-size: 22px;
+        }
     }
-    .comment-respond h3 {
+    .comment-respond .review {
         margin-top: 10px;
         margin-bottom: 25px;
     }
-    #respond h3 {
-        margin-top: 0;
-        font-size: 22px;
-    }
-    h3 {
+    .review {
         font-family: 'Source Sans Pro';
         display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
         font-weight: 500;
         line-height: 1.1;
         padding-top: 15px;
@@ -196,10 +165,7 @@
         overflow: auto;
         vertical-align: top;
         margin: 0;
-        -webkit-appearance: textarea;
         background-color: white;
-        -webkit-rtl-ordering: logical;
-        -webkit-user-select: text;
         flex-direction: column;
         resize: auto;
         cursor: auto;
@@ -214,7 +180,6 @@
         text-shadow: none;
         display: inline-block;
         text-align: start;
-        -webkit-writing-mode: horizontal-tb;
     }
     #respond #commentform input {
         width: 100%;
@@ -229,10 +194,7 @@
         font-size: inherit;
         line-height: inherit;
         margin: 0;
-        -webkit-appearance: textfield;
         background-color: white;
-        -webkit-rtl-ordering: logical;
-        -webkit-user-select: text;
         cursor: auto;
         text-rendering: auto;
         color: initial;
@@ -244,7 +206,6 @@
         display: inline-block;
         text-align: start;
         font: 13.3333px Arial;
-        -webkit-writing-mode: horizontal-tb;
     }
     #review_form #respond .comment-form-email .comment-form-author {
         margin-bottom: 25px;
@@ -266,7 +227,6 @@
         border-radius: 0;
         padding: 6px 12px;
         line-height: 20px;
-        -webkit-appearance: none;
         cursor: pointer;
         text-align: center;
         width: 100%;
@@ -290,10 +250,8 @@
         border-radius: 0px;
         border-color: #a9a9a9;
         overflow: visible !important;
-        -webkit-appearance: menulist;
         box-sizing: border-box;
         white-space: pre;
-        -webkit-rtl-ordering: logical;
         color: black;
         background-color: white;
         cursor: default;
@@ -307,7 +265,6 @@
         text-shadow: none;
         text-align: start;
         font: 13.3333px Arial;
-        -webkit-writing-mode: horizontal-tb;
     }
     option {
         font-weight: normal;
@@ -330,6 +287,29 @@
         border: 1px solid #CCC;
         z-index: 9998;
         box-shadow: 0 0 10px -6px;
+        li {
+            background: #efefef;
+            color: #444;
+            border-top-color: #e0e0e0;
+            display: block;
+            padding: 5px;
+            border-top: 1px solid #FFF;
+            border-bottom: 1px solid #EEE;
+            cursor: pointer;
+            list-style: none;
+            margin: 0;
+            font-size: 12px;
+            line-height: 20px;
+            min-height: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+            line-height: 20px;
+            min-height: 20px;
+        }
     }
     selectricInput {
         position: absolute !important;
@@ -345,32 +325,7 @@
         border: none !important;
         background: none !important;
     }
-    selectricItems li {
-        background: #efefef;
-        color: #444;
-        border-top-color: #e0e0e0;
-    }
-    selectricItems li {
-        display: block;
-        padding: 5px;
-        border-top: 1px solid #FFF;
-        border-bottom: 1px solid #EEE;
-        cursor: pointer;
-        list-style: none;
-        margin: 0;
-        font-size: 12px;
-        line-height: 20px;
-        min-height: 20px;
-    }
     li {
         text-align: -webkit-match-parent;
-    }
-    selectricItems ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        font-size: 12px;
-        line-height: 20px;
-        min-height: 20px;
     }
 }

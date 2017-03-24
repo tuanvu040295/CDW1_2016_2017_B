@@ -1,4 +1,7 @@
-.type-c-9{
+.type-548{
+    @colorwhite:#fff;
+    @colorgray:#ccc;
+    
     .selected li {
         text-align: center;
     }
@@ -33,6 +36,7 @@
         color: #77a464;
         margin-top: 20px;
         font-size: 16px;
+        font-weight: bold;
     }
     .spin {
         width: 115px;
@@ -41,25 +45,23 @@
     }
     .btn-group {
         margin-top: 20px;
-    }
-    .btn-group {
         margin-left: 20px;
     }
     .article-slide .carousel-indicators {
         bottom: 0;
         left: 0;
         margin-left: 0px;
-    }
-    .article-slide .carousel-indicators li {
-        border: medium none;
-        border-radius: 0;
-        float: left;
-        height: 99px;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 5px !important;
-        margin-top: 0;
-        width: 99px;
+        li {
+            border: medium none;
+            border-radius: 0;
+            float: left;
+            height: 99px;
+            margin-bottom: 5px;
+            margin-left: 0;
+            margin-right: 5px !important;
+            margin-top: 0;
+            width: 99px;
+        }
     }
     .article-slide .carousel-indicators img {
         border: 2px solid #FFFFFF;
@@ -68,7 +70,7 @@
         left: 0;
         width: 99px;
     }
-    .article-slide .carousel-indicators .active img {
+    .article-slide .carousel-indicators .img {
         border: 1px solid #000;
         opacity: 0.7;
     }
@@ -83,63 +85,63 @@
         border-radius: 0;
         margin-bottom: 20px;
         margin-left: 30px;
-    }
-    .btn-select .btn-select-value {
-        padding: 6px 12px;
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 34px;
-        text-align: left;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        border-top: none !important;
-        border-bottom: none !important;
-        border-left: none !important;
-    }
-    .btn-select .btn-select-arrow {
-        float: right;
-        line-height: 20px;
-        padding: 6px 10px;
-        top: 0;
-    }
-    .btn-select ul {
-        display: none;
-        background-color: white;
-        color: black;
-        clear: both;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        border-top: none !important;
-        position: absolute;
-        left: -1px;
-        right: -1px;
-        top: 33px;
-        z-index: 999;
-    }
-    .btn-select ul li {
-        padding: 3px 6px;
-        text-align: left;
+        .btn-select-value {
+            padding: 6px 12px;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 34px;
+            text-align: left;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            border-top: none !important;
+            border-bottom: none !important;
+            border-left: none !important;
+        }
+        .btn-select-arrow {
+            float: right;
+            line-height: 20px;
+            padding: 6px 10px;
+            top: 0;
+        }
+        ul {
+            display: none;
+            background-color: white;
+            color: black;
+            clear: both;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-top: none !important;
+            position: absolute;
+            left: -1px;
+            right: -1px;
+            top: 33px;
+            z-index: 999;
+            li {
+                padding: 3px 6px;
+                text-align: left;
+                .selected {
+                    color: white;
+                }
+            }
+        }
     }
     .btn-select ul li:hover {
         background-color: #f4f4f4;
     }
-    .btn-select ul li.selected {
-        color: white;
-    }
     .btn-select.btn-default:hover,
         .btn-select.btn-default:active,
         .btn-select.btn-default.active {
-        border-color: #ccc;
+        border-color: @colorgray;
     }
     .btn-select.btn-default ul li.selected {
-        background-color: #ccc;
+        background-color: @colorgray;
     }
     .btn-select.btn-default ul,
     .btn-select.btn-default .btn-select-value {
         background-color: white;
-        border: #ccc 1px solid;
+        border: @colorgray 1px solid;
     }
     .btn-select.btn-default:hover,
         .btn-select.btn-default.active {
@@ -150,10 +152,10 @@
         display: inline;
         margin-left: 0 !important;
         padding: 0;
-    }
-    ul.social-network li {
-        display: inline;
-        margin: 0 5px;
+        li {
+            display: inline;
+            margin: 0 5px;
+        }
     }
     .social-network a.icoRss:hover {
         background-color: #F56505;
@@ -175,7 +177,7 @@
         .social-network a.icoTwitter:hover i,
         .social-network a.icoGoogle:hover i,
         .social-network a.icoVimeo:hover i {
-        color: #fff;
+        color: @colorwhite;
     }
     a.socialIcon:hover,
         .socialHoverClass {
@@ -185,8 +187,6 @@
         display: inline-block;
         position: relative;
         margin: 0 auto 0 auto;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
         border-radius: 50%;
         text-align: center;
         width: 50px;
@@ -201,22 +201,11 @@
     }
     .social-circle li a:hover i,
         .triggeredHover {
-        -moz-transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -ms--transform: rotate(360deg);
         transform: rotate(360deg);
-        -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        -ms-transition: all 0.2s;
         transition: all 0.2s;
     }
     .social-circle i {
-        color: #fff;
-        -webkit-transition: all 0.8s;
-        -moz-transition: all 0.8s;
-        -o-transition: all 0.8s;
-        -ms-transition: all 0.8s;
+        color: @colorwhite;
         transition: all 0.8s;
     }
     .easyzoom--with-thumbnails{
@@ -260,7 +249,7 @@
         margin: -1em 0 0 -5em;
         line-height: 2em;
         text-align: center;
-        background: #FFF;
+        background: @colorwhite;
         box-shadow: 0 0 10px #888;
     }
 
@@ -268,7 +257,7 @@
         position:absolute;
         z-index: 100;
         overflow: hidden;
-        background: #FFF;
+        background: @colorwhite;
     }
 
     /**
@@ -288,15 +277,13 @@
         overflow: hidden;
         margin: 1em 0;
         padding: 0;
-    }
-
-    .thumbnails li {
-        display: inline-block;
-    }
-
-    .thumbnails img {
-        display: block;
-        min-width: 100%;
-        max-width: 100%;
+        li {
+            display: inline-block;
+        }
+        img {
+            display: block;
+            min-width: 100%;
+            max-width: 100%;
+        }
     }
 }

@@ -14,17 +14,18 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-9.less', 'css/type-c-9.css');
+        $less->compileFile('less/548.less', 'css/548.css');
         ?>
-        <link href="css/type-c-9.css" rel="stylesheet" type="text/css" />
+        <link href="css/548.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-c-9">
+        <section class="type-548">
             <div class="container">
                 <div class="row">
-                    <div class="carousel article-slide" id="article-photo-carousel">
+                    <!-----Image----->
+                    <div class="carousel article-slide">
                         <div class="col-sm-5">
                             <div class="easyzoom easyzoom--overlay easyzoom--with-thumbnails">
                                 <a href="images/detail/hipster7.jpg">
@@ -44,11 +45,12 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div><!-----End Image----->
                     <div class="col-sm-7">
                         <div class="product-title">Jackard Dress</div>
                         <div class="product-price">$49.00</div>
                         <div class="product-desc">Nunc nec euismod ipsum. Aenean porta dignissim mi, euismod eleifend nec ultricies erat sit turpis condimentum.</div>
+                        <!----Color Dress---->
                         <div class="variations">
                             <label>COLOR</label>
                             <a class="btn btn-default btn-select">
@@ -62,9 +64,10 @@
                                     <li>White</li>
                                 </ul>
                             </a>
-                        </div>
+                        </div><!----End Color Dress---->
+                        <!----Size Dress---->
                         <div class="variations">
-                            <label1>SIZE  </label1>
+                            <label1>SIZE</label1>
                             <a class="btn btn-default btn-select">
                                 <input type="hidden" id="" name="" value="" />
                                 <span class="btn-select-value">Select an Item</span>
@@ -78,14 +81,14 @@
                             </a>
                             <div class="product-stock">In Stock</div>
                             <div class="spin">
-                                <input type="text" name="demo1" id="demo1" class="form-control" value="1" min="1" max="1000">
+                                <input type="text" name="demo1" class="form-control" value="1" min="1" max="1000">
                             </div>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-success">
+                                <button  type="button" class="btn btn-success">
                                     Add to cart 
                                 </button>
                             </div>
-                        </div>
+                        </div><!----End Size Dress---->
                         <div class="wishlist">
                             <span class="glyphicon glyphicon-plus-sign"></span>
                             <a href="#">Add to Wishlist</a>
@@ -106,7 +109,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>

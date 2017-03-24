@@ -14,15 +14,15 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-10.less', 'css/type-c-10.css');
+        $less->compileFile('less/549.less', 'css/549.css');
         ?>
-        <link href="css/type-c-10.css" rel="stylesheet" type="text/css" />
+        <link href="css/549.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
 
     </head>
 
     <body>
-        <div class="type-c-10">
+        <section class="type-549">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -34,8 +34,8 @@
                             </ul>
                             <div class="tab-content">
                                 <!---------------tab-1------------->
-                                <div class="tab-pane active" id="tab1">
-                                    <h2>Product Description</h2>
+                                <div class="tab-pane active">
+                                    <h2 class="title">Product Description</h2>
                                     <div class="panel">
                                         <div class=" col-lg-6  ">
                                             <p></p>
@@ -67,7 +67,7 @@
 
                                     <div class="panel">
 
-                                        <h2>Additional Information</h2>
+                                        <h2 class="title">Additional Information</h2>
 
                                         <table class="shop_attributes">
 
@@ -94,7 +94,7 @@
                                     <div class="panel" style="display: block;">
                                         <div id="reviews">
                                             <div id="comments">
-                                                <h2>Reviews</h2>
+                                                <h2 class="title">Reviews</h2>
                                                 <p>There are no reviews yet.</p>
                                             </div>
 
@@ -102,7 +102,7 @@
                                             <div>
                                                 <div id="review_form">
                                                     <div id="respond" class="comment-respond">
-                                                        <h3>Be the first to review “Petit Chic Coat” 
+                                                        <h3 class="review">Be the first to review “Petit Chic Coat” 
                                                             <small>
                                                                 <a rel="nofollow" href="#" style="display:none;">Cancel reply</a>
                                                             </small></h3>				
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/type-c-10-rating.js" type="text/javascript"></script>
     </body>
