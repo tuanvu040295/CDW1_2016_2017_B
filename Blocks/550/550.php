@@ -14,14 +14,14 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-11.less', 'css/type-c-11.css');
+        $less->compileFile('less/550.less', 'css/550.css');
         ?>
-        <link href="css/type-c-11.css" rel="stylesheet" type="text/css"/>
+        <link href="css/550.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-c-11">
+        <div class="type-550">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-6 col-xs-6">
@@ -47,9 +47,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/j1b.jpg" alt=""/>
-                                                </a>
+                                                <figure><a href="#" class="zoom">
+                                                        <img src="images/detail/j1b.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -62,9 +63,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/j1b.jpg" alt=""/>
-                                                </a>
+                                                <figure> <a href="#" class="zoom">
+                                                        <img src="images/detail/j1b.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -77,9 +79,11 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/j1b.jpg" alt=""/>
-                                                </a>
+                                                <figure>
+                                                    <a href="#" class="zoom">
+                                                        <img src="images/detail/j1b.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -92,9 +96,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/j1b.jpg" alt=""/>
-                                                </a>
+                                                <figure> <a href="#" class="zoom">
+                                                        <img src="images/detail/j1b.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -111,9 +116,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/style-12.jpg" alt=""/>
-                                                </a>
+                                                <figure><a href="#" class="zoom">
+                                                        <img src="images/detail/style-12.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -126,9 +132,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/style-12.jpg" alt=""/>
-                                                </a>
+                                                <figure><a href="#" class="zoom">
+                                                        <img src="images/detail/style-12.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -141,9 +148,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/style-12.jpg" alt=""/>
-                                                </a>
+                                                <figure><a href="#" class="zoom">
+                                                        <img src="images/detail/style-12.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">
@@ -156,9 +164,10 @@
                                     <div class="col-item">
                                         <div class="panel">
                                             <div class="panel-body">
-                                                <a href="#" class="zoom">
-                                                    <img src="images/detail/style-12.jpg" alt=""/>
-                                                </a>
+                                                <figure><a href="#" class="zoom">
+                                                        <img src="images/detail/style-12.jpg" alt=""/>
+                                                    </a>
+                                                </figure>
                                             </div>
                                         </div>
                                         <div class="info">

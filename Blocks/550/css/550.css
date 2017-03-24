@@ -1,0 +1,71 @@
+.type-550 .col-item {
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #FFF;
+}
+.type-550 .col-item .photo img {
+  margin: 0 auto;
+  width: 100%;
+}
+.type-550 .col-item .info {
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 1px;
+}
+.type-550 .col-item .separator {
+  border-top: 1px solid #E1E1E1;
+}
+.type-550 .col-item .separator p {
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+.type-550 .col-item .separator p i {
+  margin-right: 5px;
+}
+.type-550 .col-item .btn-add {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #E1E1E1;
+}
+.type-550 .col-item .btn-details {
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+}
+.type-550 .price-text-color {
+  color: #219FD1;
+}
+.type-550 .clear-left {
+  clear: left;
+}
+.type-550 .controls {
+  margin-top: 20px;
+}
+.type-550 [data-slide="prev"] {
+  margin-right: 10px;
+}
+.type-550 .panel {
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+}
+.type-550 .panel .panel-body {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+  height: auto;
+}
+.type-550 .panel .panel-body a img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+.type-550 .panel .panel-body a.zoom:hover img {
+  transform: scale(1.6);
+}
+.type-550 .clear {
+  clear: both;
+}
