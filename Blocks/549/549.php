@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <section class="type-549">
+        <div class="type-549">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -34,7 +34,7 @@
                             </ul>
                             <div class="tab-content">
                                 <!---------------tab-1------------->
-                                <div class="tab-pane active">
+                                <div class="tab-pane active" id="tab1">
                                     <h2 class="title">Product Description</h2>
                                     <div class="panel">
                                         <div class=" col-lg-6  ">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/type-c-10-rating.js" type="text/javascript"></script>
     </body>

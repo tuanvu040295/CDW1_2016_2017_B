@@ -51,15 +51,6 @@
   margin-bottom: 1.618em;
   width: 100%;
 }
-.type-549 .shop_attributes th {
-  line-height: 1.5;
-  border-bottom: 1px dotted rgba(0,0,0,0.1);
-  border-top: 0;
-  margin: 0;
-  width: 150px;
-  font-weight: 700;
-  padding: 8px;
-}
 .type-549 tbody {
   display: table-row-group;
   vertical-align: middle;
@@ -74,6 +65,18 @@
   display: table-cell;
   vertical-align: inherit;
   text-align: left;
+}
+.type-549 .shop_attributes th {
+  line-height: 1.5;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  border-top: 0;
+  margin: 0;
+  width: 150px;
+  font-weight: 700;
+  padding: 8px;
+}
+.type-549 .shop_attributes th {
+  width: auto;
 }
 .type-549 td {
   font-style: italic;
@@ -130,13 +133,13 @@
   width: 440px;
   max-width: 100%;
 }
-.type-549 #commentform label {
-  font-size: 14px;
-  font-weight: 400;
-}
 .type-549 .comment-form-rating label {
   float: left;
   margin-right: 14px;
+}
+.type-549 #commentform label {
+  font-size: 14px;
+  font-weight: 400;
 }
 .type-549 label {
   display: inline-block;
@@ -323,7 +326,4 @@
   outline: none !important;
   border: none !important;
   background: none !important;
-}
-.type-549 li {
-  text-align: -webkit-match-parent;
 }

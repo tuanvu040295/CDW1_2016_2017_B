@@ -51,15 +51,6 @@
         border-top: 1px dotted rgba(0,0,0,0.1);
         margin-bottom: 1.618em;
         width: 100%;
-        th {
-            line-height: 1.5;
-            border-bottom: 1px dotted rgba(0,0,0,0.1);
-            border-top: 0;
-            margin: 0;
-            width: 150px;
-            font-weight: 700;
-            padding: 8px;
-        }
     }
     tbody {
         display: table-row-group;
@@ -75,6 +66,18 @@
         display: table-cell;
         vertical-align: inherit;
         text-align: left;
+    }
+    .shop_attributes th {
+        line-height: 1.5;
+        border-bottom: 1px dotted rgba(0,0,0,0.1);
+        border-top: 0;
+        margin: 0;
+        width: 150px;
+        font-weight: 700;
+        padding: 8px;
+    }
+    .shop_attributes th {
+        width: auto;
     }
     td {
         font-style: italic;
@@ -130,14 +133,14 @@
         float: right;
         width: 440px;
         max-width: 100%;
+        label {
+            float: left;
+            margin-right: 14px;
+        }
     }
     #commentform label {
         font-size: 14px;
         font-weight: 400;
-    }
-    .comment-form-rating label {
-        float: left;
-        margin-right: 14px;
     }
     label {
         display: inline-block;
@@ -324,8 +327,5 @@
         outline: none !important;
         border: none !important;
         background: none !important;
-    }
-    li {
-        text-align: -webkit-match-parent;
     }
 }
