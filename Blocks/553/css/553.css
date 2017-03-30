@@ -1,0 +1,97 @@
+.type-553 .header {
+  border-bottom: 3px solid #E9E9E9;
+  margin: 0px 0px 50px 0px;
+}
+.type-553 .header .tieudethink {
+  height: 25px;
+}
+.type-553 .header .tieudethink strong {
+  color: #3b3b3b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.type-553 .header .sectionTitle {
+  border-bottom: 2px solid #3b3b3b;
+  width: 140px;
+  margin-bottom: -2px;
+  margin-left: -15px;
+}
+.type-553 .header .view {
+  margin-right: -15px;
+}
+.type-553 .header .view a {
+  font-size: 12px;
+  color: #6B6B6B;
+  float: right;
+  margin-top: 25px;
+}
+.type-553 .header .view a:hover {
+  text-decoration: none;
+  color: #fd4326;
+}
+.type-553 .rbprojects .caption {
+  text-align: center;
+  width: 100%;
+  padding: 19px 0 14px;
+  border-bottom: 1px solid #E9E9E9;
+  height: 71px;
+}
+.type-553 .rbprojects .caption h3 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: -1px;
+  text-transform: none;
+  margin: 0;
+}
+.type-553 .rbprojects span {
+  font-style: italic;
+  font-size: 12px;
+  color: #ACACAC;
+}
+.type-553 .rbprojects a:hover {
+  text-decoration: none;
+}
+.type-553 .rbprojects a:hover h3 {
+  color: #fd4326;
+}
+.type-553 .rbprojects a:hover .caption {
+  text-align: center;
+  padding: 29px 0 24px;
+  border-color: #fd4326;
+  background-color: #F7F7F7;
+  height: 91px;
+}
+.type-553 .rbprojects .icon-den {
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 8px;
+  background: #3b3b3b;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+}
+.type-553 .rbprojects .images {
+  opacity: 0.8;
+  transition: all 300ms cubic-bezier(0.165,0.840,0.440,1.000);
+}
+.type-553 .rbprojects .images:hover {
+  margin-top: -20px;
+  opacity: 1;
+}
+@media only screen and (min-width: 320px) {
+  .type-553 .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .type-553 .col-md-4 {
+    width: 33.33333333%;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .type-553 .col-lg-3 {
+    width: 25%;
+  }
+}
