@@ -1,0 +1,51 @@
+.type-560 .slides .title h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+.type-560 .slides .jssorb01 {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.type-560 .slides .jssorb01 div {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  filter: alpha(opacity=70);
+  opacity: .9;
+  overflow: hidden;
+  cursor: pointer;
+  border: #000000 1px solid;
+  border-radius: 8px;
+  background-color: gray;
+}
+.type-560 .slides .jssorb01 div:hover,
+.type-560 .slides .jssorb01 .jssorb01 .av:hover {
+  background-color: #d3d3d3;
+}
+.type-560 .slides .jssorb01 .av {
+  background-color: #fff;
+}
+.type-560 .slides .jssorb01 .dn,
+.type-560 .slides .jssorb01 .jssorb01 .dn:hover {
+  background-color: #555555;
+}
+.type-560 .slides .slide-images {
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.type-560 .slides .slide {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+}
