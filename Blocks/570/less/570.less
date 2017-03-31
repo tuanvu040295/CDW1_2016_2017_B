@@ -1,0 +1,87 @@
+.type-570{
+    @font-color: #fff;
+    /*----------FOOTER DARK---------*/
+    .dark_style {
+        background-color: #000;
+        .footer_widget {
+            color: #ccc;
+            a {
+                color: @font-color;
+            }
+        }
+    }
+    .footer-bottom {
+        .widget {
+            margin-bottom: 25px;
+        }
+        .footer_widget {
+            width: 33%;
+            display: table-cell;
+            padding: 25px 30px 20px 30px;
+            font: 13px 'arial', trebuchet ms;
+            line-height: 18px;
+            box-sizing: border-box;
+            margin-bottom: 25px;
+            .title {
+                margin-bottom: 22px;
+                color: @font-color;
+            }
+            p {
+                margin-bottom: 22px;
+            }
+            .widget_nav_menu ul li {
+                font-size: 13px;
+                margin-bottom: 12px;
+                position: relative;
+                margin-left: -24px;
+                list-style-type: square;
+            }
+            a {
+                text-decoration: underline;
+            }
+        }
+        .last {
+            border: 0px !important;
+        }
+    }
+    .widget:last-child {
+        border-bottom: none;
+        .title {
+            font: 700 18px/20px 'Roboto', trebuchet ms;
+            margin: 0 0 15px 0;
+        }
+    }
+    /*----------FOOTER TEXT---------*/
+    #theme_footer {
+        padding: 30px 0;
+        .left {
+            width: 100%;
+            float: left;
+            box-sizing: border-box;
+        }
+        .right {
+            width: 50%;
+            float: right;
+            text-align: right;
+            box-sizing: border-box;
+
+        }
+        .f_text {
+            font: 13px 'arial', trebuchet ms;
+        }   
+    }
+    #theme_footer.dark_style {
+        background: none #222;
+        border-top: 1px solid #4e4e4e;
+        .f_text{
+            margin-left: 29px;
+            color: @font-color;
+        }
+    }
+    @media only screen and (max-width: 479px){
+        footer#theme_footer.dark_style div.f_text {
+            padding-left: 0px;
+        }
+    }
+
+}

@@ -12,19 +12,19 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style.less', 'css/style.css');
+        $less->compileFile('less/570.less', 'css/570.css');
         ?>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/570.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type_a_4">
+        <div class="type-570">
+            <!---------BEGIN FOOTER DARK--------->
             <div class="footer-bottom dark_style">
                 <div class="container ">
                     <div class="row">
-                        
                         <div class="col-md-4 ">
                             <div class="footer_widget">
                                 <div class="widget"><div class="title">About Recash</div>			
@@ -35,7 +35,6 @@
                                 </div>
                             </div>
                         </div>
-                        
                         <div class="col-md-4  ">
                             <div class="footer_widget">
                                 <div class="widget widget_nav_menu"><div class="title">Links</div><div ><ul class="menu"><li ><a href="#">About</a></li>
@@ -45,7 +44,6 @@
                                         </ul></div></div>
                             </div>
                         </div>
-                        
                         <div class="col-md-4 ">
                             <div class="footer_widget last">
                                 <div class="widget last"><div class="title">Search</div><form role="search" method="get" action="#">
@@ -55,10 +53,12 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
+            <!---------END FOOTER DARK--------->
+
+            <!---------BEGIN FOOTER TEXT--------->
             <footer id="theme_footer" class="dark_style">
                 <div class="container ">
                     <div class="left">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </footer>
+            <!---------END FOOTER TEXT--------->
         </div>
-
     </body>
 </html>
