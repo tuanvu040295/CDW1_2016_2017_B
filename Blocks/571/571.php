@@ -12,30 +12,32 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/571.less', 'css/571.css');
         ?>
 
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/571.css" rel="stylesheet" type="text/css" />
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type_a_logo">
+        <div class="type-571">
             <header id="main_header" style="text-align: center">
                 <div class="container">
-
-                    <div class="logo-section clearfix">
+                    <div class="logo-section clearfix ">
                         <div class="row margin-header-top" >
+                            <!------BEGIN LOGO---->
                             <div class="col-md-3">
                                 <div class="logo">
                                     <div style="text-align: center">
                                         <a href="#" ><img src="images/recashlogo.png" alt="Recash test site" height="" width=""></a>
-
                                     </div>
                                 </div>
                             </div>
+                            <!------END LOGO---->
+
+                            <!------BEGIN NEAR LOGO---->
                             <div class="col-md-3" style="text-align: center">
                                 <div id="re_menu_near_logo" >
                                     <ul class="menu" >
@@ -45,6 +47,9 @@
                                     </ul>
                                 </div>
                             </div>
+                            <!------END NEAR LOGO---->
+
+                            <!------BEGIN SEARCHBOX - SUBMIT - LOGIN---->
                             <div class=" col-md-6 search-box">
                                 <div class="col-md-4">
                                     <div class="head_search">
@@ -55,25 +60,20 @@
                                         </form>
                                     </div>
                                 </div>
-                              
                                 <div class="col-md-4">
                                     <a href="#" class="wpsm-button orange medium ml5">
                                         <i class="fa fa-plus"></i>
                                         Submit a deal
                                     </a>
                                 </div>
-                                  <div class="col-md-4">
+                                <div class="col-md-4">
                                     <span class=" wpsm-button white medium" data-type="login">
                                         <i class="fa fa-sign-in"></i><span>Login / Register</span>
                                     </span>
                                 </div>
-
                             </div>
-
-
-
+                            <!------END SEARCHBOX - SUBMIT - LOGIN---->
                         </div>
-
                     </div>
                 </div>
             </header>
