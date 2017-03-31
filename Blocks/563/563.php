@@ -4,7 +4,7 @@ if (!class_exists('lessc')) {
     include ('./libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('./less/type-d-13.less', 'css/style.css');
+$less->compileFile('./less/563.less', 'css/563.css');
 ?>
 <html lang="en">
     <head>
@@ -15,20 +15,24 @@ $less->compileFile('./less/type-d-13.less', 'css/style.css');
         <title>Bootstrap 101 Template</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/563.css" rel="stylesheet" type="text/css"/>
 
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     </head>
     <body>
-        <div class="mod_k">
+        <div class="type-563">
+            <!------------BEGIN CUSTOM----------->
             <div class="container-fluid">
                 <div id="customizer">
-                    <span class="corner"><span class="cog"></span></span>
-                    
+                    <span class="corner">
+                        <span class="cog">
+                        </span>
+                    </span>
                 </div>
             </div>
+            <!------------END CUSTOM----------->
         </div>
         <script src="js/javascript.js" type="text/javascript"></script>
     </body>

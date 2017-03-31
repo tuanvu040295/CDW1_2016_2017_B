@@ -1,4 +1,4 @@
-.mod_k #customizer .corner {
+.type-563 #customizer .corner {
   width: 50px;
   height: 50px;
   background: url(../images/corner.png) no-repeat 0 0 transparent;
@@ -8,7 +8,7 @@
   display: block;
   cursor: pointer;
 }
-.mod_k #customizer .corner .cog {
+.type-563 #customizer .corner .cog {
   width: 24px;
   height: 24px;
   background: url(../images/rotating_cogs.gif) no-repeat 0 0 transparent;
