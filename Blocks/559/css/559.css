@@ -1,32 +1,32 @@
-.mod_facts .col-md-6 {
-  border-bottom: 1px solid #f2f2f2;
-  width: 50%;
-}
-.mod_facts .item h1 {
-  font-size: 12px;
-  border-bottom: 1px solid #f2f2f2;
+.type-559 .item0 h1 {
+  font-size: 15px;
+  border-bottom: 2px solid #cccccc;
   padding-bottom: 10px;
 }
-.mod_facts .item h2 {
+.type-559 .item0 h1:hover {
+  color: red;
+}
+.type-559 .item:hover {
+  color: red;
+}
+.type-559 .item h2 {
   font-size: 30px;
 }
-.mod_facts .item h3 {
+.type-559 .item h3 {
   font-size: 14px;
   margin-bottom: opx;
 }
-.mod_facts .container1 {
-  margin: 0 auto;
-  width: 110px;
-  height: 110px;
-  margin: 100px auto;
+.type-559 .container1 {
+  width: 150px;
+  margin: auto;
 }
-.mod_facts .prec {
+.type-559 .prec {
   top: 5px;
   position: relative;
   font-size: 15px;
   text-align: center;
 }
-.mod_facts .circle {
+.type-559 .circle {
   position: relative;
   top: 5px;
   left: 5px;
@@ -36,21 +36,21 @@
   border-radius: 100%;
   background-color: #E6F4F7;
 }
-.mod_facts .active-border {
+.type-559 .active-border {
   position: relative;
   text-align: center;
   width: 110px;
   height: 110px;
   border-radius: 100%;
-  background-color: #39B4CC;
+  background-color: #39b4cc;
   background-image: linear-gradient(91deg,transparent 50%,#A2ECFB 50%), linear-gradient(90deg,#A2ECFB 50%,transparent 50%);
   top: 20px;
   left: 20px;
 }
-.mod_facts .border {
+.type-559 .border {
   position: relative;
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  background-color: #39B4CC;
+  background-color: #39b4cc;
 }
