@@ -1,0 +1,101 @@
+.type-574 .benefits {
+  overflow: hidden;
+}
+.type-574 h2 {
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+}
+.type-574 .section-title {
+  margin-top: 54px;
+  margin-bottom: 41px;
+  font-size: 30px;
+  line-height: 34px;
+}
+.type-574 .section-title .text-highlight {
+  font-size: 80px;
+  display: block;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.type-574 .text-highlight {
+  color: #7ccbfc;
+}
+.type-574 .list-arrow--hover-efect {
+  display: block;
+}
+.type-574 .list-arrow {
+  margin-top: -8px;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+}
+.type-574 .list-arrow .list__item {
+  position: relative;
+  padding: 0px 5px 15px 20px;
+}
+.type-574 .list-arrow .list__item .icon-circle {
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  color: #7ccbfc;
+  border-color: #7ccbfc;
+}
+.type-574 .icon-circle--thin {
+  width: 26px;
+  height: 26px;
+  padding-top: 5px;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 2px;
+}
+.type-574 .icon-circle {
+  display: inline-block;
+  padding-top: 4px;
+  font-size: 12px;
+  text-align: center;
+  border: 3px solid #8b98b2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.type-574 .roundabout-moveable-item {
+  display: block;
+}
+.type-574 .roundabout-in-focus {
+  display: block;
+}
+.type-574 .roundabout-holder {
+  display: block;
+}
+.type-574 .roundabout-controls {
+  display: block;
+}
+.type-574 .roundabout-wrapper {
+  max-height: 510px;
+  margin-bottom: 51px;
+}
+.type-574 .roundabout {
+  height: 510px;
+  margin-top: 55px;
+  list-style: none;
+}
+.type-574 .roundabout roundabout-holder {
+  padding: 0px;
+  position: relative;
+}
+.type-574 .roundabout-slide {
+  width: 268px;
+  height: 510px;
+  cursor: url(../images/draghand.cur), w-resize;
+}
+.type-574 img {
+  max-width: 100%;
+  height: auto;
+  border: 0 none;
+  vertical-align: middle;
+}
+.type-574 a {
+  color: #7ccbfc;
+  text-decoration: none;
+}

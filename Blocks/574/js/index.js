@@ -64,3 +64,27 @@
   });
 
 }(jQuery));
+
+$  (function(){
+  // vars for testimonials carousel
+  var $  txtcarousel = $  ('.roundabout');
+  var txtcount = $  txtcarousel.children().length;
+  var wrapwidth = (txtcount * 415) + 415; // 400px width for each testimonial item
+  $  txtcarousel.css('width',wrapwidth);
+  var animtime = 750; // milliseconds for clients carousel
+  // prev & next btns for testimonials
+  $  ('.roundabout-controls').on('click', function(){
+    var $  last = $  ('.roundabout-controls li:last');
+    $  last.remove().css({ 'margin-left': '-415px' });
+    $  ('.roundabout-controls li:first').before($  last);
+    $  last.animate({ 'margin-left': '0px' }, animtime); 
+  });
+  
+  $  ('.roundabout-controls').on('click', function(){
+    var $  first = $  ('.roundabout-controls li:first');
+    $  first.animate({ 'margin-left': '-415px' }, animtime, function() {
+      $  first.remove().css({ 'margin-left': '0px' });
+      $  ('.roundabout-controls li:last').after($  first);
+    });  
+  });
+                                                                                                                                                            

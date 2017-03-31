@@ -16,17 +16,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-p-27.less', 'css/type-p-27.css');
+        $less->compileFile('less/574.less', 'css/574.css');
         ?>
-        <link href="css/type-p-27.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/574.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.roundabout.min.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <script src="js/npm.js" type="text/javascript"></script>
     </head>
 
     <body> 
-        <div class="type-benefits-p-27">
-
+        <div class="type-574">
             <section class="container benefits">
                 <div class="row">
                     <div class="col-xs-12 col-md-7">	
