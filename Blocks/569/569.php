@@ -1,5 +1,4 @@
 <html>
-
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
@@ -17,97 +16,140 @@
         ?>
         <link href="css/type_569.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type_569">
-                <div class="sidebar">
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
-                            <div class="widget widget_text">
-                                <div class="rehub_chimp centered_form">
-                                    <h3>GET THE BEST DEALS IN YOUR INBOX</h3>
-                                    <!-- Begin MailChimp Signup Form -->
-                                    <div id="mc_embed_signup">
-                                        <form action="#" method="post" name="" target="_blank" no="">
-                                            <div >
-                                                <input type="email" value="" name="EMAIL" class="email" placeholder="email address" required="">
-                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                                <div style="position: absolute; left: -5000px;">
-                                                    <input type="text" name="b_4b4bbda55bb6deb367e6f52d9_6b32851a5b" tabindex="-1" value="">
-                                                </div>
-                                                <div class="clear">
-                                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                                </div>
+        <div class="container">
+            <div class="col-md-4">
+                <div class="type_569">
+                    <!--BEGIN SIDEBAR -->
+                    <div class="sidebar">
+                        <div class="tab-content">
+                            <!--BEGIN MAILCHIMP SIGNUP FORM -->
+                            <div class="rehub_chimp centered_form">
+                                <h4>Get The Best Deals In Your Inbox</h4>
+                                <div id="mc_embed_signup">
+                                    <form action="#" method="post" name="" target="_blank" no="">
+                                        <div >
+                                            <input type="email" value="" name="EMAIL" class="email" placeholder="Email address" required="">
+                                            <div class="clear">
+                                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                                             </div>
-                                        </form>
-                                    </div>
-                                    <!--End mc_embed_signup-->
-                                    <p>Don't worry we don't spam</p>
+                                        </div>
+                                    </form>
                                 </div>
+                                <p>Don't worry we don't spam</p>
                             </div>
-                            <div class="widget buddypress widget">
+                            <!--END MAILCHIMP SIGNUP FORM -->
+                            <div class="tab_pill">
                                 <div class="title">Groups</div>
-                                <div class="item-options" id="groups-list-options">
-                                    <a href="#" >Newest</a>
-                                    <span role="separator">|</span>
-                                    <a href="#" class="selected">Active</a>
-                                    <span role="separator">|</span>
-                                    <a href="#" >Popular</a>
+                                <div id="tabs" data-tabs="tabs">
+                                    <div id="tabs" class="nav" data-tabs="tabs">
+                                        <span class="active"><a href="#newest" data-toggle="tab">Newest</a></span>
+                                        <span class="bp-separator" role="separator">|</span>
+                                        <span><a href="#active" data-toggle="tab">Active</a></span>
+                                        <span class="bp-separator" role="separator">|</span>
+                                        <span><a href="#popular" data-toggle="tab">Popular</a></span>
+                                    </div>
                                 </div>
-                                <ul id="groups-list" class="item-list">
-                                    <li class="odd">
-                                        <div class="item-avatar">
-                                            <a href="#" title="Green Food"><img src="images/1a.jpg" alt=""/></a>
-                                        </div>
-                                        <div class="item">
-                                            <div ><a href="#">Green Food</a></div>
-                                            <span>active 1 day, 17 hours ago</span>
-                                        </div>
-                                    </li>
-                                    <li class="even">
-                                        <div class="item-avatar">
-                                            <a href="#" title="Body Health"><img src="images/2a.png" alt=""/></a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="#">Body Health</a>
-                                            <span >active 1 day, 18 hours ago</span>
-                                        </div>
-                                    </li>
-                                    <li class="odd">
-                                        <div class="item-avatar">
-                                            <a href="#"><img src="images/3a.png" alt=""/></a>
-                                        </div>
-                                        <div class="item">
-                                            <div ><a href="#">Bath &amp; Wash</a></div>
-                                            <span >active 3 days, 20 hours ago</span>
-                                        </div>
-                                    </li>
-                                    <li class="even">
-                                        <div class="item-avatar">
-                                            <a href="#"><img src="images/4a.png" alt=""/></a>
-                                        </div>
-                                        <div class="item">
-                                            <div ><a href="#">Sunshine</a></div>
-                                            <span >active 4 days, 15 hours ago</span>
-                                        </div>
-                                    </li>
-                                    <li class="odd">
-                                        <div class="item-avatar">
-                                            <a href="#" ><img src="images/5a.jpg" alt=""/></a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="#">Tooth for tooth</a>
-                                            <span>active 4 days, 15 hours ago</span>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <!--BEGIN TAB CONTENT-->
+                                <div id="my-tab-content" class="tab-content">
+                                    <!--NEWEST-->
+                                    <div class="tab-pane active" id="newest">
+                                        <ul>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--ACTIVE-->
+                                    <div class="tab-pane" id="active">
+                                        <ul>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/2a.png" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/2a.png" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--POPULAR-->
+                                    <div class="tab-pane" id="popular">
+                                        <ul>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item-avatar">
+                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                </div>
+                                                <div class="item">
+                                                    <div ><a href="#">Green Food</a></div>
+                                                    <h5>active 1 day, 17 hours ago</h5>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--END TAB CONTENT-->
                             </div>
                         </div>
                     </div>
+                    <!--END SIDEBAR -->
                 </div>
             </div>
+        </div>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
-
 </html>
