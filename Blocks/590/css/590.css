@@ -1,0 +1,24 @@
+.type-590 p {
+  margin: 0;
+  float: left;
+  margin-top: 18px;
+  color: #cdcdce;
+}
+.type-590 .link {
+  color: #cdcdce;
+}
+.type-590 .fa {
+  font-size: 50px;
+  float: right;
+}
+.type-590 footer {
+  padding: 17px 0;
+  color: white;
+  background-color: black;
+}
+.type-590 footer a {
+  color: white;
+}
+.type-590 footer a:hover {
+  color: white;
+}

@@ -19,50 +19,25 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style1.less', 'css/stylee.css');
+        $less->compileFile('less/590.less', 'css/590.css');
         ?>
-        <link href="css/stylee.css" rel="stylesheet" type="text/css"/>
+        <link href="css/590.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
     <body>
-        <div class="type_43">
-            <!--menu-->
-            
-            <!--endmenu-->
-
-            <!--body-->
-
-            <div class="ds">
-                
-
-                
-                
-                
-
-                
-
-
-                
+        <div class="type-590">
                 <footer>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <p style="margin: 0;float: left;margin-top: 18px;color: #cdcdce;"> © 2016 BeTheme. All Rights Reserved. <a href="#">Muffin group</a></p>
-
-                                <a href="#"><i class="fa fa-angle-up" aria-hidden="true" style="font-size: 50px;float: right;"></i></a>
+                                <p> © 2016 BeTheme. All Rights Reserved.<a class="link" href="#">Muffin group</a></p>
+                                <a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
                 </footer>
-            </div>
-
-
         </div>
-        <!--endbody-->
-
-
-
     </div>
 </body>
 </html>
