@@ -14,16 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-p-36.less', 'css/type-p-36.css');
+        $less->compileFile('less/578.less', 'css/578.css');
         ?>
-        <link href="css/type-p-36.css" rel="stylesheet" type="text/css"/>
+        <link href="css/578.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/swiper.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-client-says-p-36">
+        <div class="type-578">
             <section class="container client-says">
                 <div class="row"> 
                     <div class="col-sm-12">
@@ -115,8 +115,8 @@
                                 prevButton: '.prev-arrow'
                             });
                         </script>
-
                     </div>
+                </div>
             </section>
 
         </div>
