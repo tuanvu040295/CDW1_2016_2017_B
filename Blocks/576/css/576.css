@@ -1,0 +1,58 @@
+.type-576 .main-nav {
+  height: 82px;
+  background: #212c43;
+}
+.type-576 .main-nav .logo-text {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-576 .main-nav .logo-text a {
+  text-decoration: none;
+}
+.type-576 .main-nav .pull-right {
+  border-radius: none;
+}
+.type-576 .main-nav .pull-right li {
+  position: relative;
+  padding: 0;
+  line-height: 20px;
+  float: left;
+  min-height: 36px;
+  border: none;
+  display: block;
+}
+.type-576 .main-nav .pull-right li a {
+  color: #fff;
+  display: block;
+  padding: 7px 0 8px;
+  padding: 31px 16px 27px;
+  text-decoration: none;
+}
+.type-576 .main-nav .pull-right li a:hover {
+  color: #7ccbfc;
+  border-bottom: 2px solid #7ccbfc;
+  text-decoration: none;
+}
+.type-576 .main-nav .pull-right li .dropdown-menu {
+  border-radius: none;
+  background-color: #3c4b6b;
+  padding: 0px 10px 0px 10px;
+}
+.type-576 .main-nav .pull-right li .dropdown-menu li {
+  width: 100%;
+  padding: 7px 0 8px;
+  border-bottom: 1px solid #1b253b;
+}
+.type-576 .main-nav .pull-right li .dropdown-menu li a {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+}
+.type-576 .main-nav .pull-right li .dropdown-menu li a:hover {
+  color: #7ccbfc;
+  background-color: #3c4b6b;
+}
+.type-576 .main-nav .pull-right .active-item a {
+  color: #7ccbfc;
+}
