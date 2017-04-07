@@ -1,0 +1,314 @@
+.type-579 .divided-section {
+  position: relative;
+}
+.type-579 .divided-section .divider-circle {
+  margin-top: 39px;
+}
+.type-579 .divider-circle--light {
+  margin-top: 59px;
+  border-top: 1px solid #e3e8ec;
+  border-bottom: 1px solid #e3e8ec;
+}
+.type-579 .divider-circle {
+  position: relative;
+  padding-top: 2px;
+}
+.type-579 .divider-circle--light:before {
+  top: -9px;
+  background: #e3e8ec;
+  border: solid 3px #fff;
+}
+.type-579 .divider-circle:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  border-radius: 50%;
+}
+.type-579 .divider-vertical {
+  position: absolute;
+  z-index: 100;
+  top: 40px;
+  bottom: 25px;
+  left: 50%;
+  width: 1px;
+  background: #e3e8ec;
+}
+.type-579 .divided-section .section-title {
+  margin-top: 52px;
+}
+.type-579 .section-title--smaller {
+  margin-top: 61px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 31px;
+}
+.type-579 .section-title--smaller .text-highlight {
+  font-size: 40px;
+  color: #7ccbfc;
+  text-transform: uppercase;
+}
+.type-579 .section-title .text-highlight {
+  display: block;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.type-579 .post--latest .post__image {
+  max-width: 170px;
+  margin-right: 20px;
+  margin-bottom: 13px;
+}
+.type-579 .post .post__image {
+  border: 5px solid #e5e5da;
+}
+.type-579 img {
+  max-width: 100%;
+  height: auto;
+  border: 0 none;
+  vertical-align: middle;
+}
+.type-579 .post--latest .post__title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 41px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #212c43;
+}
+.type-579 .post--latest .post__date {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999fad;
+  text-transform: uppercase;
+}
+.type-579 .post--latest .post__text {
+  margin-bottom: 34px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999fad;
+}
+.type-579 .post--latest .icon-circle {
+  position: relative;
+  top: 1px;
+  left: 10px;
+  color: #212c43;
+  border-color: #212c43;
+  border: 2px solid #212c43;
+}
+.type-579 .icon-circle--small {
+  width: 20px;
+  height: 20px;
+  padding-top: 3px;
+  font-size: 10px;
+  line-height: 10px;
+  border: 2px solid #212c43;
+}
+.type-579 .icon-circle {
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+}
+.type-579 .post--latest:hover .icon-circle {
+  color: #7ccbfc;
+  border-color: #7ccbfc;
+}
+.type-579 .divider-simple {
+  height: 1px;
+  width: 100%;
+  background: #e3e8ec;
+}
+.type-579 .visible-xs {
+  display: none !important;
+}
+.type-579 .post__more {
+  margin-left: 1px;
+}
+.type-579 .choose-us .accordion {
+  max-width: 540px;
+  min-height: 225px;
+  margin-bottom: 26px;
+}
+.type-579 .accordion .panel {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.type-579 .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+}
+.type-579 .accordion .panel {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.type-579 .accordion .panel-default > .panel-heading {
+  background: transparent;
+}
+.type-579 .accordion .panel-heading {
+  position: relative;
+  padding: 1px 0 3px;
+}
+.type-579 .accordion .panel-title > a.collapsed {
+  color: #212c43;
+}
+.type-579 .accordion .panel-title > a {
+  display: inline-block;
+  width: 100%;
+  padding: 2px 0 3px 34px;
+  font-weight: bold;
+  color: #7ccbfc;
+}
+.type-579 .accordion--secondary .panel-heading {
+  border: 3px solid #f3f5f7;
+  border-radius: 0px;
+  overflow: hidden;
+}
+.type-579 .accordion--secondary .panel-title > a.collapsed {
+  color: #212c43;
+}
+.type-579 .accordion--secondary .panel-title > a {
+  padding-top: 1px;
+  padding-left: 42px;
+  font-size: 12px;
+}
+.type-579 .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+}
+.type-579 .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.type-579 .accordion .marker {
+  position: absolute;
+  left: 0;
+  display: block;
+  border: 2px solid;
+  border-radius: 50%;
+}
+.type-579 .accordion .marker:before {
+  width: 8px;
+  height: 2px;
+  margin-top: -1px;
+  margin-left: -4px;
+  background: #7ccbfc;
+}
+.type-579 .accordion .collapsed .marker {
+  color: #212c43;
+}
+.type-579 .accordion .collapsed .marker:before,
+.type-579 .accordion .collapsed .marker:after {
+  background: #212c43;
+}
+.type-579 .accordion--secondary .marker {
+  top: 0px;
+  width: 27px;
+  height: 100%;
+  background: #f3f5f7;
+  border: 0;
+  border-radius: 0px;
+}
+.type-579 .accordion--secondary .marker:before {
+  width: 10px;
+  margin-top: -1px;
+  margin-left: -7px;
+}
+.type-579 .accordion .marker:before,
+.type-579 .accordion .marker:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+}
+.type-579 .accordion--secondary .marker:after {
+  height: 10px;
+  margin-top: -5px;
+  margin-left: -3px;
+}
+.type-579 .accordion .marker:after {
+  width: 2px;
+  height: 8px;
+  margin-top: -4px;
+  margin-left: -1px;
+  background: transparent;
+}
+.type-579 .accordion .panel-default > .panel-heading + .panel-collapse .panel-body {
+  border: 0;
+}
+.type-579 .accordion--secondary .panel-collapse .panel-body {
+  padding: 13px 0 14px 44px;
+}
+.type-579 .accordion .panel-collapse .panel-body {
+  font-size: 12px;
+  line-height: 20px;
+}
+.type-579 .accordion--secondary .panel.panel-default + .panel {
+  margin-top: 1px;
+}
+.type-579 .divider-circle-margin {
+  margin-top: 26px;
+  margin-bottom: 25px;
+}
+@media (min-width: 480px) {
+  .type-579 .post--latest .post__image {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .type-579 .section-title--smaller {
+    margin-top: 61px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 31px;
+  }
+  .type-579 .section-title--smaller .text-highlight {
+    font-size: 40px;
+  }
+  .type-579 .choose-us {
+    padding-left: 47px;
+  }
+  .type-579 .accordion {
+    min-height: 258px;
+  }
+}
+@media (min-width: 992px) {
+  .type-579 .accordion {
+    min-height: 238px;
+  }
+}
+@media (min-width: 1200px) {
+  .type-579 .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .type-579 .post--latest .post__description {
+    margin-left: 200px;
+  }
+  .type-579 .post--latest .post__title {
+    margin-bottom: 13px;
+  }
+  .type-579 .post--latest .post__date {
+    margin-bottom: 22px;
+  }
+  .type-579 .hidden-lg {
+    display: none !important;
+  }
+  .type-579 .accordion {
+    min-height: 218px;
+  }
+}
+@media (max-width: 767px) {
+  .type-579 .visible-xs {
+    display: block !important;
+  }
+}

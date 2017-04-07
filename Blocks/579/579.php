@@ -14,16 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-p-36.less', 'css/type-p-36.css');
+        $less->compileFile('less/579.less', 'css/579.css');
         ?>
-        <link href="css/type-p-36.css" rel="stylesheet" type="text/css"/>
+        <link href="css/579.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     </head>
 
     <body>
-        <div class="type-divided-section-p-36">
+        <div class="type-579">
             <section class="container divided-section">
                 <div class="divider-circle divider-circle--light"></div>
                 <div class="divider-vertical hidden-xs"></div>
