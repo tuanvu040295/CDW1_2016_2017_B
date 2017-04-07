@@ -12,19 +12,18 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/565.less', 'css/565.css');
         ?>
 
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/565.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type_a_2_chitiet_1">
+        <section class="type-565">
             <div class="content">
                 <div class="clearfix">
-
 
                     <div class="main-side single clearfix">
                         <article class="post" >
@@ -177,7 +176,6 @@
                                 <h4>
                                     <a href="#" title="Posts by u8tgk" rel="author">u8tgk</a> <span class="rh-user-rank-mc rh-user-rank-259">
                                         PRO </span>
-
                                 </h4>
                                 <div class="social_icon">
                                     <div >
@@ -193,7 +191,7 @@
 
                 </div>
             </div>
-        </div>
+        </section>
+        
     </body>
-
 </html>

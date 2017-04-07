@@ -1,4 +1,8 @@
 .type-564{
+    
+    @color_fff: #FFF;
+    @color_ddd: #ddd;
+    
     .mod{
         width:100%;
         overflow:hidden;
@@ -12,7 +16,7 @@
             }
         }
         .content {  
-            background: #fff;
+            background: @color_fff;
             padding: 30px 35px;   
             clear: both;
             margin-top: 34px;
@@ -20,7 +24,7 @@
             margin-left:0;
             overflow:hidden;
             box-sizing:border-box;
-            .slidebar-1{
+            .slidebar-1 {
                 width:100%;
                 overflow:hidden;
                 box-sizing:border-box;
@@ -60,7 +64,7 @@
                         color: #fcf8e3;
                         cursor: default;
                         background-color: #080808;
-                        border: 1px solid #ddd;
+                        border: 1px solid @color_ddd;
                         border-bottom-color: transparent;
                         font: bold 14px/16px Arial;
                     }
@@ -87,7 +91,7 @@
                                     a{
                                         display: block;
                                         padding: 12px 20px;
-                                        background-color: #FFF;
+                                        background-color: @color_fff;
                                         border-bottom: 1px solid #EDEDED;
                                         transition: opacity 0.3s, transform 0.3s;
                                         font: normal 14px/16px Arial;
@@ -201,8 +205,8 @@
     }
     .nav {
         .open>a, .nav .open>a:focus, .nav .open>a:hover {
-            background-color: #fff;
-            border-color: #fff;
+            background-color: @color_fff;
+            border-color: @color_fff;
         }
     }
     .dropdown-menu multi-level{
@@ -218,13 +222,13 @@
     }
     span.active.re_filtersort_btn{
         background: #000000 !important;
-        color: #fff !important;
+        color: @color_fff !important;
     }
     .nav-tabs>li.active>a:hover {
         color: white;
         cursor: default;
         background-color: black;
-        border: 1px solid #ddd;
+        border: 1px solid @color_ddd;
         border-bottom-color: transparent;
         font: bold 14px/16px Arial;
     }
@@ -232,7 +236,7 @@
         color: white;
         cursor: default;
         background-color: black;
-        border: 1px solid #ddd;
+        border: 1px solid @color_ddd;
         border-bottom-color: transparent;
         font: bold 14px/16px Arial;
     }
@@ -248,7 +252,7 @@
         opacity: 0.75;
     }
     .offer_grid {
-        background-color: #fff;
+        background-color: @color_fff;
         figure {
             white-space: nowrap;
             position: relative;
@@ -315,7 +319,7 @@
         z-index: 1;
         margin: 0;
         background: #77b21d;
-        color: #fff;
+        color: @color_fff;
     }
 
     .offer_grid .offer_thumb:before, .offer_grid figure:before {
@@ -478,7 +482,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        border-left: 1px solid #fff;
+        border-left: 1px solid @color_fff;
         z-index: 2;
         .btn_act_for_grid {
             background-color: #f4f3f3;
@@ -487,11 +491,11 @@
             line-height: 38px;
             color: #656d78;
             text-align: center;
-            text-shadow: 0 1px 0 #fff;
+            text-shadow: 0 1px 0 @color_fff;
             display: block;
             padding: 0;
-            border-right: 1px solid #fff;
-            border-bottom: 1px solid #fff;
+            border-right: 1px solid @color_fff;
+            border-bottom: 1px solid @color_fff;
             box-sizing: border-box;
             position: relative;
             font-size: 14px;
@@ -503,7 +507,7 @@
     .re_actions_for_grid .btn_act_for_grid {
         color: #656d78;
         text-align: center;
-        text-shadow: 0 1px 0 #fff;
+        text-shadow: 0 1px 0 @color_fff;
     }
     .table_cell_thumbs {
         overflow: hidden;
@@ -531,7 +535,7 @@
     .thumbplus:hover {
         background-color: #67a827;
         border: 1px solid #67a827;
-        color: #fff;
+        color: @color_fff;
     }
     .thumbplus:before {
         font-family: FontAwesome;
@@ -608,7 +612,7 @@
     }
     .thumbminus:hover {
         background-color: #d10000;
-        color: #fff;
+        color: @color_fff;
         border: 1px solid #d10000;
     }
     .thumbminus:before {
@@ -664,7 +668,7 @@
         pointer-events: none;
         span {
             font: bold 10px/28px Arial;
-            color: #FFF;
+            color: @color_fff;
             text-transform: uppercase;
             text-align: center;
             width: 125px;
@@ -747,7 +751,7 @@
 
         .navbar-inverse .navbar-brand {
             font-weight: bold;
-            color: #fff;
+            color: @color_fff;
             margin-left: 10px;
             margin-top: 10px;
         }
@@ -840,7 +844,7 @@
         }
         .navbar-inverse .navbar-brand {
             font-weight: bold;
-            color: #fff;
+            color: @color_fff;
             margin-left: 10px;
             margin-top: 10px;
         }
@@ -953,7 +957,7 @@
         }
         .navbar-inverse .navbar-brand {
             font-weight: bold;
-            color: #fff;
+            color: @color_fff;
             margin-left: 10px;
             margin-top: 10px;
         }
