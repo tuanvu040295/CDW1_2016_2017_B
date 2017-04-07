@@ -95,7 +95,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-sm-8 col-xs-12 newscom_detail">
+                                    <div class="col-md-9 col-sm-9 col-xs-12 newscom_detail">
                                         <span class="table_cell_hot">
                                             <span class="temperatur">
                                                 <i class="fa fa-fire"></i> 155<span class="gradus_icon"></span>
@@ -141,7 +141,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-sm-8 col-xs-12 newscom_detail">
+                                    <div class="col-md-9 col-sm-9 col-xs-12 newscom_detail">
                                         <span class="table_cell_hot">
                                             <span class="temperatur">
                                                 <i class="fa fa-fire"></i> 155<span class="gradus_icon"></span>
