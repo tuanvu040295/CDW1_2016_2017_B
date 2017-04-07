@@ -5,29 +5,24 @@
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/564.less', 'css/564.css');
         ?>
-
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/564.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="type_a_2">
-
+        <section class="type-564">
             <div class="mod">
                 <div class="content no_shadow">
                     <!-- Main Side -->
-
                     <!-- CONTENT -->
                     <div class="slidebar-1">
-
                         <div class="re_filter_panel">
                             <ul class="nav nav-tabs">
                                 <li class="active">
@@ -51,28 +46,23 @@
                                     </a>
                                 </li>
                                 <li class="menu-last-right">
-                                    <a data-toggle="tab" href="#">
-                                        <div class="dropdown">
-                                            <a role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/page.html">
-                                                Choose Category<span ><i class="fa fa-plus" aria-hidden="true"></i>
-                                                </span>
-
-                                            </a>
-                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                <li class="rh_drop_item"><a href="#">Baby&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                                <li class="rh_drop_item"><a href="#">Bath&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                                <li class="rh_drop_item"><a href="#">Body&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                                <li class="rh_drop_item"><a href="#">Face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                                <li class="rh_drop_item"><a href="#">Green Food&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                                <li class="rh_drop_item"><a href="#">Oral Care&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                                            </ul>
-                                        </div>
-                                    </a>
+                                    <div class="dropdown">
+                                        <a role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/page.html">
+                                            Choose Category<span ><i class="fa fa-plus" aria-hidden="true"></i>
+                                            </span>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                            <li class="rh_drop_item"><a href="#">Baby&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                            <li class="rh_drop_item"><a href="#">Bath&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                            <li class="rh_drop_item"><a href="#">Body&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                            <li class="rh_drop_item"><a href="#">Face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                            <li class="rh_drop_item"><a href="#">Green Food&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                            <li class="rh_drop_item"><a href="#">Oral Care&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
-
                         </div>
-
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
                                 <div class="eq_grid post_eq_grid rh-flex-eq-height col_wrap_three">
@@ -123,14 +113,14 @@
                                                             <button class="thumbplus alreadyhot" alt="Vote up" title="Vote up" data-post_id="176" data-informer="463"></button>
                                                             <button class="thumbminus alreadyhot" alt="Vote down" title="Vote down" data-post_id="176" data-informer="463"></button> </span>
                                                         <span class="thumbscount">293</span>
-
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="btn_act_for_grid">
                                                 <span class="comm_number_for_grid">7</span>
                                             </div>
-                                        </div> </article>
+                                        </div>
+                                    </article>
                                     <article class="col_item offer_grid offer_grid_com offer_act_enabled">
                                         <div class="info_in_dealgrid">
                                             <figure>
@@ -311,7 +301,6 @@
                                                             <img src="images/omg.jpg" class=" photo" width="22" height="22" alt="Profile photo of u8tgk"> </a>
                                                     </div>
                                                 </div>
-
                                                 <h3 class=" hoticonfireclass" style="min-height: 54px;"><a href="#">LUMBABACK best sport bandage deal</a></h3>
                                             </div>
                                         </div>
@@ -376,7 +365,6 @@
                                         <div class="meta_for_grid">
                                             <div class=" floatleft">
                                                 <div >
-
                                                     <span class="cat_link_meta"><a href="#" class="cat">Baby</a></span>
                                                 </div>
                                                 <div class="store_for_grid">
@@ -461,7 +449,6 @@
                                             <div >
                                                 <div class="price_row_grid">
                                                     <div class=" floatleft">
-
                                                         <div class="priced_block clearfix">
                                                             <p>
                                                                 <span class="price_count">
@@ -626,7 +613,6 @@
                                             <div >
                                                 <div class="price_row_grid">
                                                     <div class=" floatleft">
-
                                                         <div class="priced_block clearfix">
                                                             <p>
                                                                 <span class="price_count">
@@ -678,7 +664,6 @@
                                             <div >
                                                 <div class="price_row_grid">
                                                     <div class=" floatleft">
-
                                                         <div class="priced_block clearfix">
                                                             <p>
                                                                 <span class="price_count">
@@ -843,7 +828,6 @@
                                             <div >
                                                 <div class="price_row_grid">
                                                     <div class=" floatleft">
-
                                                         <div class="priced_block clearfix">
                                                             <p>
                                                                 <span class="price_count">
@@ -941,11 +925,8 @@
                         </div>
                     </div>
                     <!-------------------------------------nguyen ------------------------------------------>
-
-
                 </div>
             </div>
-        </div>
-
+        </section>
     </body>
 </html>
