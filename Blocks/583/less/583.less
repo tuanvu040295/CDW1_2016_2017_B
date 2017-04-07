@@ -1,4 +1,19 @@
-.custom-25-chitiet2{
+@media only screen and (max-width: 961px){
+    .type-583 {
+        padding: 0px 60px 15px;
+    }
+}
+@media only screen and (min-width: 1040px){
+    .type-583 {
+        padding: 0px 60px 15px;
+    }
+}
+@media only screen  and (max-width: 1030px) and (min-width:961px){
+    .type-583 {
+        padding: 0px 0px 15px;
+    }
+} 
+.type-583{
     a, a:visited, a:focus {
         text-decoration: none;
         outline: 0;
@@ -38,12 +53,14 @@
     .section.no-margin .column, .section.no-margin-v .column {
         margin-bottom: 0;
     }
-    .no-margin-h .one-fifth.column {
-        width: 20%;
-    }
-    .no-margin-h .column {
-        margin-left: 0;
-        margin-right: 0;
+    .no-margin-h {
+        .one-fifth.column {
+            width: 20%;
+        }
+        .column {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
     .one-fifth.column {
         width: 18%;
@@ -54,6 +71,15 @@
     }
     .hover_color{
         background:#5373d2;
+        border-color: transparent;
+        .hover_color_bg {
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            border: 2px solid transparent;
+        }
+        a {
+            display: block;
+        }
     }
     .hover_color_bg{
         background:#2f4bc3;
@@ -63,26 +89,6 @@
     }
     .hover_color, .hover_color a, .hover_color a:hover, .hover_color h1 a, .hover_color h2 a, .hover_color h3 a, .hover_color h4 a, .hover_color h5 a, .hover_color h6 a {
         color: #fff;
-    }
-    .hover_color {
-        border-color: transparent;
-    }
-    .hover_color .hover_color_bg {
-        -webkit-transition: all .4s ease-in-out;
-        transition: all .4s ease-in-out;
-    }
-
-    .hover_color .hover_color_bg {
-        border: 2px solid transparent;
-    }
-    .hover_color, .hover_color_bg {
-        height: 100%;
-    }
-    .hover_color, .hover_color a, .hover_color a:hover, .hover_color h1 a, .hover_color h2 a, .hover_color h3 a, .hover_color h4 a, .hover_color h5 a, .hover_color h6 a {
-        color: #fff;
-    }
-    .hover_color a {
-        display: block;
     }
     .hover_color_wrapper{
         padding:40px 30px;
@@ -107,14 +113,19 @@
     }
     .image_frame {
         border-color: #f8f8f8;
-        // background-color: white;
+        .image_wrapper {
+            position: relative;
+            overflow: hidden;
+            img:not(.ls-l) {
+                position: relative;
+                top: 0;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
     }
     .image_frame .image_wrapper, .wp-caption img, .icon_box .icon_wrapper:before {
         border-color: #e2e2e2;
-    }
-    .image_frame .image_wrapper {
-        position: relative;
-        overflow: hidden;
     }
     .image_frame .image_wrapper, .wp-caption img {
         -webkit-box-sizing: border-box;
@@ -123,12 +134,6 @@
     img.scale-with-grid, #Content img {
         max-width: 100%;
         height: auto;
-    }
-    .image_frame .image_wrapper img:not(.ls-l) {
-        position: relative;
-        top: 0;
-        -webkit-transform: scale(1);
-        transform: scale(1);
     }
     .image_frame .image_wrapper img, .image_frame .image_wrapper .mask:after, .image_frame .image_wrapper .image_links {
         -webkit-transition: all .3s ease-in-out;
