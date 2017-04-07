@@ -52,63 +52,76 @@
             margin: -20px 0 0 -20px;
             font-family: FontAwesome;
         }
-    }
-    /*BEGIN TAB CONTENT*/
-    .tab_pill{
-        .title{
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .nav{
-            padding-bottom: 10px;
-            .bp-separator{
-                color: #000;
-            }
-            a {
+        /*BEGIN TAB CONTENT*/
+        .tab_pill{
+            .title{
+                font-size: 20px;
                 font-weight: bold;
-                color: #fa9e19;
-                text-decoration: none;
-                text-transform: uppercase;
+                margin-bottom: 10px;
             }
-            a:focus {
-                color: #000;
+            .nav{
+                padding-bottom: 10px;
+                .list-inline{
+                    margin-left: 0;
+                    li{
+                        padding-right: 0;
+                        padding-left: 0;
+                    }
+                }
+                .bp-separator{
+                    color: #000;
+                }
+                a {
+                    font-weight: bold;
+                    color: #fa9e19;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+                a:hover{
+                    color: #000;
+                }
+                a:focus{
+                    color: #000;
+                }
+                .active a{
+                    color: #000;
+                }
             }
-        }
-        .tab-content{
-            ul {
-                display: block;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                list-style: none;
-                padding:3px;
-                li {
-                    float: left;
-                    width: 100%;
-                    list-style: none;
-                    padding: 0;
+            .tab-content{
+                ul {
+                    display: block;
                     border: 0;
                     font: inherit;
                     vertical-align: baseline;
-                    a{
-                        color: #000;
-                        text-decoration: none;
-                    }
-                    a:hover{
-                        color: #fa9e19;
-                    }
-                    .item-avatar {
+                    list-style: none;
+                    padding:3px;
+                    li {
                         float: left;
-                        margin: 0 9px 9px 0;
-                    }
-                    .item h5{
-                        color: #bbb;
-                        font-size: 12px;
+                        width: 100%;
+                        list-style: none;
+                        padding: 0;
+                        border: 0;
+                        font: inherit;
+                        vertical-align: baseline;
+                        a{
+                            color: #000;
+                            text-decoration: none;
+                        }
+                        a:hover{
+                            color: #fa9e19;
+                        }
+                        .item-avatar {
+                            float: left;
+                            margin: 0 9px 9px 0;
+                        }
+                        .item h5{
+                            color: #bbb;
+                            font-size: 12px;
+                        }
                     }
                 }
             }
         }
     }
 }
-

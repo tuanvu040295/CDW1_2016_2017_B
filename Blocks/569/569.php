@@ -17,7 +17,6 @@
         <link href="css/type_569.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     </head>
-
     <body>
         <div class="container">
             <div class="col-md-4">
@@ -45,11 +44,13 @@
                                 <div class="title">Groups</div>
                                 <div id="tabs" data-tabs="tabs">
                                     <div id="tabs" class="nav" data-tabs="tabs">
-                                        <span class="active"><a href="#newest" data-toggle="tab">Newest</a></span>
-                                        <span class="bp-separator" role="separator">|</span>
-                                        <span><a href="#active" data-toggle="tab">Active</a></span>
-                                        <span class="bp-separator" role="separator">|</span>
-                                        <span><a href="#popular" data-toggle="tab">Popular</a></span>
+                                        <ul class="list-inline">
+                                            <li class="active"><a href="#newest" data-toggle="tab">newest</a></li>
+                                            <span>|</span>
+                                            <li><a href="#active" data-toggle="tab">active</a></li>
+                                            <span>|</span>
+                                            <li><a href="#popular" data-toggle="tab">popular</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <!--BEGIN TAB CONTENT-->
@@ -57,24 +58,6 @@
                                     <!--NEWEST-->
                                     <div class="tab-pane active" id="newest">
                                         <ul>
-                                            <li>
-                                                <div class="item-avatar">
-                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
-                                                </div>
-                                                <div class="item">
-                                                    <div ><a href="#">Green Food</a></div>
-                                                    <h5>active 1 day, 17 hours ago</h5>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="item-avatar">
-                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
-                                                </div>
-                                                <div class="item">
-                                                    <div ><a href="#">Green Food</a></div>
-                                                    <h5>active 1 day, 17 hours ago</h5>
-                                                </div>
-                                            </li>
                                             <li>
                                                 <div class="item-avatar">
                                                     <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
@@ -132,7 +115,7 @@
                                             </li>
                                             <li>
                                                 <div class="item-avatar">
-                                                    <a href="#" title="Green Food"><img src="images/1a.jpg" width="100%" alt=""/></a>
+                                                    <a href="#" title="Green Food"><img src="images/2a.png" width="100%" alt=""/></a>
                                                 </div>
                                                 <div class="item">
                                                     <div ><a href="#">Green Food</a></div>
