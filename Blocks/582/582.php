@@ -18,13 +18,13 @@ and open the template in the editor.
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style_chitiet1.less', 'css/style_chitiet1.css');
+        $less->compileFile('less/582.less', 'css/582.css');
         ?>
-        <link href="css/style_chitiet1.css" rel="stylesheet" type="text/css"/>
+        <link href="css/582.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
-        <div class="custom-25-chitiet1">
+        <div class="type-582">
             <div class="section equal-height-wrap" id="section1">
                 <div class="section-decoration top"></div>
                 <div class="section_wrapper">
