@@ -19,24 +19,15 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style1.less', 'css/stylee.css');
+        $less->compileFile('less/587.less', 'css/587.css');
         ?>
-        <link href="css/stylee.css" rel="stylesheet" type="text/css"/>
+        <link href="css/587.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
     <body>
-        <div class="type_43">
-            <!--menu-->
-            
-            <!--endmenu-->
-
-            <!--body-->
-
+        <div class="type-587">
             <div class="ds">
-                
-
-                
                 <div class="product">
                     <div class="image">
                         <img src="image/img2.jpg" alt=""/>
@@ -68,20 +59,7 @@
                         </div>
                     </div>
                 </div>
-                
-
-                
-
-
-                
             </div>
-
-
         </div>
-        <!--endbody-->
-
-
-
-    </div>
-</body>
+    </body>
 </html>
