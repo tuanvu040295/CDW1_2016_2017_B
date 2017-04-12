@@ -1,0 +1,106 @@
+.type-594 h3 {
+  font-size: 2.6em;
+}
+.type-594 h1,
+.type-594 h2,
+.type-594 h3,
+.type-594 h4,
+.type-594 h5,
+.type-594 h6 {
+  font-weight: 300;
+  color: #000;
+}
+.type-594 .container {
+  background: #fff;
+  z-index: 1;
+  position: relative;
+}
+.type-594 .box {
+  position: relative;
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  z-index: 1;
+}
+.type-594 .col-md-12 {
+  min-height: 0px !important;
+}
+.type-594 .aq-template-wrapper {
+  position: relative;
+}
+.type-594 .containerCentered {
+  -moz-box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  text-align: center;
+  position: relative;
+}
+.type-594 .cf {
+  display: block;
+}
+.type-594 .highlights {
+  position: relative;
+  z-index: 1;
+}
+.type-594 .slideRight {
+  animation-name: slideRight;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+.type-594 .feature-box {
+  padding-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+.type-594 .feature-box .sc-highlight-icon {
+  font-size: 26px;
+  color: #34D298;
+  margin: 5px 25px 0 -25px;
+}
+.type-594 .aq-template-wrapper .col-md-12 .col-md-6 {
+  float: left;
+}
+.type-594 .highlight-img {
+  padding-top: 10px;
+  max-width: 100%;
+  text-align: center;
+}
+.type-594 .slideUp {
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  visibility: visible !important;
+}
+.type-594 .aq-block-pg_highlights_block .sc-highlightright .feature-box .sc-highlight-icon {
+  margin: 0px 8px 0 -8px;
+}
+@media (max-width: 991px) {
+  .type-594 .sc-highlightleft .feature-box .sc-highlight-icon {
+    top: -35px;
+    margin: 0;
+    float: right;
+    position: absolute;
+  }
+  .type-594 .sc-highlightright .feature-box .sc-highlight-icon {
+    position: absolute;
+    top: -45px;
+    padding-left: 30px;
+    margin: 0;
+    float: left;
+  }
+  .type-594 figure figcaption {
+    position: relative !important;
+  }
+  .type-594 h4,
+  .type-594 h5 {
+    padding-left: 0;
+  }
+  .type-594 .feature-box.right {
+    margin-top: 60px;
+  }
+  .type-594 .lead {
+    margin-bottom: 50px;
+  }
+}
