@@ -1,0 +1,29 @@
+.type_598 .sc-stretch-banner {
+  z-index: 9;
+  position: relative;
+  padding: 60px 0;
+  background: #050F1E;
+}
+.type_598 .sc-stretch-banner .title {
+  color: #34D298;
+  text-align: right;
+  font-size: 36.48px;
+  margin-top: 23px;
+  margin-bottom: 11.5px;
+}
+.type_598 .sc-stretch-banner .text_left {
+  color: #A2A5AD;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-top: 0.3em;
+  text-align: right;
+  padding-left: 10px;
+}
+.type_598 .sc-stretch-banner .txtright {
+  padding-top: 25px;
+}
+.type_598 .sc-stretch-banner .txtright .text_right {
+  color: #999;
+  font-size: 16px;
+  line-height: 1.6em;
+}
