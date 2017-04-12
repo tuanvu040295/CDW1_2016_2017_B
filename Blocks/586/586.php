@@ -19,14 +19,14 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style1.less', 'css/stylee.css');
+        $less->compileFile('less/586.less', 'css/586.css');
         ?>
-        <link href="css/stylee.css" rel="stylesheet" type="text/css"/>
+        <link href="css/586.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
     <body>
-        <div class="type_43">
+        <div class="type-586">
             <!--menu-->
             
             <!--endmenu-->
