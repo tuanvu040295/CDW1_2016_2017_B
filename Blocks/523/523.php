@@ -21,8 +21,6 @@
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
-
-
     </head>
 
     <body>
@@ -36,20 +34,20 @@
                         <div class="vmmanufacturermod">
                             <ul class="vmmanufacturer">
                                 <li>
-                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Apple">
-                                        <p><img src="images/apple-logo_120x120.jpg" alt="apple-logo"></p>			
+                                    <a href="#">
+                                        <p><img  class="img-responsive" src="images/apple-logo_120x120.png" alt="apple-logo"></p>			
                                         <span class="theHoverBorder"></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Samsung">
-                                        <p><img src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
+                                    <a href="#">
+                                        <p><img class="img-responsive"  src="images/samsung-logo-4bdaa5dc5b-seeklogo.com_120x120.gif" alt="samsung-logo-4bdaa5dc5b-seeklogo.com"></p>	
                                         <span class="theHoverBorder"></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" data-rel="tooltip" data-placement="top" data-animation="true" data-original-title="Test manufacturer">
-                                        <p><img src="images/english-book_120x120.png" alt="english-book"></p>			
+                                    <a href="#">
+                                        <p><img class="img-responsive" src="images/english-book_120x120.png" alt="english-book"></p>			
                                         <span class="theHoverBorder"></span>
                                     </a>
                                 </li>

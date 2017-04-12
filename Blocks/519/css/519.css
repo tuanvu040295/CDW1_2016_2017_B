@@ -33,6 +33,9 @@
   font-style: normal;
   font-weight: 400;
 }
+.type-519 .sidebar .product_list_widget li a:hover {
+  color: #e37a1c;
+}
 .type-519 .sidebar .widget.widget_best_sellers li:hover {
   border: 1px solid #e37a1c;
 }

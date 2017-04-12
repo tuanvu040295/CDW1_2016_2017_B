@@ -29,8 +29,8 @@
         <div class="container">
             <div class="row">
                 <!-- BEGIN SIDEBAR RIGHT -->
-                <div class="col-md-4">
-                    <div class="type-522">
+                <div class="type-522">
+                    <div class="col-md-4">
                         <!-- TITLE CURRENCIES -->
                         <h4 class="moduletitle">VM - Currencies Selector</h4>
                         <!-- BEGIN CURRENCIES SELECTTOR-->

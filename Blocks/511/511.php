@@ -29,16 +29,16 @@
                     <!-- BEGIN IMAGES-->
                     <div class="row">
                         <div class="col-xs-4">
-                            <a href="#" class=" -link hoverBorder" target="_blank" itemprop="url"><img src="images/bnr1.jpg" alt="" title="banner-set1-1.jpg" class="img-responsive"></a>
+                            <a href="#" class="hoverBorder" itemprop="url"><img src="images/bnr1.jpg" alt="" title="banner-set1-1.jpg" class="img-responsive"></a>
                         </div>
                         <div class="col-xs-5">
-                            <a href="#" class=" -link hoverBorder" target="_blank" itemprop="url"><img src="images/bnr2.jpg" alt="" title="banner-set1-2.jpg" class="img-responsive"></a>
+                            <a href="#" class="hoverBorder" itemprop="url"><img src="images/bnr2.jpg" alt="" title="banner-set1-2.jpg" class="img-responsive"></a>
                         </div>
                         <div class="col-xs-3">
-                            <a href="#" class=" -link hoverBorder" target="_blank" itemprop="url"><img src="images/bnr3.jpg" alt="" title="banner-set2-32.jpg" class="img-responsive"></a>
+                            <a href="#" class="hoverBorder" itemprop="url"><img src="images/bnr3.jpg" alt="" title="banner-set2-32.jpg" class="img-responsive"></a>
                         </div>
                         <div class="col-xs-3">
-                            <a href="#" class=" -link hoverBorder" target="_blank" itemprop="url"><img src="images/bnr4.jpg" alt="" title="banner-set2-41.jpg" class="img-responsive"></a>
+                            <a href="#" class="hoverBorder" itemprop="url"><img src="images/bnr4.jpg" alt="" title="banner-set2-41.jpg" class="img-responsive"></a>
                         </div>
                     </div>
                     <!--END IMAGES--> 

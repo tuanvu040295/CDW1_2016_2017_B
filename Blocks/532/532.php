@@ -80,9 +80,7 @@
                                                             <del>
                                                                 <span class="amount"><span>£</span>400.00</span>
                                                             </del>
-                                                            <ins>
                                                                 <span class="amount"><span>£</span>375.00</span>
-                                                            </ins>
                                                         </p>
                                                         <meta itemprop="priceCurrency" content="GBP">
                                                         <link itemprop="availability" href="#">

@@ -42,7 +42,7 @@
                                             <h3>Fantasy sofa</h3>
                                             <span class="price">
                                                 <del><span class=" amount"><span >£</span>1,200.00</span></del>
-                                                <ins><span class=" amount"><span >£</span>850.00</span></ins>
+                                                <span class=" amount"><span >£</span>850.00</span>
                                             </span>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                             <h3>Fantasy sofa</h3>
                                             <span class="price">
                                                 <del><span class=" amount"><span >£</span>1,200.00</span></del>
-                                                <ins><span class=" amount"><span >£</span>850.00</span></ins>
+                                                <span class=" amount"><span >£</span>850.00</span>
                                             </span>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@
                                             <h3>Fantasy sofa</h3>
                                             <span class="price">
                                                 <del><span class=" amount"><span >£</span>1,200.00</span></del>
-                                                <ins><span class=" amount"><span >£</span>850.00</span></ins>
+                                                <span class=" amount"><span >£</span>850.00</span>
                                             </span>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@
                                             <h3>Fantasy sofa</h3>
                                             <span class="price">
                                                 <del><span class=" amount"><span >£</span>1,200.00</span></del>
-                                                <ins><span class=" amount"><span >£</span>850.00</span></ins>
+                                                <span class=" amount"><span >£</span>850.00</span>
                                             </span>
                                         </div>
                                     </div>
