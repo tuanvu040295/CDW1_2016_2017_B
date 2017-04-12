@@ -1,0 +1,72 @@
+.type-573 {
+  margin: 0px 55px;
+}
+.type-573 .container {
+  width: 100%;
+}
+.type-573 .container .image-slider {
+  border: 1px solid #DDD;
+}
+.type-573 .container .caption-slider h2 {
+  color: black;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.type-573 .container .caption-slider h2 a {
+  color: black;
+}
+.type-573 .container .caption-slider i,
+.type-573 .container .caption-slider #temperatur132 {
+  color: red;
+  font-size: 18px;
+}
+.type-573 .container .caption-slider .r-part-car {
+  padding: 10px;
+}
+.type-573 .container .caption-slider .simple_price_count {
+  font-size: 12px;
+  color: green;
+}
+.type-573 .container .caption-slider .simple_price_count del {
+  font-size: 12px;
+  color: #DDD;
+}
+.type-573 .container .caption-slider .cat_link_meta a {
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+}
+.type-573 .container .glyphicon-chevron-left {
+  margin-left: -55%;
+  color: #000;
+}
+.type-573 .container .glyphicon-chevron-right {
+  margin-right: -70%;
+  color: #000;
+}
+.type-573 .carousel-inner .active.left {
+  left: -33%;
+}
+.type-573 .carousel-inner .next {
+  left: 33%;
+}
+.type-573 .carousel-inner .prev {
+  left: -33%;
+}
+.type-573 .carousel-control.left,
+.type-573 .carousel-control.right {
+  background-image: none;
+}
+.type-573 .item:not(.prev) {
+  visibility: visible;
+}
+.type-573 .item.right:not(.prev) {
+  visibility: hidden;
+}
+.type-573 .rightest {
+  visibility: visible;
+}
+.type-573 .caption-slider a:hover {
+  text-decoration: none;
+}

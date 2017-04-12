@@ -1,29 +1,11 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-body {
-
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
-* {
-    box-sizing: border-box;
-}
 a {
     text-decoration: none !important;
-}
-
-.clear {
-    clear: both;
-}
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
 }
 .background-footer{
     background: #212c43;
@@ -36,32 +18,37 @@ a {
 }
 
 
-.type-footer-p-36{
-
+.type-580{
+    
+    @color_fff: #fff;
+    @color_8b98b2: #8b98b2;
+    
     .footer-wrapper{
         .background-footer;
         .color-footer;
         margin-top: 36px;
-    }
-    .footer-widgets {
-        padding-top: 64px;
-        padding-bottom: 50px;
-    }
-    .widget-title {
-        padding-bottom: 25px;
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 20px;
-        line-height: 24px;
-        .mau-chu;
-    }
-    .widget-news__text {
-        float: left;
-        margin-right: 5px;
-        margin-bottom: 24px;
-        font-size: 12px;
-        line-height: 15px;
-        .color-footer;
+        .footer-widgets {
+            padding-top: 64px;
+            padding-bottom: 50px;
+            .widget-news {
+                .widget-title {
+                    padding-bottom: 25px;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    line-height: 24px;
+                    .mau-chu;
+                }
+                .widget-news__text {
+                    float: left;
+                    margin-right: 5px;
+                    margin-bottom: 24px;
+                    font-size: 12px;
+                    line-height: 15px;
+                    .color-footer;
+                }
+            }
+        }
     }
     .subscribe-form {
         position: relative;
@@ -76,7 +63,7 @@ a {
         padding: 0 37px 0 15px;
         font-size: 13px;
         background: #e5e5da;
-        background: #fff;
+        background: @color_fff;
         border: none;
     }
 
@@ -103,7 +90,7 @@ a {
     .icon-circle {
         display: inline-block;
         text-align: center;
-        border: 2px solid #8b98b2;
+        border: 2px solid @color_8b98b2;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
@@ -137,28 +124,28 @@ a {
         margin-right: 20px;
         margin-bottom: 8px;
         font-size: 11px;
-    }
-    .widget-contacts__item .icon-circle {
-        margin-right: 9px;
-        width: 26px;
-        height: 26px;
-        padding-top: 5px;
-        font-size: 12px;
-        line-height: 12px;
-        border-width: 2px;
+        .icon-circle {
+            margin-right: 9px;
+            width: 26px;
+            height: 26px;
+            padding-top: 5px;
+            font-size: 12px;
+            line-height: 12px;
+            border-width: 2px;
+        }
     }
     .footer-wrapper a:hover{
-        color: #fff;
+        color: @color_fff;
     }
     a {
         color: #7ccbfc;
         text-decoration: none;
     }
     .icon-circle--thin:hover {
-        border-color: #8b98b2;
+        border-color: @color_8b98b2;
     }
     .fa {
-        color: #8b98b2;
+        color: @color_8b98b2;
     }
     .icon-circle--thin {
         width: 26px;
@@ -172,67 +159,62 @@ a {
         margin: 0;
         list-style: none;
         padding-left: 0px;
-    }
-    .twitter_update_list li {
-        margin-bottom: 4px;
-    }
-    .twitter_update_list li {
-        padding-bottom: 9px;
-        font-size: 12px;
-        line-height: 15px;
-        color: #8b98b2;
+        li {
+            margin-bottom: 4px;
+            padding-bottom: 9px;
+            font-size: 12px;
+            line-height: 15px;
+            color: @color_8b98b2;
+            .timesince {
+                font-size: 11px;
+                font-style: italic;
+                color: #576d98;
+            }
+        }
     }
     .twitter-text {
         margin-bottom: 5px;
     }
-    .twitter_update_list li .timesince {
-        font-size: 11px;
-        font-style: italic;
-        color: #576d98;
-    }
     .widget-flickr {
         margin-top: 25px;
-    }
-    .widget-flickr .flickr {
-        max-width: 285px;
+        .flickr {
+            max-width: 285px;
+        }
     }
     .flickr {
         padding-top: 4px;
         margin: 0 -5px 0 0;
         list-style: none;
         padding-left: 0px;
-    }
-    .flickr li {
-        float: left;
-        width: 50px;
-        margin: 0 5px 5px 0;
-        border: 2px solid #8b98b2;
-        overflow: hidden;
-    }
-    .flickr li a {
-        position: relative;
+        li {
+            float: left;
+            width: 50px;
+            margin: 0 5px 5px 0;
+            border: 2px solid @color_8b98b2;
+            overflow: hidden;
+            a {
+                position: relative;
+            }
+        }
+        .flickr__hover {
+            position: absolute;
+            top: -15px;
+            left: -2px;
+            display: block;
+            width: 50px;
+            height: 50px;
+            border: 0px solid rgba(229, 229, 218, 0.7);     
+            transition: all 600ms ease-in-out;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            overflow: visible;
+        }
     }
     img {
         max-width: 100%;
         height: auto;
         border: 0 none;
         vertical-align: middle;
-    }
-    .flickr .flickr__hover {
-        position: absolute;
-        top: -15px;
-        left: -2px;
-        display: block;
-        width: 50px;
-        height: 50px;
-        border: 0px solid rgba(229, 229, 218, 0.7);
-        -webkit-transition: all 600ms ease-in-out;
-        -moz-transition: all 600ms ease-in-out;
-        -o-transition: all 600ms ease-in-out;
-        transition: all 600ms ease-in-out;
-        opacity: 0;
-        filter: alpha(opacity=0);
-        overflow: visible;
     }
     .flickr li a:hover .flickr__hover {
         border: 25px solid #e5e5da;
@@ -284,15 +266,13 @@ a {
         padding-top: 6px;
         font-size: 12px;
         text-align: center;
-        border: 3px solid #8b98b2;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
+        border: 3px solid @color_8b98b2;
         border-radius: 50%;
     }
     .copyright {
         padding-top: 9px;
         padding-bottom: 23px;
-        color: #8b98b2;
+        color: @color_8b98b2;
     }
     small, .small {
         font-size: 12px;
@@ -361,7 +341,7 @@ a {
             font-size: 13px;
         }
         .social a {
-            color: #8b98b2;
+            color: @color_8b98b2;
         }
         .copyright {
             float: left;

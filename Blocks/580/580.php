@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title>Đồ án web 2</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -14,16 +11,14 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-p-36.less', 'css/type-p-36.css');
+        $less->compileFile('less/580.less', 'css/580.css');
         ?>
-        <link href="css/type-p-36.css" rel="stylesheet" type="text/css"/>
+        <link href="css/580.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     </head>
-
     <body>
-        <div class="type-footer-p-36">
+        <section class="type-580">
             <footer class="footer-wrapper">
                 <!--Begin footer widget-->
                 <div class="container footer-widgets">
@@ -96,12 +91,17 @@
                                     </a>
                                 </li>
                                 <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
-                                         <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
+                                        <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
                                         <span class="flickr__hover"></span>
                                     </a>
                                 </li>
                                 <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
-                                         <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
+                                        <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
+                                        <span class="flickr__hover"></span>
+                                    </a>
+                                </li>
+                                <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
+                                        <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
                                         <span class="flickr__hover"></span>
                                     </a>
                                 </li>
@@ -121,7 +121,7 @@
                                     </a>
                                 </li>
                                 <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
-                                         <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
+                                        <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
                                         <span class="flickr__hover"></span>
                                     </a>
                                 </li>
@@ -131,12 +131,7 @@
                                     </a>
                                 </li>
                                 <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
-                                         <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
-                                        <span class="flickr__hover"></span>
-                                    </a>
-                                </li>
-                                <li><a href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" data-rel="colorbox"  >
-                                         <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
+                                        <img src="images/15647274066_2ee48c3fe9_s.jpg" alt="Halloween 2014 at Envato in Melbourne">
                                         <span class="flickr__hover"></span>
                                     </a>
                                 </li>
@@ -171,9 +166,7 @@
                         </div>
                     </div>
                 </div>
-
             </footer>
-        </div>
+        </section>
     </body>
-
 </html>
