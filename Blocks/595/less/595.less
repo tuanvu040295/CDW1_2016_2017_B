@@ -1,0 +1,62 @@
+.type-595{
+    .sc-parallax {
+        background-attachment: fixed;
+        background-image: url(../images/1.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding-bottom: 0px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        position: relative;
+        z-index: 1;
+        .sc-mask {
+            bottom: 0;
+            left: 0;
+            opacity: 0.5;
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: #2C3E50;
+            z-index: -1;
+        }
+        .sc-header-sub {
+            position: relative;
+            padding-top: 120px;
+            padding-bottom: 85px;
+            overflow: hidden;
+            z-index: 1;
+            height: 320px;
+            #changingtext {
+                background: none repeat scroll 0 0 rgba(50, 50, 50, 0.4);
+            }
+            .title{
+                font-size: 4.4em;
+                span {
+                    vertical-align: top;
+                }
+            }
+            #changingtext {
+                color: #FFFFFF;
+                display: inline-block;
+                font-weight: 400;
+                padding: 20px 30px;
+                span {
+                    color: #34d298;
+                }
+            }
+        }
+        .containerCentered {
+            -moz-box-sizing: content-box;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1170px;
+            text-align: center;
+            position: relative;
+        }
+    }
+    @media screen and (max-width:600px){
+        #changingtext {font-size:2.5em;padding: 30px 55px;}
+    }
+}
