@@ -14,16 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-p-36.less', 'css/type-p-36.css');
+        $less->compileFile('less/581.less', 'css/581.css');
         ?>
-        <link href="css/type-p-36.css" rel="stylesheet" type="text/css"/>
+        <link href="css/581.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-universe-p-36">
-            <section class="universe hidden-xs">
+        <section class="type-581">
+            <div class="universe hidden-xs">
                 <div class="pattern-light-wrapper">
                     <div class="container">
                         <div class="row">
@@ -71,8 +71,8 @@
                     </div>
                     <div class="decorative-lines"></div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </body>
 
 </html>

@@ -3,10 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -19,14 +16,14 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/style1.less', 'css/stylee.css');
+        $less->compileFile('less/588.less', 'css/588.css');
         ?>
-        <link href="css/stylee.css" rel="stylesheet" type="text/css"/>
+        <link href="css/588.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
     <body>
-        <div class="type_43">
+        <div class="type-588">
             <!--menu-->
             
             <!--endmenu-->
@@ -34,10 +31,7 @@
             <!--body-->
 
             <div class="ds">
-                
-
-                
-                
+                                             
                 <div class="product">
                     <div class="image">
                         <img src="image/img3.jpg" alt=""/>
@@ -75,16 +69,11 @@
                         <h1>See it in action <span class="fa fa-angle-right" style="margin-left: 12px;"></span></h1>
                     </div>
                 </div>
-
-
-                
+             
             </div>
-
 
         </div>
         <!--endbody-->
-
-
 
     </div>
 </body>

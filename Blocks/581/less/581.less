@@ -1,76 +1,55 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-body {
-
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
-* {
-    box-sizing: border-box;
-}
 a {
     text-decoration: none !important;
 }
 
-.clear {
-    clear: both;
-}
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
 
 
-
-
-.type-universe-p-36{
+.type-581{
     .universe {
         height: 200px;
         margin-top: 60px;
         margin-bottom: 4px;
         background: url(../images/univers-bg.jpg) repeat-x center 0;
         background-size: cover;
-        -webkit-box-shadow: 0 0 0 5px rgba(232, 232, 221, 0.5);
-        -moz-box-shadow: 0 0 0 5px rgba(232, 232, 221, 0.5);
         box-shadow: 0 0 0 5px rgba(232, 232, 221, 0.5);
-    }
-    .pattern-light-wrapper {
-        display: block;
-        width: inherit;
-        height: inherit;
-        background-image: url(../images/pattern-grid-light.png);
-        background-repeat: repeat;
+        .pattern-light-wrapper {
+            display: block;
+            width: inherit;
+            height: inherit;
+            background-image: url(../images/pattern-grid-light.png);
+            background-repeat: repeat;
+        }
+        .section-title {
+            margin-top: 54px;
+            margin-bottom: 41px;
+            font-size: 30px;
+            line-height: 34px;
+            .text-highlight {
+                display: block;
+                font-size: 50px;
+                text-transform: uppercase;
+            }
+        }
     }
     .section-title.section-title--light {
         font-size: 20px;
         line-height: 36px;
         color: #fff;
+        .text-highlight {
+            font-size: 43px;
+            color: #fff;
+        }
     }
     .universe .section-title {
         position: relative;
         z-index: 100;
         margin-top: 60px;
-    }
-    .section-title {
-        margin-top: 54px;
-        margin-bottom: 41px;
-        font-size: 30px;
-        line-height: 34px;
-    }
-    .section-title.section-title--light .text-highlight {
-        font-size: 43px;
-        color: #fff;
-    }
-    .section-title .text-highlight {
-        display: block;
-        font-size: 50px;
-        text-transform: uppercase;
     }
     /*---------------circle-buttons-holder-------------*/
 
@@ -105,13 +84,8 @@ a {
         height: 100%;
         text-align: center;
         border: 3px solid #e8e8dd;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
         border-radius: 50%;
         box-shadow: 0 0 0 10px rgba(232, 232, 221, 0.2);
-        -webkit-transition: all 400ms ease-in-out;
-        -moz-transition: all 400ms ease-in-out;
-        -o-transition: all 400ms ease-in-out;
         transition: all 400ms ease-in-out;
         overflow: hidden;
     }
@@ -135,15 +109,9 @@ a {
         display: block;
         width: inherit;
         height: inherit;
-        background: #212c43;
-        -moz-border-radius: 50%;
+        background: #212c43;      
         border-radius: 50%;
-        -moz-transition: all 400ms ease-in-out;
-        -o-transition: all 400ms ease-in-out;
         transition: all 400ms ease-in-out;
-        -moz-transform: scale(0);
-        -o-transform: scale(0);
-        -ms-transform: scale(0);
         transform: scale(0);
         opacity: 0;
         filter: alpha(opacity=0);
@@ -190,6 +158,8 @@ a {
         border-bottom: 2px solid rgba(124, 203, 252, 0.2);
     }
 
+
+
     /*di dong*/
     @media (min-width: 1200px){
         .universe {
@@ -216,8 +186,6 @@ a {
         /*.circle-button-wrapper.circle-button--smaller-wraper {
             margin-left: 65px;
         }*/
-
-
     }
     @media (min-width: 768px){
         .section-title {
@@ -240,9 +208,5 @@ a {
             font-size: 30px;
             line-height: 40px;
         }
-
     }
-
-
-
 }
