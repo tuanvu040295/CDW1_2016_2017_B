@@ -1,0 +1,48 @@
+.type-589 .mod-buy {
+  padding-top: 100px;
+  padding-bottom: 290px;
+  background-color: #339bd7;
+  background-image: url("../image/theme_buy_now.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.type-589 .mod-buy .buy-now {
+  text-align: center;
+  color: white;
+}
+.type-589 .mod-buy .buy-now h2 {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .type-589 .mod-buy .buy-now h2 {
+    font-size: 41px;
+    line-height: 43px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .type-589 .mod-buy .buy-now h2 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+}
+.type-589 .mod-buy .btn-buynow {
+  display: inline-block;
+  padding: 11px 39px;
+  background-color: #0095eb;
+  border: 4px solid white;
+  cursor: pointer;
+  margin: 50px 0;
+}
+.type-589 .mod-buy .btn-buynow:hover {
+  background: #008ee0;
+  transition: all 0.4s ease;
+}
+.type-589 .mod-buy .btn-buynow a {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+}
