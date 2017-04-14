@@ -1,0 +1,167 @@
+.type_585{
+    .navbar-wrapper {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        position: fixed;
+        background-color: #06121b;
+        width: 100%;
+        .megamenu{
+            z-index: 999; line-height: 6;
+            .web{
+                background-color: #262c30;
+                color: #fff;
+            }
+            .dropdown {
+                position: static;
+                .dropdown-menu {
+                    position: absolute;
+                    z-index: 9999;
+                    float: left;
+                    margin-top: -4px;
+                    margin-left: -1px;
+                    font-size: 14px;
+                    background-color: #262c30;
+                    border: 1px solid #262c30;
+                }
+            }
+            .dropdown:hover .dropdown-menu {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .menurespon {
+        width: 100%;
+        height: auto;
+        background: #06121B;
+        display:none;
+        position: relative;
+        z-index: 1;
+        p {
+            margin-left:20px;
+            color:#ffffff;
+        }
+    }
+    .iconmenu {
+        display: none;
+    }
+    @media (max-width: 1250px)
+        {
+        .megamenu ul li{
+            display: none;
+        }
+        .megamenu {
+            max-width: 100%;
+        }
+    }
+    @media (max-width: 1200px)
+        {
+        .megamenu ul li.iconmenu{
+            display: block;
+            position: relative;
+            right: 5px;
+            border:none;
+            width: 50%;
+        }
+    }
+
+    @media (max-width:600px)
+        {
+        .menurespon{
+            width:100%;
+            position: relative;
+            left: 0;
+        }
+    }
+    .megamenu>ul>li{
+        float: left;
+        list-style: none;
+        border-left: 1px solid #343c43;
+        line-height: 70px;
+        cursor: pointer;
+        text-align: center;
+        width: 90px;
+        margin-top: -10px;
+    }
+    .megamenu>ul>li:hover{
+        background-color: #262c30;
+        transition:all 1s ease;
+    }
+    .megamenu>ul>li>a{
+        text-decoration: none;
+        color: #abafb1;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }   
+    .megamenu>ul>li:hover a{
+        color: white;
+    }
+    .megamenu ul li ul li a{
+        color: #ab926c;
+    }
+    .megamenu>ul>li>ul>li{
+        padding: 2px 0;
+    }
+    .navbar megamenu{
+        float: left;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+    .megamenu #logo{
+        margin-right: 150px;
+        float: left;
+        height: 80px;
+        margin-top: -20px;
+    }
+    @media (max-width:486px)
+        {
+        #logo{
+            position: relative;
+            left: 35px;
+            img
+            {
+                padding-left: 0;
+            }
+        }
+    }
+    .megamenu .megamenu{
+        float: right;
+        position: relative;
+        right: -1px;
+    }
+    #logo img{
+        padding-left: 23px;
+    }
+    .btn-buy{      
+        text-align:center;
+        float:left;
+        background: #ff3232;
+        background: linear-gradient(to right, #008ee0 50%, #0095eb 50%);
+        background-size: 200% 100%;
+        background-position:right bottom;
+        transition:all 0.4s ease;
+        height: 70px
+    }
+    .btn-buy:hover{
+        background-position:left bottom;
+    }
+    /*----------------item megamenu---------------------*/
+    .custom-title ul li{
+        line-height: 33px;
+        list-style: none outside;
+        a{
+            text-decoration: none;
+            span{
+                padding-left: 10px;
+                color: #abafb1;
+                transition:all 1s ease;
+            }
+            span:hover{
+                color: #fff;
+            }
+        }
+    }
+}
