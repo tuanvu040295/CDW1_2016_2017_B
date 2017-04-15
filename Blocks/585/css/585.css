@@ -1,15 +1,9 @@
 .type_585 .navbar-wrapper {
-  top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
-  position: fixed;
+  position: absolute;
   background-color: #06121b;
   width: 100%;
-}
-.type_585 .navbar-wrapper .megamenu {
-  z-index: 999;
-  line-height: 6;
 }
 .type_585 .navbar-wrapper .megamenu .web {
   background-color: #262c30;
@@ -20,58 +14,61 @@
 }
 .type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu {
   position: absolute;
-  z-index: 9999;
   float: left;
   margin-top: -4px;
-  margin-left: -1px;
   font-size: 14px;
   background-color: #262c30;
   border: 1px solid #262c30;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title {
+  margin-top: 15px;
+  border-left: 1px solid #363b3f;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title ul li {
+  width: 100%;
+  line-height: 33px;
+  list-style: none;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title ul li a {
+  text-decoration: none;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title ul li a span {
+  padding-left: 10px;
+  color: #abafb1;
+  transition: all 1s ease;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title ul li a .p1 {
+  font-weight: bold;
+  color: white;
+}
+.type_585 .navbar-wrapper .megamenu .dropdown .dropdown-menu .custom-title ul li a span:hover {
+  color: white;
 }
 .type_585 .navbar-wrapper .megamenu .dropdown:hover .dropdown-menu {
   display: block;
   width: 100%;
 }
-.type_585 .iconmenu {
-  display: none;
+.type_585 .navbar-wrapper #logo {
+  margin-right: 150px;
+  float: left;
 }
 .type_585 .menurespon {
   width: 100%;
-  height: auto;
   background: #06121B;
   display: none;
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: -1;
 }
-.type_585 .menurespon p {
-  margin-left: 20px;
-  color: #ffffff;
+.type_585 .menurespon a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: #abafb1;
 }
-@media (max-width: 1250px) {
-  .type_585 .megamenu ul li {
-    display: none;
-  }
-  .type_585 .megamenu {
-    max-width: 100%;
-  }
+.type_585 .menurespon a:hover {
+  color: #fff;
 }
-@media (max-width: 1200px) {
-  .type_585 .megamenu ul li.iconmenu {
-    display: block;
-    position: relative;
-    right: 5px;
-    border: none;
-    width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  .type_585 .menurespon {
-    width: 100%;
-    position: relative;
-    left: 0;
-  }
-}
-.type_585 .megamenu>ul>li {
+.type_585 .megamenu>ul >li {
   float: left;
   list-style: none;
   border-left: 1px solid #343c43;
@@ -79,57 +76,26 @@
   cursor: pointer;
   text-align: center;
   width: 90px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
-.type_585 .megamenu>ul>li:hover {
-  background-color: #262c30;
-  transition: all 1s ease;
-}
-.type_585 .megamenu>ul>li>a {
+.type_585 .megamenu>ul >li >a {
   text-decoration: none;
   color: #abafb1;
-  font-size: 15px;
-  letter-spacing: 1px;
+  font-size: 16px;
 }
-.type_585 .megamenu>ul>li:hover a {
+.type_585 .megamenu>ul >li:hover {
+  transition: all 1s ease;
+}
+.type_585 .megamenu>ul >li:hover a {
   color: white;
 }
-.type_585 .megamenu ul li ul li a {
-  color: #ab926c;
+.type_585 .megamenu>ul .iconmenu {
+  display: none;
 }
-.type_585 .megamenu>ul>li>ul>li {
-  padding: 2px 0;
+.type_585 .megamenu>ul .iconmenu a {
+  color: #0095eb;
 }
-.type_585 .navbar megamenu {
-  float: left;
-}
-.type_585 .navbar {
-  margin-bottom: 0;
-}
-.type_585 .megamenu #logo {
-  margin-right: 150px;
-  float: left;
-  height: 80px;
-  margin-top: -20px;
-}
-@media (max-width: 486px) {
-  .type_585 #logo {
-    position: relative;
-    left: 35px;
-  }
-  .type_585 #logo img {
-    padding-left: 0;
-  }
-}
-.type_585 .megamenu .megamenu {
-  float: right;
-  position: relative;
-  right: -1px;
-}
-.type_585 #logo img {
-  padding-left: 23px;
-}
-.type_585 .btn-buy {
+.type_585 .megamenu>ul .btn-buy {
   text-align: center;
   float: left;
   background: #ff3232;
@@ -139,21 +105,24 @@
   transition: all 0.4s ease;
   height: 70px;
 }
-.type_585 .btn-buy:hover {
+.type_585 .megamenu>ul .btn-buy a {
+  color: white;
+}
+.type_585 .megamenu>ul .btn-buy:hover {
   background-position: left bottom;
 }
-.type_585 .custom-title ul li {
-  line-height: 33px;
-  list-style: none outside;
-}
-.type_585 .custom-title ul li a {
-  text-decoration: none;
-}
-.type_585 .custom-title ul li a span {
-  padding-left: 10px;
-  color: #abafb1;
-  transition: all 1s ease;
-}
-.type_585 .custom-title ul li a span:hover {
-  color: #fff;
+@media (max-width: 768px) {
+  .type_585 .megamenu ul li {
+    display: none;
+  }
+  .type_585 .navbar-wrapper {
+    padding-bottom: 15px;
+  }
+  .type_585 .megamenu ul li.iconmenu {
+    display: block;
+    position: absolute;
+    right: 5px;
+    border: none;
+    width: 50%;
+  }
 }

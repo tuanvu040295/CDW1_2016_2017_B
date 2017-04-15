@@ -43,7 +43,7 @@
                                                 <div class="col-md-2">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li><a href="#"><span>TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -66,7 +66,7 @@
                                                 <div class="col-md-2">
                                                     <div class="custom-title">
                                                         <ul>
-                                                            <li><a href="#"><span>TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -80,9 +80,9 @@
                                                 </div>
                                                 <!-- END COL-2 -->
                                                 <div class="col-md-2">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -103,9 +103,9 @@
                                                     </div>
                                                 </div><!-- END COL-2 -->
                                                 <div class="col-md-2">
-                                                    <div class="custom-title" style="margin-top: 15px;padding-bottom: 260px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -117,9 +117,9 @@
                                                     </div>
                                                 </div><!-- END COL-2 -->
                                                 <div class="col-md-2">
-                                                    <div class="custom-title" style="margin-top: 15px; padding-bottom: 30px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -138,9 +138,9 @@
                                                     </div>
                                                 </div><!-- END COL-2 -->
                                                 <div class="col-md-2">
-                                                    <div class="custom-title" style="margin-top: 15px;padding-bottom: 30px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -163,15 +163,15 @@
                                     </ul>
                                 </li>
                                 <!-----------------------MENU BLOG---------------------->
-                                <li class="dropdown megamenu-fw">
+                                <li class="dropdown">
                                     <a href="#">Blog</a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -182,9 +182,9 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -195,9 +195,9 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -208,9 +208,9 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -231,9 +231,9 @@
                                         <li>
                                             <div class="row">
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -246,9 +246,9 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px; padding-bottom: 70px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -259,9 +259,9 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
-                                                            <li style="background: none;"><a href="#"><span style="font-weight: 700;">TYPOGRAPHY</span></a></li>
+                                                            <li><a href="#"><span class="p1">TYPOGRAPHY</span></a></li>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
                                                             <li><a href="#"><span>Blockquote</span></a></li>
@@ -274,7 +274,7 @@
                                                     </div>
                                                 </div><!-- END COL-3 -->
                                                 <div class="col-sm-3">
-                                                    <div class="custom-title" style="margin-top: 15px;">
+                                                    <div class="custom-title">
                                                         <ul>
                                                             <li><a href="#"><span>Alert</span></a></li>
                                                             <li><a href="#"><span>Basic</span></a></li>
@@ -288,25 +288,25 @@
                                 </li>
                                 <li><a href="#"><i class="fa fa-question" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a></li>
-                                <li class="iconmenu" ><a href="#">=</a></li>
-                                <li class="btn-buy" style="border-left: 1px solid #1b6d85;"><a href="#"><span style="color: white;">Buy now</span></a></li>
+                                <li class="iconmenu" ><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                                <li class="btn-buy"><a href="#"><span>Buy now</span></a></li>
                             </ul>
                         </div>
                     </nav>
                     <!-----END MEGA MENU------->
-                </div>
-                <!--------------------------TITLE MENU------------------------------>
-                <div class="menurespon">
-                    <a href="#"><p>Websites</p></a><br>
-                    <a href="#"><p>Builder</p></a><br>
-                    <a href="#"><p>Grid</p></a><br>
-                    <a href="#"><p>Headers</p></a><br>
-                    <a href="#"><p>Features</p></a><br>
-                    <a href="#"><p>Shortcodes</p></a><br>
-                    <a href="#"><p>Blog</p></a><br>
-                    <a href="#"><p>Portfolio</p></a><br>
-                    <a href="#"><p><i class="fa fa-question"></i></p></a><br>
-                    <a href="#"><p><i class="fa fa-comment-o"></i></p></a><br>
+                    <!--------------------------TITLE MENU------------------------------>
+                    <div class="menurespon">
+                        <a href="#"><p>Websites</p></a><br>
+                        <a href="#"><p>Builder</p></a><br>
+                        <a href="#"><p>Grid</p></a><br>
+                        <a href="#"><p>Headers</p></a><br>
+                        <a href="#"><p>Features</p></a><br>
+                        <a href="#"><p>Shortcodes</p></a><br>
+                        <a href="#"><p>Blog</p></a><br>
+                        <a href="#"><p>Portfolio</p></a><br>
+                        <a href="#"><p><i class="fa fa-question"></i></p></a><br>
+                        <a href="#"><p><i class="fa fa-comment-o"></i></p></a><br>
+                    </div>
                 </div>
             </div>
             <!--END MENU-->
