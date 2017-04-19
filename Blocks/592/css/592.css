@@ -1,5 +1,9 @@
+.type-592 .contact .wpcf7-textarea {
+  width: 94%;
+}
 .type-592 .contact .aq-block-title {
   font-weight: bold;
+  margin-top: 20px;
 }
 .type-592 .contact .sc_stats {
   margin: 60px 0;

@@ -38,7 +38,7 @@
                                     <span><input type="text" name="your-subject" value="" size="40"></span> 
                                 </p>
                                 <p>Your Message<br>
-                                    <span><textarea name="your-message" cols="40" rows="10"></textarea></span> 
+                                    <span><textarea name="your-message" cols="40" rows="10" class="wpcf7-textarea"></textarea></span> 
                                 </p>
                                 <p><input type="submit" value="Send"></p>
                             </form>
