@@ -1,26 +1,26 @@
 .type-576{ 
-    .main-nav {
-        height: 84px;
-        background: #212c43;
-        /*LOGO LEFT */
-        .logo-text {
-            font-size: 30px;
-            color: #fff;
-            text-transform: uppercase;
-            .text-highlight{
-                color: #7ccbfc;
+    .navbar-default {
+        background-color: #212c43;
+        border: none;
+        border-radius: 0px;
+        height: 80px;
+        .navbar-header{
+            .icon-bar{
+                background-color: #fff;
+            }
+            .logo-text {
+                font-size: 30px;
+                color: #fff;
+                text-transform: uppercase;
+                margin-top: 25px;
+                .text-highlight{
+                    color: #7ccbfc;
+                }
             }
         }
-        /*NAVIGATION RIGHT */
-        .pull-right{
+        .navbar-nav{
             li{
-                position: relative;
-                padding: 0;
-                line-height: 22px;
-                float: left;
-                min-height: 36px;
-                border: none;
-                display: block;
+                text-align: center;
                 a {
                     color: #fff;
                     display: block;
@@ -31,7 +31,7 @@
                 a:hover{
                     color: #7ccbfc;
                     border-bottom: 2px solid #7ccbfc;
-                    text-decoration: none;  
+                    text-decoration: none;
                 }
                 .dropdown-menu{
                     border-radius: none;
@@ -46,6 +46,7 @@
                             border: none;
                             padding: 10px;
                             text-decoration: none;
+                            color: #fff;
                         }
                         a:hover{
                             color: #7ccbfc;
@@ -58,14 +59,23 @@
                 color: #7ccbfc;
             }
         }
-    }
-    @media (max-width: 767px) {
-        .navbar-nav  {
-            display: inline;
-            float: left;
+        .navbar-collapse{
+            background-color: #212c43;
+            border: none;
+            .nav li{
+                a:hover{
+                    color: #7ccbfc;
+                    background-color: #3c4b6b;
+                }
+            }
         }
-        .pull-right .navbar-toggle .icon-bar {
-            background-color: #fff;
+    }
+    @media (max-width: 768px) {
+        .logo-text{
+            margin-left: 20px;
+        }
+        .navbar-toggle {
+            margin-top: 15px;
         }
     }
 }
