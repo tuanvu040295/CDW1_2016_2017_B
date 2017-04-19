@@ -27,65 +27,70 @@
                 <nav class="container">
                     <!-- BEGIN LOGO -->
                     <div class="pull-left">
-                        <a href="#">
-                            <h1 class="logo-text">A<span class="text-highlight">pp</span>ic</h1>
-                        </a>
+                        <h1 class="logo-text">A<span class="text-highlight">pp</span>ic</h1>
                     </div>
                     <!-- END LOGO -->
                     <!-- BEGIN MAIN NAVIGATION-->
                     <div class="pull-right">
-                        <ul>
-                            <li class="dropdown active-item">
-                                <a href="#" class="dropdown-toggle active-item " data-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Coming soon</a></li>
-                                    <li><a href="#">How it works</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">About</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Coming soon</a></li>
-                                    <li><a href="#">How it works</a></li>
-                                    <li><a href="#">Page elements</a></li>
-                                    <li><a href="#">404</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Price plans</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Blog style 1</a></li>
-                                    <li><a href="#">Blog style 1 fullwidth</a></li>
-                                    <li><a href="#">Blog style 2</a></li>
-                                    <li><a href="#">Blog style 2 fullwidth</a></li>
-                                    <li><a href="#">Blog style 3</a></li>
-                                    <li><a href="#">Blog style 3 fullwidth</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Gallery random</a></li>
-                                    <li><a href="#">Gallery columns 2</a></li>
-                                    <li><a href="#">Gallery columns 3</a></li>
-                                    <li><a href="#">Gallery columns 4</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Single product</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <ul class="navbar-nav">
+                                <li class="dropdown active-item">
+                                    <a href="#" class="dropdown-toggle active-item " data-toggle="dropdown">Home</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Coming soon</a></li>
+                                        <li><a href="#">How it works</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">About</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Coming soon</a></li>
+                                        <li><a href="#">How it works</a></li>
+                                        <li><a href="#">Page elements</a></li>
+                                        <li><a href="#">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Price plans</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Blog style 1</a></li>
+                                        <li><a href="#">Blog style 1 fullwidth</a></li>
+                                        <li><a href="#">Blog style 2</a></li>
+                                        <li><a href="#">Blog style 2 fullwidth</a></li>
+                                        <li><a href="#">Blog style 3</a></li>
+                                        <li><a href="#">Blog style 3 fullwidth</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Gallery random</a></li>
+                                        <li><a href="#">Gallery columns 2</a></li>
+                                        <li><a href="#">Gallery columns 3</a></li>
+                                        <li><a href="#">Gallery columns 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Single product</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- END MAIN NAVIGATION-->
                 </nav>

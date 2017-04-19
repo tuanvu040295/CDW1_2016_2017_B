@@ -1,5 +1,5 @@
 .type-576 .main-nav {
-  height: 82px;
+  height: 84px;
   background: #212c43;
 }
 .type-576 .main-nav .logo-text {
@@ -7,16 +7,13 @@
   color: #fff;
   text-transform: uppercase;
 }
-.type-576 .main-nav .logo-text a {
-  text-decoration: none;
-}
-.type-576 .main-nav .pull-right {
-  border-radius: none;
+.type-576 .main-nav .logo-text .text-highlight {
+  color: #7ccbfc;
 }
 .type-576 .main-nav .pull-right li {
   position: relative;
   padding: 0;
-  line-height: 20px;
+  line-height: 22px;
   float: left;
   min-height: 36px;
   border: none;
@@ -38,6 +35,7 @@
   border-radius: none;
   background-color: #3c4b6b;
   padding: 0px 10px 0px 10px;
+  margin-top: 0px;
 }
 .type-576 .main-nav .pull-right li .dropdown-menu li {
   width: 100%;
@@ -55,4 +53,13 @@
 }
 .type-576 .main-nav .pull-right .active-item a {
   color: #7ccbfc;
+}
+@media (max-width: 767px) {
+  .type-576 .navbar-nav {
+    display: inline;
+    float: left;
+  }
+  .type-576 .pull-right .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
 }
