@@ -98,6 +98,10 @@
   background-color: #fff;
   color: #333;
 }
+.type-599 .dropdown-menu li a:hover {
+  background-color: #34d298;
+  color: #fff;
+}
 .type-599 body {
   font-size: 16px;
   font-weight: 300;
@@ -129,6 +133,9 @@
   font-weight: 300;
   font-size: 18px;
   transition: all linear 0.15s;
+}
+.type-599 #menu-main-menu {
+  padding-top: 20px;
 }
 @media (min-width: 768px) {
   .type-599 .nav > li {
