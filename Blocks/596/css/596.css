@@ -1,0 +1,48 @@
+.type-596 .container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-596 .banner {
+  text-align: center;
+}
+.type-596 .banner h3 {
+  color: #000;
+  font-size: 2.6em;
+}
+.type-596 .banner p {
+  font-size: 21px;
+  margin-bottom: 23px;
+  line-height: 1.4;
+}
+.type-596 .box h4 {
+  padding-left: 30px;
+  font-size: 1.3em;
+}
+.type-596 .box h3 {
+  padding-left: 30px;
+  font-size: 1.3em;
+}
+.type-596 .box p {
+  padding-left: 30px;
+  color: #818181;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+.type-596 .box .highlight-icon {
+  font-size: 26px;
+  color: #34D298;
+  line-height: 1;
+}
+.type-596 img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+.type-596 .col-md-2 {
+  width: 16.666666666666664%;
+  padding-top: 15px;
+}
+.type-596 .col-md-10 {
+  width: 83.33333333333334%;
+}
