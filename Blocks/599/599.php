@@ -38,26 +38,30 @@
                                 </button>
                                 <a class="brand" href="#"> <img class="a" src="images/sc-logo-main1.png" alt=""> </a>
                             </div>
-                            <div id="sc-navbar-collapse-main" class="collapse navbar-collapse"><ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a href="http://pixelgrapes.com/demo/scribe/">Home</a></li>
-                                    <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-31 active dropdown active"><a href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" aria-haspopup="true">Showcase <span class="caret"></span></a>
+                            <div class="collapse navbar-collapse">
+                                <ul id="menu-main-menu" class="nav navbar-nav">
+                                    <li>
+                                        <a href="http://pixelgrapes.com/demo/scribe/">Home</a></li>
+                                    <li class=" dropdown active">
+                                        <a href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" aria-haspopup="true">Showcase <span class="caret"></span></a>
                                         <ul role="menu" class="dropdown-menu">
-                                            <li id="menu-item-502" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item menu-item-502 active active"><a href="https://scribe.pixelgrapes.com/app-showcase/">Phone App</a></li>
-                                            <li id="menu-item-501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-501"><a href="#">Tablet App</a></li>
+                                            <li class=" active"><a href="https://scribe.pixelgrapes.com/app-showcase/">Phone App</a></li>
+                                            <li><a href="#">Tablet App</a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="#">Highlights</a></li>
-                                    <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="#">Tour</a></li>
-                                    <li id="menu-item-169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-169 dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" aria-haspopup="true">Examples <span class="caret"></span></a>
+                                    <li><a href="#">Highlights</a></li>
+                                    <li><a href="#">Tour</a></li>
+                                    <li class="dropdown"><a href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" aria-haspopup="true">Examples <span class="caret"></span></a>
                                         <ul role="menu" class="dropdown-menu">
-                                            <li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="#">Team</a></li>
-                                            <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="#">Countdown</a></li>
-                                            <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="#">Pricing</a></li>
-                                            <li id="menu-item-351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-351"><a href="#">Gallery</a></li>
-                                            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="#">Contact</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Countdown</a></li>
+                                            <li><a href="#">Pricing</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="#">Contact</a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="#">Blog</a></li>
-                                    <li id="menu-item-442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-442"><a href="#">Buy Theme</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Buy Theme</a></li>
                                 </ul></div></div></div>
                     <!-- END CONTENT -->
                     <script src="js/scripts.js" type="text/javascript"></script>
