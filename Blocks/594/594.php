@@ -114,7 +114,7 @@
                                         <div class="col-md-6 col-sm-12 highlight-img slideUp">
 
                                             <a href="">
-                                                <img src="#" alt="">
+                                                <img src="images/iPad.png" alt=""/>
                                             </a>
                                         </div>
 
